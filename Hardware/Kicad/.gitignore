@@ -1,5 +1,4 @@
 !.gitignore
 KiCad_Libs
-bring_libs.bat
 **-backups
 **/fab
