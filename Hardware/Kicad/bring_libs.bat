@@ -1,0 +1,1 @@
+mklink /J "KiCad_Libs" "..\..\..\ELIOS\KiCad_Libs"
