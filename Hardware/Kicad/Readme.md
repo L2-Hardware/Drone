@@ -1,6 +1,6 @@
 If you want a local copy of Kicad Libraries for each board project, inside the KiCad directory run:
 
-git submodule add https://data.elios-tech.com:3000/enrico.rossi/KiCad_Libs.git
+git submodule add https://github.com/Loredati-svg/Kicad_Library.git
 git commit -m "Added Kicad Libs submodule"
 git push
 
