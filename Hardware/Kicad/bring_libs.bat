@@ -1,1 +1,1 @@
-mklink /J "KiCad_Libs" "..\..\..\Library\KiCad_Libs"
+mklink /J "KiCad_Libs" "..\..\..\Kicad_Library\KiCad_Libs"

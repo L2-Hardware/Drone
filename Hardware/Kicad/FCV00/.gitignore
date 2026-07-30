@@ -1,9 +1,0 @@
-**
-
-!.gitignore
-
-!**/*.kicad_sch
-!**/*.kicad_pro
-!**/*.kicad_pcb
-!**/fp-lib-table
-!**/sym-lib-table
