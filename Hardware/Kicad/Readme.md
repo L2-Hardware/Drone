@@ -2,45 +2,39 @@
 
 ## Libraries
 
-If you want a local copy of Kicad Libraries for each board project, inside the KiCad directory run:
+All projects use the official library **[L2-Hardware/Kicad_Libs](https://github.com/L2-Hardware/Kicad_Libs)**
+through the folder `Hardware/Kicad/KiCad_Libs` (ignored by git). The projects' `sym-lib-table` / `fp-lib-table`
+point to `${KIPRJMOD}/../KiCad_Libs/<eLib>/...`.
 
-git submodule add https://github.com/Loredati-svg/Kicad_Library.git
-git commit -m "Added Kicad Libs submodule"
-git push
-
-If you don't want a local copy of the libraries for each project but you are ok with having a single local copy of it in a different folder and want to link to it from the board project folder, just run the "bring_libs.bat".
-This will create a junction link.
-
-### New parts for the drone: `KiCad_Libs_Drone/`
-
-All the parts used by the four boards are in `KiCad_Libs_Drone/`, using the same layout as `KiCad_Libs`:
+Setup (once per PC):
 
 ```
-KiCad_Libs_Drone/<eLib>/
-    datasheet/            README.md with datasheet links (+ PDFs where available)
-    <eLib>.3dshapes/      STEP models
-    <eLib>.pretty/        footprints
-    <eLib>.kicad_sym      symbols
-    .gitignore
+cd C:\git\PCB
+git clone https://github.com/L2-Hardware/Kicad_Libs.git      (-> C:\git\PCB\Kicad_Libs)
+cd C:\git\PCB\Drone\Hardware\Kicad
+bring_libs.bat                                                  (junction KiCad_Libs -> C:\git\PCB\Kicad_Libs)
 ```
 
-The projects use the usual nicknames (`eMCU:STM32F405RGT6`, `eSensor:ICM-42688-P`, ...) and the existing
-`sym-lib-table` / `fp-lib-table` (`${KIPRJMOD}/../KiCad_Libs/<eLib>`). To install the parts into your library:
+### Adding new components: `KiCad_Libs_ToAdd/`
 
-1. `bring_libs.bat` (creates the `KiCad_Libs` junction, as before)
-2. `merge_libs.bat` (or `python tools/merge_libs.py [path\to\KiCad_Libs]`)
-   - appends the new symbols to each `<eLib>.kicad_sym` (a `.bak` is kept; symbols with an existing name are skipped)
-   - copies footprints, STEP models and datasheets
-3. Open each touched library once in the Symbol Editor and save (upgrades it to your KiCad version), then commit
-   in the `Kicad_Library` repo.
+New parts that are not yet in the official library go into `KiCad_Libs_ToAdd/`, using the same layout
+(`<eLib>/datasheet`, `<eLib>.3dshapes`, `<eLib>.pretty`, `<eLib>.kicad_sym` with only the new symbols).
 
-The schematics and PCBs embed their symbols and footprints, so they open correctly before the merge.
-3D models (`${KIPRJMOD}/../KiCad_Libs/<eLib>/<eLib>.3dshapes/...`) appear once the merge is done.
+1. `merge_libs.bat --clean`
+   - appends the new symbols to `KiCad_Libs/<eLib>/<eLib>.kicad_sym` (a `.bak` is kept; existing names are skipped)
+   - copies footprints, STEP models and datasheets (existing files are not overwritten, unless `--force`)
+   - empties `KiCad_Libs_ToAdd` (only its README stays)
+2. Open the touched libraries once in the Symbol Editor and save (upgrades them to your KiCad version),
+   delete the `.bak` files, then commit + push in `C:\git\PCB\Kicad_Libs`.
+3. Commit the emptied `KiCad_Libs_ToAdd` in this repo.
 
-Where the parts come from:
-* **Footprints** and **3D models**: official KiCad libraries (footprints 7.x, STEP from `kicad-packages3D`).
-* **Symbols**: generated in a single style. Pin tables come from the official KiCad symbol of the same part where
-  KiCad has one. Otherwise they come from the vendor datasheet; those parts carry a `Verify` field (see below).
+The schematics and PCBs embed their symbols and footprints, so they open even before the merge;
+3D models (`${KIPRJMOD}/../KiCad_Libs/<eLib>/<eLib>.3dshapes/...`) show once the parts are in the official library.
+
+Current content of `KiCad_Libs_ToAdd` (drone boards): footprints and 3D models from the official KiCad libraries,
+symbols generated from the KiCad symbol pin tables where available, otherwise from the vendor datasheet
+(those carry a `Verify` field). It also contains generic symbols (`R`, `C`, `L`, `LED`, power symbols ...):
+if the official library already has symbols with the same names they are skipped by the merge.
 
 ## Boards
 
@@ -98,7 +92,7 @@ Passive, crystal and LED part numbers are suggestions: confirm them (stock, load
 your distributor or assembler.
 
 ## Next steps
-1. Merge the libraries (above), open each project, run ERC.
+1. Merge `KiCad_Libs_ToAdd` into the official library (above), open each project, run ERC.
 2. PCB: place the parts (connectors on the edges, IMU away from the bucks, short power loops), then route.
    Use 50 ohm coplanar lines on RXV00/VTXV00 and a full GND plane under the RF parts. On ESCV00, use wide
    polygons for VBAT/phases and thermal vias. Run DRC.
@@ -116,7 +110,7 @@ your distributor or assembler.
   Up to 25 mW EIRP is licence-free in the EU. Higher power needs an amateur radio licence.
 
 ## Regenerating
-`tools/gen/` holds the scripts that produced the libraries, schematics, BOMs and PCB set-up:
+`tools/gen/` holds the scripts that produced the `KiCad_Libs_ToAdd` parts, schematics, BOMs and PCB set-up:
 `build.py` (libraries + schematics + BOM), `check.py` (connectivity check) and `pcbgen.py` (PCB set-up).
 **Re-running them overwrites the project files.** They are a starting point: once you start editing in KiCad,
 KiCad is the master.

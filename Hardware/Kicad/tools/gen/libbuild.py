@@ -1,6 +1,6 @@
 """Build the drone part libraries in the eXxx folder layout:
 
-  KiCad_Libs_Drone/<eLib>/
+  KiCad_Libs_ToAdd/<eLib>/
       datasheet/            datasheets (PDF when redistributable here, otherwise links in README.md)
       <eLib>.3dshapes/      STEP models (from the official KiCad 3D library)
       <eLib>.pretty/        footprints (from the official KiCad footprint library)
@@ -17,7 +17,7 @@ import sys
 import parts as P
 from symlib import ic_symbol, small_symbol, conn_symbol, power_symbol
 
-ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "KiCad_Libs_Drone"))
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "KiCad_Libs_ToAdd"))
 KICAD_FP = "/usr/share/kicad/footprints"
 MODEL_CACHE = os.path.join(tempfile.gettempdir(), "kicad_models")
 P3D_GIT = "/home/user/kicadlib/p3d"

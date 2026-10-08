@@ -1,6 +1,8 @@
 @echo off
-rem Merge the drone parts (KiCad_Libs_Drone) into KiCad_Libs (your library repo, linked by bring_libs.bat).
-rem Uses the Python that ships with KiCad if no system Python is found.
+rem Merges the new components in KiCad_Libs_ToAdd into the official library (KiCad_Libs junction
+rem made by bring_libs.bat -> C:\git\PCB\Kicad_Libs). Then: commit + push in the Kicad_Libs repo.
+rem Add --clean to empty KiCad_Libs_ToAdd after a successful merge.
+cd /d "%~dp0"
 set SCRIPT=%~dp0tools\merge_libs.py
 where python >nul 2>nul && (python "%SCRIPT%" %* & goto :end)
 for %%V in (9.0 8.0) do (
@@ -9,6 +11,6 @@ for %%V in (9.0 8.0) do (
     goto :end
   )
 )
-echo Python not found - install Python or run tools\merge_libs.py with KiCad's python.exe
+echo Python not found: install Python or run tools\merge_libs.py with KiCad's python.exe
 :end
 pause
