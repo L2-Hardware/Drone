@@ -1,0 +1,34 @@
+Qty,References,Value,Footprint,Manufacturer,MPN,Populate
+1,AE1,2450AT18A100,Johanson_2450AT18x100,Johanson,2450AT18A100E,yes
+1,C1,4.7uF 10V,C_0603_1608Metric,,,yes
+2,C2 C15,10uF 10V,C_0603_1608Metric,,,yes
+7,C3 C4 C5 C6 C7 C16 C17,100nF,C_0402_1005Metric,,,yes
+3,C8 C9 C10,1uF,C_0402_1005Metric,,,yes
+2,C11 C12,12pF NP0,C_0402_1005Metric,,,yes
+2,C18 C20,470nF,C_0402_1005Metric,,,yes
+1,C19,47pF NP0,C_0402_1005Metric,,,yes
+1,C21,10pF NP0,C_0402_1005Metric,,,yes
+2,C22 C23,1pF NP0,C_0402_1005Metric,,,yes
+1,D1,BLUE,LED_0603_1608Metric,,,yes
+1,FB1,120R@100MHz,L_0402_1005Metric,,BLM15PX121SN1D,yes
+1,J1,FC,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,JST,SM04B-SRSS-TB(LF)(SN),yes
+1,J2,U.FL,U.FL_Hirose_U.FL-R-SMT-1_Vertical,Hirose,U.FL-R-SMT-1(10),yes
+1,L1,0R / tune,L_0402_1005Metric,,,yes
+1,L2,15uH,L_0805_2012Metric,Murata,LQM21PN150MC0,yes
+1,L3,47nH (tune),L_0402_1005Metric,Murata,LQW15AN47NJ00,yes
+1,L4,4.7nH,L_0402_1005Metric,Murata,LQP15MN4N7B02,yes
+4,R1 R2 R3 R5,10k,R_0402_1005Metric,,,yes
+1,R4,1k,R_0402_1005Metric,,,yes
+1,SW1,BOOT,SW_SPST_B3U-1000P,Omron,B3U-1000P,yes
+1,TP1,5V,TestPoint_Pad_D1.5mm,,,yes
+1,TP2,GND,TestPoint_Pad_D1.5mm,,,yes
+1,TP3,RX,TestPoint_Pad_D1.5mm,,,yes
+1,TP4,TX,TestPoint_Pad_D1.5mm,,,yes
+1,TP5,D+,TestPoint_Pad_D1.0mm,,,yes
+1,TP6,D-,TestPoint_Pad_D1.0mm,,,yes
+1,U1,AP2112K-3.3TRG1,SOT-23-5,Diodes Inc,AP2112K-3.3TRG1,yes
+1,U2,ESP32-C3FH4,QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm,Espressif,ESP32-C3FH4,yes
+1,U3,SX1281IMLTRT,QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm,Semtech,SX1281IMLTRT,yes
+1,Y1,40MHz 10pF,Crystal_SMD_2016-4Pin_2.0x1.6mm,Yangxing,X201640MLB4SI,yes
+1,Y2,52MHz 8pF,Crystal_SMD_2016-4Pin_2.0x1.6mm,Yangxing,X201652MOB4SI,yes
+2,C13 C14,DNP,C_0402_1005Metric,,,DNP

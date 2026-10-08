@@ -15,15 +15,15 @@ The project is divided into three main domains:
 
 ## System Architecture
 
-*   **Power & Propulsion:** 6S LiPo Battery, Commercial 4-in-1 ESC (e.g., Hobbywing/T-Motor running BLHeli_32), and 4x Brushless Motors (2207/2306).
-*   **Radio Control:** ExpressLRS (ELRS) 2.4GHz receiver communicating via CRSF protocol for ultra-low latency.
-*   **Video System (FPV):** Isolated video transmission system (Analog 5.8GHz VTx / Digital HD System) triggered by the custom FC.
+*   **Power & Propulsion:** 6S LiPo Battery, custom 4-in-1 ESC (`Hardware/Kicad/ESCV00`, AM32 firmware), and 4x Brushless Motors (2207/2306).
+*   **Radio Control:** custom ExpressLRS (ELRS) 2.4GHz receiver (`Hardware/Kicad/RXV00`, ESP32-C3 + SX1281) communicating via CRSF protocol for ultra-low latency.
+*   **Video System (FPV):** custom analog 5.8GHz VTx (`Hardware/Kicad/VTXV00`, RTC6705 + RFPA5542) with on-board OSD (AT7456E) on the FC.
 *   **Brain:** Custom STM32 Flight Controller (See `/Hardware` and `/Firmware` folders).
 
 ## Repository Structure
 
 *   `/Mechanics` - 3D models, CAD files, and CNC routing paths for the frame.
-*   `/Hardware` - KiCad/Altium project files for the Flight Controller PCB.
+*   `/Hardware` - KiCad projects: flight controller (FCV00), 4-in-1 ESC (ESCV00), ELRS receiver (RXV00), video transmitter (VTXV00).
 *   `/Firmware` - STM32 source code, RTOS configuration, and PID algorithms.
 
 ## Status
