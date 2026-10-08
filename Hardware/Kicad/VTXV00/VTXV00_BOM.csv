@@ -1,0 +1,45 @@
+Qty,References,Value,Footprint,Manufacturer,MPN,Populate
+2,C1 C3,22uF 10V,C_0805_2012Metric,,,yes
+12,C2 C6 C7 C9 C11 C13 C14 C15 C16 C17 C18 C30,100nF,C_0402_1005Metric,,,yes
+1,C4,1uF 16V,C_0402_1005Metric,,,yes
+1,C5,4.7uF 10V,C_0603_1608Metric,,,yes
+4,C8 C10 C21 C22,1uF,C_0402_1005Metric,,,yes
+1,C12,10uF 10V,C_0603_1608Metric,,,yes
+4,C19 C20 C25 C37,1nF,C_0402_1005Metric,,,yes
+2,C23 C24,18pF NP0,C_0402_1005Metric,,,yes
+3,C26 C28 C29,10nF,C_0402_1005Metric,,,yes
+1,C27,470pF,C_0402_1005Metric,,,yes
+4,C32 C33 C38 C39,10pF NP0,C_0402_1005Metric,,,yes
+3,C34 C35 C36,2.2uF,C_0402_1005Metric,,,yes
+1,D1,RED,LED_0603_1608Metric,,,yes
+1,D2,GREEN,LED_0603_1608Metric,,,yes
+1,D3,BLUE,LED_0603_1608Metric,,,yes
+1,FB1,120R 3A,L_0603_1608Metric,Murata,BLM18KG121TN1D,yes
+1,FB2,120R@100MHz,L_0603_1608Metric,,BLM18PG121SN1D,yes
+1,J1,FC,JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal,JST,SM06B-SRSS-TB(LF)(SN),yes
+1,J2,U.FL,U.FL_Hirose_U.FL-R-SMT-1_Vertical,Hirose,U.FL-R-SMT-1(10),yes
+1,L2,0R / tune,L_0402_1005Metric,,,yes
+1,Q1,MMBT3904,SOT-23,onsemi,MMBT3904LT1G,yes
+5,R1 R7 R8 R11 R12,10k,R_0402_1005Metric,,,yes
+2,R2 R3,100R,R_0402_1005Metric,,,yes
+4,R4 R5 R6 R10,1k,R_0402_1005Metric,,,yes
+1,R9,4.7k,R_0402_1005Metric,,,yes
+2,R13 R19,0R,R_0402_1005Metric,,,yes
+2,R16 R18,97.6R,R_0402_1005Metric,,,yes
+1,R17,71.5R,R_0402_1005Metric,,,yes
+1,SW1,BAND/CH,SW_SPST_B3U-1000P,Omron,B3U-1000P,yes
+1,TP1,SWDIO,TestPoint_Pad_D1.0mm,,,yes
+1,TP2,SWCLK,TestPoint_Pad_D1.0mm,,,yes
+1,TP3,NRST,TestPoint_Pad_D1.0mm,,,yes
+1,TP4,+3V3,TestPoint_Pad_D1.0mm,,,yes
+1,TP5,GND,TestPoint_Pad_D1.0mm,,,yes
+1,U1,AP2112K-3.3TRG1,SOT-23-5,Diodes Inc,AP2112K-3.3TRG1,yes
+1,U2,STM32F031G6U6,QFN-28_4x4mm_P0.5mm,STMicroelectronics,STM32F031G6U6,yes
+1,U3,RTC6705,QFN-40-1EP_6x6mm_P0.5mm_EP4.6x4.6mm,RichWave,RTC6705,yes
+1,U4,RFPA5542,QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm,Qorvo,RFPA5542TR13,yes
+1,Y1,8MHz 12pF,Crystal_SMD_3225-4Pin_3.2x2.5mm,Yangxing,X322508MLB4SI,yes
+1,C31,10uF (AC option),C_0603_1608Metric,,,DNP
+2,C40 C41,DNP,C_0402_1005Metric,,,DNP
+1,L1,DNP (feed opt.),L_0402_1005Metric,,,DNP
+1,R14,75R,R_0402_1005Metric,,,DNP
+1,R15,0R (high pwr),R_0402_1005Metric,,,DNP

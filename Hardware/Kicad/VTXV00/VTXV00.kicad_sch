@@ -1,0 +1,60 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 0df6d1fd-bd43-521b-a019-f50b3402e561)
+
+  (paper "A3")
+
+  (title_block
+    (title "5.8GHz Video Transmitter - Overview")
+    (date "2026-10-08")
+    (rev "V00")
+    (company "Drone project")
+    (comment 1 "RTC6705 FM video modulator + Qorvo RFPA5542 PA (up to ~400 mW), OpenVTx-compatible MCU")
+    (comment 2 "Connector matches FCV00 'VTX' port (10V 5V GND VIDEO TX RX)")
+    (comment 3 "4-layer, 50 ohm coplanar RF trace, heatsink/thermal vias under the PA")
+  )
+
+  (lib_symbols
+  )
+
+  (sheet (at 25.4 50.8) (size 40.64 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9ecd76e0-0604-5aec-befd-256d1c89012c)
+    (property "Sheetname" "Control" (at 25.4 50.1 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "control.kicad_sch" (at 25.4 66.64 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "VTXV00"
+        (path "/0df6d1fd-bd43-521b-a019-f50b3402e561" (page "2"))
+      )
+    )
+  )
+  (sheet (at 25.4 78.74) (size 40.64 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 281375f4-05fd-56e3-a373-0a44fd07a976)
+    (property "Sheetname" "RF" (at 25.4 78.04 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "rf.kicad_sch" (at 25.4 94.58 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "VTXV00"
+        (path "/0df6d1fd-bd43-521b-a019-f50b3402e561" (page "3"))
+      )
+    )
+  )
+  (text "VTXV00 - 5.8 GHz ANALOG VTX\nFirmware: OpenVTx (target Generic_GD32F130 when populated with GD32F130G6U6) or custom firmware on STM32F031G6U6.\nPower control loop (from OpenVTx): PB5 PWM -> RC -> emitter follower -> RTC6705 BUFVDD, closed loop on RFPA5542 PDET.\nRF values (RTC6705 output match, attenuator pad, loop filters, harmonic filter) are START VALUES - tune on the bench.\nLegal: 25 mW EIRP licence-free in the EU (5.8 GHz SRD); higher power needs an amateur radio licence.\n" (at 180 20 0)
+    (effects (font (size 1.5 1.5)) (justify left top))
+    (uuid 4c772ca9-1533-556e-9839-40e0947d5a91)
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
