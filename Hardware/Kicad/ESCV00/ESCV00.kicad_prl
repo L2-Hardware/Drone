@@ -58,11 +58,13 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "FCV00.kicad_prl",
+    "filename": "ESCV00.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
+      false,
+      false,
       false,
       false,
       false,
@@ -88,7 +90,9 @@
       8,
       9,
       10,
-      11
+      11,
+      12,
+      13
     ],
     "col_widths": [
       162,
@@ -99,6 +103,8 @@
       99,
       91,
       116,
+      91,
+      91,
       91,
       91,
       91,

@@ -1,0 +1,504 @@
+Rapporto ERC (2026-10-08T12:40:57+0200, codifica UTF8)
+
+***** Foglio /
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(24,13 mm, 43,18 mm): Simbolo #PWR0004 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(15,24 mm, 63,50 mm): Simbolo #PWR0002 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(36,83 mm, 60,96 mm): Simbolo #PWR0006 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(62,23 mm, 43,18 mm): Simbolo #PWR0008 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(62,23 mm, 60,96 mm): Simbolo #PWR0010 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(22,86 mm, 93,98 mm): Simbolo #PWR0036 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(92,71 mm, 53,34 mm): Simbolo #PWR0012 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(85,09 mm, 81,28 mm): Simbolo #PWR0038 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(34,29 mm, 119,38 mm): Simbolo #PWR0073 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(85,09 mm, 99,06 mm): Simbolo #PWR0040 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(125,73 mm, 40,64 mm): Simbolo #PWR0013 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(67,31 mm, 116,84 mm): Simbolo #PWR0075 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(110,49 mm, 78,74 mm): Simbolo #PWR0041 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(21,59 mm, 137,16 mm): Simbolo #PWR0074 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'PWR_FLAG' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(48,26 mm, 134,62 mm): Simbolo #FLG0076 [PWR_FLAG]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(76,20 mm, 121,92 mm): Simbolo #PWR0079 [GND]
+[lib_symbol_mismatch]: Il simbolo 'PWR_FLAG' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(78,74 mm, 121,92 mm): Simbolo #FLG0078 [PWR_FLAG]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(88,90 mm, 121,92 mm): Simbolo #PWR0081 [+5V]
+[lib_symbol_mismatch]: Il simbolo 'PWR_FLAG' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(91,44 mm, 121,92 mm): Simbolo #FLG0080 [PWR_FLAG]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(115,57 mm, 101,60 mm): Simbolo #PWR0042 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(153,67 mm, 40,64 mm): Simbolo #PWR0015 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(135,89 mm, 101,60 mm): Simbolo #PWR0044 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(153,67 mm, 78,74 mm): Simbolo #PWR0043 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(167,64 mm, 55,88 mm): Simbolo #PWR0017 [GND]
+[lib_symbol_mismatch]: Il simbolo '+10V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(168,91 mm, 96,52 mm): Simbolo #PWR0046 [+10V]
+[lib_symbol_mismatch]: Il simbolo 'L' non corrisponde alla copia nella libreria 'eCoil'
+    ; warning
+    @(177,80 mm, 81,28 mm): Simbolo L2 [L]
+[lib_symbol_mismatch]: Il simbolo '+10V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(184,15 mm, 81,28 mm): Simbolo #PWR0045 [+10V]
+[lib_symbol_mismatch]: Il simbolo '+10V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(194,31 mm, 96,52 mm): Simbolo #PWR0048 [+10V]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(212,09 mm, 78,74 mm): Simbolo #PWR0047 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(207,01 mm, 96,52 mm): Simbolo #PWR0049 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(227,33 mm, 43,18 mm): Simbolo #PWR0019 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(227,33 mm, 60,96 mm): Simbolo #PWR0021 [GND]
+[lib_symbol_mismatch]: Il simbolo '+10V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(222,25 mm, 81,28 mm): Simbolo #PWR0050 [+10V]
+[lib_symbol_mismatch]: Il simbolo '+10V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(222,25 mm, 99,06 mm): Simbolo #PWR0052 [+10V]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(234,95 mm, 81,28 mm): Simbolo #PWR0051 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(234,95 mm, 99,06 mm): Simbolo #PWR0053 [GND]
+[lib_symbol_mismatch]: Il simbolo 'VBUS' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(245,11 mm, 81,28 mm): Simbolo #PWR0055 [VBUS]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(255,27 mm, 40,64 mm): Simbolo #PWR0022 [GND]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(246,38 mm, 96,52 mm): Simbolo #PWR0056 [+5V]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(246,38 mm, 101,60 mm): Simbolo #PWR0057 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(260,35 mm, 63,50 mm): Simbolo #PWR0023 [GND]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(257,81 mm, 81,28 mm): Simbolo #PWR0054 [+5V]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(278,13 mm, 63,50 mm): Simbolo #PWR0025 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(271,78 mm, 96,52 mm): Simbolo #PWR0058 [+3V3]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(283,21 mm, 81,28 mm): Simbolo #PWR0059 [+5V]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(293,37 mm, 40,64 mm): Simbolo #PWR0024 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(283,21 mm, 99,06 mm): Simbolo #PWR0061 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(295,91 mm, 81,28 mm): Simbolo #PWR0060 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(295,91 mm, 99,06 mm): Simbolo #PWR0062 [GND]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(308,61 mm, 58,42 mm): Simbolo #PWR0027 [+5V]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(306,07 mm, 81,28 mm): Simbolo #PWR0063 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'L' non corrisponde alla copia nella libreria 'eCoil'
+    ; warning
+    @(317,50 mm, 43,18 mm): Simbolo L1 [L]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(323,85 mm, 43,18 mm): Simbolo #PWR0026 [+5V]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(318,77 mm, 81,28 mm): Simbolo #PWR0064 [GND]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(334,01 mm, 58,42 mm): Simbolo #PWR0029 [+5V]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(330,20 mm, 81,28 mm): Simbolo #PWR0065 [+5V]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(330,20 mm, 86,36 mm): Simbolo #PWR0066 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(346,71 mm, 58,42 mm): Simbolo #PWR0030 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(349,25 mm, 40,64 mm): Simbolo #PWR0028 [GND]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(359,41 mm, 43,18 mm): Simbolo #PWR0031 [+5V]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(359,41 mm, 60,96 mm): Simbolo #PWR0033 [+5V]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(372,11 mm, 43,18 mm): Simbolo #PWR0032 [GND]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(367,03 mm, 81,28 mm): Simbolo #PWR0068 [+5V]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(372,11 mm, 60,96 mm): Simbolo #PWR0034 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(379,73 mm, 81,28 mm): Simbolo #PWR0069 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(384,81 mm, 99,06 mm): Simbolo #PWR0071 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(27,94 mm, 30,48 mm): Simbolo #PWR0082 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(27,94 mm, 73,66 mm): Simbolo #PWR0083 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(77,47 mm, 30,48 mm): Simbolo #PWR0084 [+3V3]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(77,47 mm, 48,26 mm): Simbolo #PWR0086 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(90,17 mm, 30,48 mm): Simbolo #PWR0085 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(77,47 mm, 66,04 mm): Simbolo #PWR0088 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(90,17 mm, 48,26 mm): Simbolo #PWR0087 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(90,17 mm, 66,04 mm): Simbolo #PWR0089 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(77,47 mm, 86,36 mm): Simbolo #PWR0090 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(118,11 mm, 27,94 mm): Simbolo #PWR0098 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(90,17 mm, 86,36 mm): Simbolo #PWR0091 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(118,11 mm, 40,64 mm): Simbolo #PWR0099 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(77,47 mm, 104,14 mm): Simbolo #PWR0092 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(118,11 mm, 55,88 mm): Simbolo #PWR0100 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(113,03 mm, 76,20 mm): Simbolo #PWR0101 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(90,17 mm, 104,14 mm): Simbolo #PWR0093 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(115,57 mm, 76,20 mm): Simbolo #PWR0102 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(77,47 mm, 121,92 mm): Simbolo #PWR0094 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(120,65 mm, 91,44 mm): Simbolo #PWR0103 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(90,17 mm, 121,92 mm): Simbolo #PWR0095 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(151,13 mm, 27,94 mm): Simbolo #PWR0108 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(120,65 mm, 104,14 mm): Simbolo #PWR0104 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(77,47 mm, 139,70 mm): Simbolo #PWR0096 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(118,11 mm, 119,38 mm): Simbolo #PWR0105 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(134,62 mm, 101,60 mm): Simbolo #PWR0109 [+3V3]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(168,91 mm, 30,48 mm): Simbolo #PWR0112 [+3V3]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(104,14 mm, 137,16 mm): Simbolo #PWR0106 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(92,71 mm, 149,86 mm): Simbolo #PWR0097 [GND]
+[lib_symbol_mismatch]: Il simbolo 'VBUS' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(170,18 mm, 55,88 mm): Simbolo #PWR0114 [VBUS]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(134,62 mm, 121,92 mm): Simbolo #PWR0110 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(118,11 mm, 147,32 mm): Simbolo #PWR0107 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(170,18 mm, 86,36 mm): Simbolo #PWR0113 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(138,43 mm, 137,16 mm): Simbolo #PWR0111 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(184,15 mm, 99,06 mm): Simbolo #PWR0115 [GND]
+[lib_symbol_mismatch]: Il simbolo 'VBUS' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(170,18 mm, 132,08 mm): Simbolo #PWR0118 [VBUS]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(184,15 mm, 114,30 mm): Simbolo #PWR0116 [GND]
+[lib_symbol_mismatch]: Il simbolo 'VBUS' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(166,37 mm, 149,86 mm): Simbolo #PWR0119 [VBUS]
+[lib_symbol_mismatch]: Il simbolo 'VBUS' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(222,25 mm, 30,48 mm): Simbolo #PWR0121 [VBUS]
+[lib_symbol_mismatch]: Il simbolo 'PWR_FLAG' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(215,90 mm, 60,96 mm): Simbolo #FLG0123 [PWR_FLAG]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(179,07 mm, 149,86 mm): Simbolo #PWR0120 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(195,58 mm, 132,08 mm): Simbolo #PWR0117 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(240,03 mm, 40,64 mm): Simbolo #PWR0122 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(27,94 mm, 58,42 mm): Simbolo #PWR0125 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(16,51 mm, 78,74 mm): Simbolo #PWR0143 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(29,21 mm, 78,74 mm): Simbolo #PWR0144 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(36,83 mm, 96,52 mm): Simbolo #PWR0145 [+3V3]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(67,31 mm, 78,74 mm): Simbolo #PWR0146 [+3V3]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(69,85 mm, 91,44 mm): Simbolo #PWR0147 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(120,65 mm, 35,56 mm): Simbolo #PWR0127 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(120,65 mm, 53,34 mm): Simbolo #PWR0129 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(146,05 mm, 35,56 mm): Simbolo #PWR0131 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(172,72 mm, 35,56 mm): Simbolo #PWR0133 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(172,72 mm, 48,26 mm): Simbolo #PWR0135 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(172,72 mm, 50,80 mm): Simbolo #PWR0134 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(172,72 mm, 60,96 mm): Simbolo #PWR0136 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(209,55 mm, 35,56 mm): Simbolo #PWR0137 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(222,25 mm, 35,56 mm): Simbolo #PWR0138 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(229,87 mm, 53,34 mm): Simbolo #PWR0139 [+3V3]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(248,92 mm, 48,26 mm): Simbolo #PWR0142 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(248,92 mm, 58,42 mm): Simbolo #PWR0141 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(260,35 mm, 35,56 mm): Simbolo #PWR0140 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(25,40 mm, 83,82 mm): Simbolo #PWR0148 [GND]
+[lib_symbol_mismatch]: Il simbolo '+3V3' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(82,55 mm, 40,64 mm): Simbolo #PWR0150 [+3V3]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(95,25 mm, 53,34 mm): Simbolo #PWR0153 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(95,25 mm, 71,12 mm): Simbolo #PWR0155 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(120,65 mm, 40,64 mm): Simbolo #PWR0157 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(120,65 mm, 58,42 mm): Simbolo #PWR0159 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(146,05 mm, 58,42 mm): Simbolo #PWR0162 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(148,59 mm, 58,42 mm): Simbolo #PWR0163 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(156,21 mm, 35,56 mm): Simbolo #PWR0161 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(153,67 mm, 71,12 mm): Simbolo #PWR0164 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(186,69 mm, 35,56 mm): Simbolo #PWR0165 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(191,77 mm, 48,26 mm): Simbolo #PWR0166 [GND]
+[lib_symbol_mismatch]: Il simbolo 'PWR_FLAG' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(210,82 mm, 40,64 mm): Simbolo #FLG0167 [PWR_FLAG]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(25,40 mm, 45,72 mm): Simbolo #PWR0170 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(62,23 mm, 48,26 mm): Simbolo #PWR0171 [GND]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(53,34 mm, 81,28 mm): Simbolo #PWR0185 [+5V]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(88,90 mm, 43,18 mm): Simbolo #PWR0172 [+5V]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(88,90 mm, 45,72 mm): Simbolo #PWR0173 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(53,34 mm, 101,60 mm): Simbolo #PWR0186 [GND]
+[lib_symbol_mismatch]: Il simbolo '+10V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(111,76 mm, 43,18 mm): Simbolo #PWR0174 [+10V]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(111,76 mm, 45,72 mm): Simbolo #PWR0175 [+5V]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(111,76 mm, 48,26 mm): Simbolo #PWR0176 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(76,20 mm, 101,60 mm): Simbolo #PWR0187 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(105,41 mm, 86,36 mm): Simbolo #PWR0188 [GND]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(137,16 mm, 40,64 mm): Simbolo #PWR0177 [GND]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(119,38 mm, 81,28 mm): Simbolo #PWR0190 [+5V]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(105,41 mm, 106,68 mm): Simbolo #PWR0189 [+5V]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(153,67 mm, 43,18 mm): Simbolo #PWR0178 [+5V]
+[lib_symbol_mismatch]: Il simbolo '+10V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(171,45 mm, 43,18 mm): Simbolo #PWR0179 [+10V]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(199,39 mm, 40,64 mm): Simbolo #PWR0180 [GND]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(218,44 mm, 43,18 mm): Simbolo #PWR0181 [+5V]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(218,44 mm, 45,72 mm): Simbolo #PWR0182 [GND]
+[lib_symbol_mismatch]: Il simbolo '+5V' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(243,84 mm, 43,18 mm): Simbolo #PWR0183 [+5V]
+[lib_symbol_mismatch]: Il simbolo 'GND' non corrisponde alla copia nella libreria 'ePowerSym'
+    ; warning
+    @(243,84 mm, 45,72 mm): Simbolo #PWR0184 [GND]
+
+***** Foglio /Power/
+[power_pin_not_driven]: Pin di potenza d'ingresso non pilotato da nessun pin di potenza d'uscita
+    ; error
+    @(184,15 mm, 81,28 mm): Symbol #PWR0045 Pin nascosto 1 [+10V, Power input, Line]
+[power_pin_not_driven]: Pin di potenza d'ingresso non pilotato da nessun pin di potenza d'uscita
+    ; error
+    @(245,11 mm, 81,28 mm): Symbol #PWR0055 Pin nascosto 1 [VBUS, Power input, Line]
+
+***** Foglio /MCU/
+
+***** Foglio /Sensors/
+
+***** Foglio /OSD/
+
+***** Foglio /Connectors/
+
+ ** messaggi ERC: 163  Errori 2  Avvisi 161
