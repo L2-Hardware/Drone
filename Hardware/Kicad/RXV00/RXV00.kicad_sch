@@ -1,60 +1,118 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 5063133e-0ca8-5f3c-a38c-aa6d500ef5b2)
-
-  (paper "A3")
-
-  (title_block
-    (title "ELRS 2.4GHz Receiver - Overview")
-    (date "2026-10-08")
-    (rev "V00")
-    (company "Drone project")
-    (comment 1 "ESP32-C3FH4 + SX1281, ExpressLRS 3.5+ (Unified_ESP32C3_2400_RX)")
-    (comment 2 "Connector matches FCV00 'RX' port (5V GND TX RX), u.FL antenna")
-    (comment 3 "2-layer or 4-layer 0.8mm, controlled 50 ohm RF trace")
-  )
-
-  (lib_symbols
-  )
-
-  (sheet (at 25.4 50.8) (size 40.64 15.24) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 02e65ad5-c46b-5b0b-8310-22b0efa6b8e5)
-    (property "Sheetname" "MCU" (at 25.4 50.1 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "mcu.kicad_sch" (at 25.4 66.64 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "RXV00"
-        (path "/5063133e-0ca8-5f3c-a38c-aa6d500ef5b2" (page "2"))
-      )
-    )
-  )
-  (sheet (at 25.4 78.74) (size 40.64 15.24) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 6a32b6d5-8d9f-5350-8c80-04b8b6d0c4be)
-    (property "Sheetname" "Radio" (at 25.4 78.04 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "radio.kicad_sch" (at 25.4 94.58 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "RXV00"
-        (path "/5063133e-0ca8-5f3c-a38c-aa6d500ef5b2" (page "3"))
-      )
-    )
-  )
-  (text "RXV00 - EXPRESSLRS 2.4 GHz RECEIVER\nFirmware: ELRS Unified_ESP32C3_2400_RX, upload RXV00_hardware.json (in this folder) as hardware layout.\nFirst flash: USB pads (GPIO18/19, ESP32-C3 native USB) or UART pads with BOOT (GPIO9) held low.\nLater updates: WiFi or Betaflight passthrough.\nRF matching component values are START VALUES - tune with a VNA (SX1281 PA / LNA_IN of ESP32-C3).\n" (at 180 20 0)
-    (effects (font (size 1.5 1.5)) (justify left top))
-    (uuid 19a13822-a4a7-5d6d-af88-4a2c99813158)
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5063133e-0ca8-5f3c-a38c-aa6d500ef5b2")
+	(paper "A3")
+	(title_block
+		(title "ELRS 2.4GHz Receiver - Overview")
+		(date "2026-10-08")
+		(rev "V00")
+		(company "Drone project")
+		(comment 1 "ESP32-C3FH4 + SX1281, ExpressLRS 3.5+ (Unified_ESP32C3_2400_RX)")
+		(comment 2 "Connector matches FCV00 'RX' port (5V GND TX RX), u.FL antenna")
+		(comment 3 "2-layer or 4-layer 0.8mm, controlled 50 ohm RF trace")
+	)
+	(lib_symbols)
+	(text "RXV00 - EXPRESSLRS 2.4 GHz RECEIVER\nFirmware: ELRS Unified_ESP32C3_2400_RX, upload RXV00_hardware.json (in this folder) as hardware layout.\nFirst flash: USB pads (GPIO18/19, ESP32-C3 native USB) or UART pads with BOOT (GPIO9) held low.\nLater updates: WiFi or Betaflight passthrough.\nRF matching component values are START VALUES - tune with a VNA (SX1281 PA / LNA_IN of ESP32-C3).\n"
+		(exclude_from_sim no)
+		(at 180 20 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left top)
+		)
+		(uuid "19a13822-a4a7-5d6d-af88-4a2c99813158")
+	)
+	(sheet
+		(at 25.4 50.8)
+		(size 40.64 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "02e65ad5-c46b-5b0b-8310-22b0efa6b8e5")
+		(property "Sheetname" "MCU"
+			(at 25.4 50.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 25.4 66.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RXV00"
+				(path "/5063133e-0ca8-5f3c-a38c-aa6d500ef5b2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 78.74)
+		(size 40.64 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6a32b6d5-8d9f-5350-8c80-04b8b6d0c4be")
+		(property "Sheetname" "Radio"
+			(at 25.4 78.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "radio.kicad_sch"
+			(at 25.4 94.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RXV00"
+				(path "/5063133e-0ca8-5f3c-a38c-aa6d500ef5b2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
