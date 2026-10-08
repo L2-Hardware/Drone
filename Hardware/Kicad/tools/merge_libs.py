@@ -99,7 +99,7 @@ def main():
     clean = "--clean" in sys.argv
     dest = os.path.abspath(args[0]) if args else os.path.abspath(os.path.join(HERE, "..", "KiCad_Libs"))
     if not os.path.isdir(dest):
-        sys.exit(f"Library {dest} not found: run bring_libs.bat first or pass the Kicad_Libs path.")
+        sys.exit(f"Library {dest} not found (missing or broken junction): run bring_libs.bat or pass the Kicad_Libs path.")
     libs = [d for d in sorted(os.listdir(SRC)) if os.path.isdir(os.path.join(SRC, d))]
     if not libs:
         print("KiCad_Libs_ToAdd is empty: nothing to merge.")
