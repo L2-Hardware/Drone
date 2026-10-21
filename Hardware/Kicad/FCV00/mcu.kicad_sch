@@ -146,127 +146,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "eChoke:FB"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FB"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FB"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FB_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.254) (xy -1.016 1.524) (xy 2.032 0.254) (xy 1.016 -1.524) (xy -2.032 -0.254)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FB_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.778)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.778)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "eConnector:USB_C_GCT_USB4105-GF-A"
+		(symbol "eConnector:USB4105-GF-A"
 			(pin_names
 				(offset 1.016)
 			)
@@ -286,7 +166,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "USB_C_GCT_USB4105-GF-A"
+			(property "Value" "USB4105-GF-A"
 				(at 10.16 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -297,7 +177,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "eConnector:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+			(property "Footprint" "eConnector:USB4105-GF-A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -308,7 +188,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/USB4105-GF-A.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -319,7 +199,7 @@
 					)
 				)
 			)
-			(property "Description" "USB 2.0 Type-C receptacle, 16-pin, top mount (alt: HRO TYPE-C-31-M-12 with footprint swap)"
+			(property "Description" "USB 2.0 Type-C receptacle, 16 pin, top mount, horizontal, SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -329,30 +209,8 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "GCT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "USB4105-GF-A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "USB_C_GCT_USB4105-GF-A_0_1"
+			)
+			(symbol "USB4105-GF-A_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -365,7 +223,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_GCT_USB4105-GF-A_1_1"
+			(symbol "USB4105-GF-A_1_1"
 				(pin passive line
 					(at -12.7 -5.08 0)
 					(length 2.54)
@@ -675,7 +533,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "eCrystal:Crystal_GND24"
+		(symbol "eCrystal:X322508MLB4SI"
 			(pin_numbers
 				(hide yes)
 			)
@@ -698,7 +556,7 @@
 					)
 				)
 			)
-			(property "Value" "Crystal_GND24"
+			(property "Value" "X322508MLB4SI"
 				(at -3.81 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -708,7 +566,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "eCrystal:X322508MLB4SI"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -719,7 +577,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eCrystal/datasheet/X322508MLB4SI.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -730,7 +588,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Crystal, 8 MHz, 12 pF, SMD3225-4P"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -741,7 +599,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND24_0_1"
+			(symbol "X322508MLB4SI_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy 2.54 -2.54)
@@ -814,7 +672,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND24_1_1"
+			(symbol "X322508MLB4SI_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.778)
@@ -921,7 +779,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "eDiodes:SOT-23-6"
+			(property "Footprint" "eDiodes:USBLC6-2SC6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -932,7 +790,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eDiodes/datasheet/USBLC6-2SC6.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -943,7 +801,7 @@
 					)
 				)
 			)
-			(property "Description" "USB ESD protection, 2 lines + VBUS, SOT-23-6"
+			(property "Description" "ESD protection for USB 2.0, 2 data lines + VBUS, SOT-23-6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -953,40 +811,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "STMicroelectronics"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "USBLC6-2SC6"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C7519"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
+			)
 			(symbol "USBLC6-2SC6_0_1"
 				(rectangle
 					(start -7.62 5.08)
@@ -1102,6 +927,126 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "eFerrite:BLM15AG601SN1D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BLM15AG601SN1D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "eFerrite:BLM15AG601SN1D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eFerrite/datasheet/BLM15AG601SN1D.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ferrite bead, 600 Ohm @ 100 MHz, 300 mA, 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BLM15AG601SN1D_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.254) (xy -1.016 1.524) (xy 2.032 0.254) (xy 1.016 -1.524) (xy -2.032 -0.254)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BLM15AG601SN1D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1323,7 +1268,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "eMCU:LQFP-64_10x10mm_P0.5mm"
+			(property "Footprint" "eMCU:STM32F405RGT6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1334,7 +1279,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f405rg.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMCU/datasheet/STM32F405RGT6.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1345,7 +1290,7 @@
 					)
 				)
 			)
-			(property "Description" "ARM Cortex-M4F MCU 168MHz, 1MB Flash, 192KB RAM, LQFP-64"
+			(property "Description" "ARM Cortex-M4F MCU, 1 MB flash, 192 KB RAM, 168 MHz, LQFP-64"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1355,40 +1300,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "STMicroelectronics"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "STM32F405RGT6"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C15742"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
+			)
 			(symbol "STM32F405RGT6_0_1"
 				(rectangle
 					(start -10.16 63.5)
@@ -2622,6 +2534,17 @@
 					)
 				)
 			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "+3V3_0_1"
 				(polyline
 					(pts
@@ -2736,7 +2659,18 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\""
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2786,8 +2720,12 @@
 		)
 		(symbol "ePowerSym:PWR_FLAG"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2848,25 +2786,21 @@
 					)
 				)
 			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "PWR_FLAG_1_1"
+			(symbol "PWR_FLAG_0_0"
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
 					(name "pwr"
 						(effects
 							(font
@@ -2880,6 +2814,20 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2907,7 +2855,7 @@
 				)
 			)
 			(property "Value" "VBUS"
-				(at 0 3.556 0)
+				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2939,6 +2887,17 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3129,7 +3088,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "eSwitch:SW_Push"
+		(symbol "eSwitch:B3U-1000P"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3152,7 +3111,7 @@
 					)
 				)
 			)
-			(property "Value" "SW_Push"
+			(property "Value" "B3U-1000P"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3162,7 +3121,7 @@
 					)
 				)
 			)
-			(property "Footprint" "eSwitch:SW_SPST_B3U-1000P"
+			(property "Footprint" "eSwitch:B3U-1000P"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3173,7 +3132,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eSwitch/datasheet/B3U-1000P.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3184,7 +3143,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Tactile switch, SPST-NO, 3.0x2.5 mm, SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3195,7 +3154,7 @@
 					)
 				)
 			)
-			(symbol "SW_Push_0_1"
+			(symbol "B3U-1000P_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -3243,7 +3202,7 @@
 					)
 				)
 			)
-			(symbol "SW_Push_1_1"
+			(symbol "B3U-1000P_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -3292,7 +3251,7 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
@@ -6538,7 +6497,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 77.47 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6692,7 +6651,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 120.65 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6715,7 +6674,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eCrystal:Crystal_GND24")
+		(lib_id "eCrystal:X322508MLB4SI")
 		(at 114.3 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -6735,7 +6694,7 @@
 				)
 			)
 		)
-		(property "Value" "8MHz 12pF"
+		(property "Value" "X322508MLB4SI"
 			(at 110.49 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6745,7 +6704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eCrystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "eCrystal:X322508MLB4SI"
 			(at 114.3 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6756,7 +6715,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eCrystal/datasheet/X322508MLB4SI.pdf"
 			(at 114.3 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6767,7 +6726,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crystal, 8 MHz, 12 pF, SMD3225-4P"
 			(at 114.3 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6776,29 +6735,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "X322508MLB4SI"
-			(at 114.3 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yangxing"
-			(at 114.3 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "5a719b43-26a5-5ab4-bd5b-9b569c5b67ea")
 		)
@@ -6904,7 +6841,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7027,7 +6964,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 118.11 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7103,7 +7040,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 77.47 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7257,7 +7194,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 222.25 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7333,7 +7270,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7409,7 +7346,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 115.57 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7437,7 +7374,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7560,7 +7497,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 92.71 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7636,7 +7573,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 179.07 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7712,7 +7649,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7740,7 +7677,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7864,7 +7801,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 215.9 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7892,7 +7829,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8015,7 +7952,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 134.62 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8091,7 +8028,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 134.62 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8167,7 +8104,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8243,7 +8180,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 151.13 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8319,7 +8256,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 113.03 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8395,7 +8332,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 118.11 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8471,7 +8408,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 104.14 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8547,7 +8484,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 170.18 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8779,7 +8716,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8802,7 +8739,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eChoke:FB")
+		(lib_id "eFerrite:BLM15AG601SN1D")
 		(at 83.82 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -8822,7 +8759,7 @@
 				)
 			)
 		)
-		(property "Value" "600R@100MHz"
+		(property "Value" "BLM15AG601SN1D"
 			(at 83.82 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8832,7 +8769,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eChoke:L_0402_1005Metric"
+		(property "Footprint" "eFerrite:BLM15AG601SN1D"
 			(at 83.82 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8843,7 +8780,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eFerrite/datasheet/BLM15AG601SN1D.pdf"
 			(at 83.82 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8854,7 +8791,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite bead, 600 Ohm @ 100 MHz, 300 mA, 0402"
 			(at 83.82 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8863,18 +8800,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "BLM15AG601SN1D"
-			(at 83.82 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "bfec2475-1569-5610-a50a-82cf828d984d")
 		)
@@ -8944,7 +8870,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 77.47 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8967,7 +8893,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eConnector:USB_C_GCT_USB4105-GF-A")
+		(lib_id "eConnector:USB4105-GF-A")
 		(at 185.42 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -8987,7 +8913,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_GCT_USB4105-GF-A"
+		(property "Value" "USB4105-GF-A"
 			(at 195.58 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8997,7 +8923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eConnector:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "eConnector:USB4105-GF-A"
 			(at 185.42 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9008,7 +8934,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/USB4105-GF-A.pdf"
 			(at 185.42 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9019,7 +8945,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0 Type-C receptacle, 16 pin, top mount, horizontal, SMD"
 			(at 185.42 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9028,29 +8954,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "GCT"
-			(at 185.42 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "USB4105-GF-A"
-			(at 185.42 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "A1"
 			(uuid "978e3f8d-2c7e-566e-922c-21f0a5a784d7")
 		)
@@ -9165,7 +9069,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 138.43 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9241,7 +9145,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 240.03 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9395,7 +9299,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 166.37 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9627,7 +9531,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 118.11 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9703,7 +9607,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 184.15 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9857,7 +9761,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 170.18 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9933,7 +9837,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 168.91 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10087,7 +9991,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 27.94 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10163,7 +10067,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 77.47 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10239,7 +10143,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 170.18 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10448,7 +10352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eDiodes:SOT-23-6"
+		(property "Footprint" "eDiodes:USBLC6-2SC6"
 			(at 182.88 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10459,7 +10363,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eDiodes/datasheet/USBLC6-2SC6.pdf"
 			(at 182.88 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10470,7 +10374,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESD protection for USB 2.0, 2 data lines + VBUS, SOT-23-6"
 			(at 182.88 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10479,40 +10383,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 182.88 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "USBLC6-2SC6"
-			(at 182.88 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C7519"
-			(at 182.88 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "c9344265-a029-5a7f-aa48-40ab864655f6")
 		)
@@ -10672,7 +10543,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 77.47 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10748,7 +10619,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 120.65 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10902,7 +10773,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 27.94 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11212,7 +11083,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 118.11 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11288,7 +11159,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11442,7 +11313,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 118.11 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11518,7 +11389,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 195.58 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11649,7 +11520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eMCU:LQFP-64_10x10mm_P0.5mm"
+		(property "Footprint" "eMCU:STM32F405RGT6"
 			(at 43.18 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11660,7 +11531,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f405rg.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMCU/datasheet/STM32F405RGT6.pdf"
 			(at 43.18 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11671,7 +11542,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ARM Cortex-M4F MCU, 1 MB flash, 192 KB RAM, 168 MHz, LQFP-64"
 			(at 43.18 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11680,40 +11551,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 43.18 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "STM32F405RGT6"
-			(at 43.18 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C15742"
-			(at 43.18 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "9ceaced3-e079-5de7-98b0-fd3c02b950b7")
 		)
@@ -11916,7 +11754,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eSwitch:SW_Push")
+		(lib_id "eSwitch:B3U-1000P")
 		(at 111.76 137.16 0)
 		(unit 1)
 		(body_style 1)
@@ -11936,7 +11774,7 @@
 				)
 			)
 		)
-		(property "Value" "BOOT"
+		(property "Value" "B3U-1000P"
 			(at 111.76 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11946,7 +11784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eSwitch:SW_SPST_B3U-1000P"
+		(property "Footprint" "eSwitch:B3U-1000P"
 			(at 111.76 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11957,7 +11795,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eSwitch/datasheet/B3U-1000P.pdf"
 			(at 111.76 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11968,7 +11806,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tactile switch, SPST-NO, 3.0x2.5 mm, SMD"
 			(at 111.76 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11977,29 +11815,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "B3U-1000P"
-			(at 111.76 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Omron"
-			(at 111.76 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "24801def-2b5e-5779-8c16-0d26b84c9618")
 		)
@@ -12225,7 +12041,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 77.47 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12379,7 +12195,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12455,7 +12271,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 184.15 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12483,7 +12299,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12606,7 +12422,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 77.47 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)

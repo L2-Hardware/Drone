@@ -4,3 +4,4 @@ KiCad_Libs
 **/fab
 *.lck
 fp-info-cache
+.history/

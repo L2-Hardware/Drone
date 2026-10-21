@@ -14,7 +14,7 @@
 		(comment 3 "2-layer or 4-layer 0.8mm, controlled 50 ohm RF trace")
 	)
 	(lib_symbols
-		(symbol "eAntenna:Antenna_Chip"
+		(symbol "eAntenna:2450AT18A100E"
 			(pin_numbers
 				(hide yes)
 			)
@@ -37,7 +37,7 @@
 					)
 				)
 			)
-			(property "Value" "Antenna_Chip"
+			(property "Value" "2450AT18A100E"
 				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -47,7 +47,7 @@
 					)
 				)
 			)
-			(property "Footprint" "eAntenna:Johanson_2450AT18x100"
+			(property "Footprint" "eAntenna:2450AT18A100E"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -58,7 +58,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eAntenna/datasheet/2450AT18A100E.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -69,7 +69,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Chip antenna, 2.4 GHz, 3.2x1.6 mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -80,7 +80,7 @@
 					)
 				)
 			)
-			(symbol "Antenna_Chip_0_1"
+			(symbol "2450AT18A100E_0_1"
 				(polyline
 					(pts
 						(xy -1.27 5.08) (xy 0 3.81) (xy 1.27 5.08) (xy -1.27 5.08)
@@ -106,7 +106,7 @@
 					)
 				)
 			)
-			(symbol "Antenna_Chip_1_1"
+			(symbol "2450AT18A100E_1_1"
 				(pin input line
 					(at 0 -2.54 90)
 					(length 2.54)
@@ -347,7 +347,7 @@
 			(symbol "L_0_1"
 				(arc
 					(start -2.54 0)
-					(mid -1.905 0.6323)
+					(mid -1.905 0.635)
 					(end -1.27 0)
 					(stroke
 						(width 0.2032)
@@ -359,7 +359,7 @@
 				)
 				(arc
 					(start -1.27 0)
-					(mid -0.635 0.6323)
+					(mid -0.635 0.635)
 					(end 0 0)
 					(stroke
 						(width 0.2032)
@@ -371,7 +371,7 @@
 				)
 				(arc
 					(start 0 0)
-					(mid 0.635 0.6323)
+					(mid 0.635 0.635)
 					(end 1.27 0)
 					(stroke
 						(width 0.2032)
@@ -383,7 +383,7 @@
 				)
 				(arc
 					(start 1.27 0)
-					(mid 1.905 0.6323)
+					(mid 1.905 0.635)
 					(end 2.54 0)
 					(stroke
 						(width 0.2032)
@@ -434,7 +434,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "eConnector:JST_SH_SM04B-SRSS-TB"
+		(symbol "eConnector:SM04B-SRSS-TB"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -455,7 +455,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "JST_SH_SM04B-SRSS-TB"
+			(property "Value" "SM04B-SRSS-TB"
 				(at 1.27 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -466,7 +466,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "eConnector:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+			(property "Footprint" "eConnector:SM04B-SRSS-TB"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -477,7 +477,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/SM04B-SRSS-TB.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -488,7 +488,7 @@
 					)
 				)
 			)
-			(property "Description" "JST-SH 1.0mm 4-pin side-entry SMD header"
+			(property "Description" "JST SH connector header, 4 pin, 1.0 mm pitch, side entry, SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -498,30 +498,8 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "JST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "SM04B-SRSS-TB(LF)(SN)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "JST_SH_SM04B-SRSS-TB_0_1"
+			)
+			(symbol "SM04B-SRSS-TB_0_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -6.35)
@@ -578,7 +556,7 @@
 					)
 				)
 			)
-			(symbol "JST_SH_SM04B-SRSS-TB_1_1"
+			(symbol "SM04B-SRSS-TB_1_1"
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 3.81)
@@ -672,7 +650,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "eCrystal:Crystal_GND24"
+		(symbol "eCrystal:X201640MLB4SI"
 			(pin_numbers
 				(hide yes)
 			)
@@ -695,7 +673,7 @@
 					)
 				)
 			)
-			(property "Value" "Crystal_GND24"
+			(property "Value" "X201640MLB4SI"
 				(at -3.81 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -705,7 +683,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "eCrystal:X201640MLB4SI"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -716,7 +694,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eCrystal/datasheet/X201640MLB4SI.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -727,7 +705,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Crystal, 40 MHz, 10 pF, SMD2016-4P"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -738,7 +716,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND24_0_1"
+			(symbol "X201640MLB4SI_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy 2.54 -2.54)
@@ -811,7 +789,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND24_1_1"
+			(symbol "X201640MLB4SI_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.778)
@@ -1098,7 +1076,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "eLinearReg:SOT-23-5"
+			(property "Footprint" "eLinearReg:AP2112K-3.3TRG1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1109,7 +1087,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eLinearReg/datasheet/AP2112K-3.3TRG1.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1120,7 +1098,7 @@
 					)
 				)
 			)
-			(property "Description" "3.3V 600mA LDO, SOT-23-5"
+			(property "Description" "LDO regulator, 3.3 V, 600 mA, with enable, SOT-23-5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1130,40 +1108,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "Diodes Inc"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "AP2112K-3.3TRG1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C51118"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
+			)
 			(symbol "AP2112K-3.3TRG1_0_1"
 				(rectangle
 					(start -7.62 5.08)
@@ -1302,7 +1247,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "eMCU:QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm"
+			(property "Footprint" "eMCU:ESP32-C3FH4"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1313,7 +1258,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMCU/datasheet/ESP32-C3FH4.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1324,7 +1269,7 @@
 					)
 				)
 			)
-			(property "Description" "RISC-V WiFi/BLE SoC with 4MB in-package flash, QFN-32 5x5 (ELRS receiver MCU)"
+			(property "Description" "RISC-V Wi-Fi and Bluetooth LE SoC, 4 MB flash in package, QFN-32"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1334,29 +1279,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "Espressif"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "ESP32-C3FH4"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
+			)
 			(symbol "ESP32-C3FH4_0_1"
 				(rectangle
 					(start -17.78 27.94)
@@ -2032,6 +1955,17 @@
 					)
 				)
 			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "+3V3_0_1"
 				(polyline
 					(pts
@@ -2157,6 +2091,17 @@
 					)
 				)
 			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "+5V_0_1"
 				(polyline
 					(pts
@@ -2271,7 +2216,18 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\""
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2321,8 +2277,12 @@
 		)
 		(symbol "ePowerSym:PWR_FLAG"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2383,25 +2343,21 @@
 					)
 				)
 			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "PWR_FLAG_1_1"
+			(symbol "PWR_FLAG_0_0"
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
 					(name "pwr"
 						(effects
 							(font
@@ -2415,6 +2371,20 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2539,7 +2509,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "eSwitch:SW_Push"
+		(symbol "eSwitch:B3U-1000P"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2562,7 +2532,7 @@
 					)
 				)
 			)
-			(property "Value" "SW_Push"
+			(property "Value" "B3U-1000P"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2572,7 +2542,7 @@
 					)
 				)
 			)
-			(property "Footprint" "eSwitch:SW_SPST_B3U-1000P"
+			(property "Footprint" "eSwitch:B3U-1000P"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2583,7 +2553,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eSwitch/datasheet/B3U-1000P.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2594,7 +2564,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Tactile switch, SPST-NO, 3.0x2.5 mm, SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2605,7 +2575,7 @@
 					)
 				)
 			)
-			(symbol "SW_Push_0_1"
+			(symbol "B3U-1000P_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -2653,7 +2623,7 @@
 					)
 				)
 			)
-			(symbol "SW_Push_1_1"
+			(symbol "B3U-1000P_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2702,7 +2672,7 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
@@ -4354,7 +4324,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 54.61 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4586,7 +4556,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 115.57 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4662,7 +4632,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 20.32 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4739,7 +4709,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 220.98 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4815,7 +4785,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 64.77 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5125,7 +5095,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 218.44 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5357,7 +5327,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5433,7 +5403,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 26.67 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5456,7 +5426,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eAntenna:Antenna_Chip")
+		(lib_id "eAntenna:2450AT18A100E")
 		(at 205.74 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -5476,7 +5446,7 @@
 				)
 			)
 		)
-		(property "Value" "2450AT18A100"
+		(property "Value" "2450AT18A100E"
 			(at 208.28 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5486,7 +5456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eAntenna:Johanson_2450AT18x100"
+		(property "Footprint" "eAntenna:2450AT18A100E"
 			(at 205.74 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5497,7 +5467,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eAntenna/datasheet/2450AT18A100E.pdf"
 			(at 205.74 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5508,7 +5478,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Chip antenna, 2.4 GHz, 3.2x1.6 mm"
 			(at 205.74 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5517,29 +5487,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "2450AT18A100E"
-			(at 205.74 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Johanson"
-			(at 205.74 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "5862d776-13b9-5275-b543-67ee2bbf3bb7")
 		)
@@ -5609,7 +5557,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 104.14 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5685,7 +5633,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 222.25 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5708,7 +5656,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eCrystal:Crystal_GND24")
+		(lib_id "eCrystal:X201640MLB4SI")
 		(at 27.94 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -5728,7 +5676,7 @@
 				)
 			)
 		)
-		(property "Value" "40MHz 10pF"
+		(property "Value" "X201640MLB4SI"
 			(at 24.13 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5738,7 +5686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eCrystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+		(property "Footprint" "eCrystal:X201640MLB4SI"
 			(at 27.94 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5749,7 +5697,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eCrystal/datasheet/X201640MLB4SI.pdf"
 			(at 27.94 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5760,7 +5708,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crystal, 40 MHz, 10 pF, SMD2016-4P"
 			(at 27.94 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5769,29 +5717,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "X201640MLB4SI"
-			(at 27.94 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yangxing"
-			(at 27.94 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "0924fcdf-5a96-50c5-8f34-3c13bfbf045c")
 		)
@@ -5867,7 +5793,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 93.98 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5943,7 +5869,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 78.74 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6019,7 +5945,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 209.55 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6095,7 +6021,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 34.29 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6171,7 +6097,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 90.17 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6247,7 +6173,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 252.73 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6323,7 +6249,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 209.55 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6400,7 +6326,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 233.68 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6476,7 +6402,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 158.75 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6630,7 +6556,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 78.74 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6658,7 +6584,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6781,7 +6707,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 64.77 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6965,7 +6891,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7322,7 +7248,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 186.69 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7398,7 +7324,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 209.55 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7474,7 +7400,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 147.32 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7550,7 +7476,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7573,7 +7499,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eSwitch:SW_Push")
+		(lib_id "eSwitch:B3U-1000P")
 		(at 86.36 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -7593,7 +7519,7 @@
 				)
 			)
 		)
-		(property "Value" "BOOT"
+		(property "Value" "B3U-1000P"
 			(at 86.36 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7603,7 +7529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eSwitch:SW_SPST_B3U-1000P"
+		(property "Footprint" "eSwitch:B3U-1000P"
 			(at 86.36 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7614,7 +7540,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eSwitch/datasheet/B3U-1000P.pdf"
 			(at 86.36 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7625,7 +7551,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tactile switch, SPST-NO, 3.0x2.5 mm, SMD"
 			(at 86.36 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7634,29 +7560,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "B3U-1000P"
-			(at 86.36 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Omron"
-			(at 86.36 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "edec2e46-f82b-56f2-bdaf-1a19d11b01ea")
 		)
@@ -7804,7 +7708,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 120.65 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7832,7 +7736,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7932,7 +7836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eLinearReg:SOT-23-5"
+		(property "Footprint" "eLinearReg:AP2112K-3.3TRG1"
 			(at 91.44 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7943,7 +7847,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eLinearReg/datasheet/AP2112K-3.3TRG1.pdf"
 			(at 91.44 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7954,7 +7858,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LDO regulator, 3.3 V, 600 mA, with enable, SOT-23-5"
 			(at 91.44 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7963,40 +7867,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "Diodes Inc"
-			(at 91.44 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AP2112K-3.3TRG1"
-			(at 91.44 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C51118"
-			(at 91.44 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "04131dbe-d75b-51d2-8e00-317d4f8ef849")
 		)
@@ -8075,7 +7946,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 231.14 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8151,7 +8022,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 234.95 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8227,7 +8098,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 35.56 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8303,7 +8174,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 147.32 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8379,7 +8250,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 252.73 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8455,7 +8326,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 115.57 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8687,7 +8558,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 247.65 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8841,7 +8712,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 234.95 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8917,7 +8788,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 35.56 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8970,7 +8841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eMCU:QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm"
+		(property "Footprint" "eMCU:ESP32-C3FH4"
 			(at 170.18 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8981,7 +8852,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMCU/datasheet/ESP32-C3FH4.pdf"
 			(at 170.18 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8992,7 +8863,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RISC-V Wi-Fi and Bluetooth LE SoC, 4 MB flash in package, QFN-32"
 			(at 170.18 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9001,29 +8872,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "Espressif"
-			(at 170.18 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ESP32-C3FH4"
-			(at 170.18 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "0e59b5c4-3bd0-59cc-ae85-d4a4c0ad5489")
 		)
@@ -9138,7 +8987,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9261,7 +9110,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 105.41 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9337,7 +9186,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 247.65 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9413,7 +9262,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 222.25 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9489,7 +9338,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 222.25 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9517,7 +9366,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9718,7 +9567,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 29.21 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9746,7 +9595,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9972,7 +9821,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eConnector:JST_SH_SM04B-SRSS-TB")
+		(lib_id "eConnector:SM04B-SRSS-TB")
 		(at 27.94 38.1 0)
 		(unit 1)
 		(body_style 1)
@@ -9992,7 +9841,7 @@
 				)
 			)
 		)
-		(property "Value" "FC"
+		(property "Value" "SM04B-SRSS-TB"
 			(at 29.21 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10002,7 +9851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eConnector:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "eConnector:SM04B-SRSS-TB"
 			(at 27.94 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10013,7 +9862,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/SM04B-SRSS-TB.pdf"
 			(at 27.94 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10024,7 +9873,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "JST SH connector header, 4 pin, 1.0 mm pitch, side entry, SMD"
 			(at 27.94 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10033,29 +9882,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "JST"
-			(at 27.94 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SM04B-SRSS-TB(LF)(SN)"
-			(at 27.94 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "e7afdd7b-daef-5bdf-9279-0f821d7919aa")
 		)
@@ -10134,7 +9961,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 20.32 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10210,7 +10037,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 67.31 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)

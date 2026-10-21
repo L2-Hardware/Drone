@@ -14,7 +14,7 @@
 		(comment 3 "4-layer, 50 ohm coplanar RF trace, heatsink/thermal vias under the PA")
 	)
 	(lib_symbols
-		(symbol "eAmplifier:RFPA5542"
+		(symbol "eAmplifier:RFPA5542TR13"
 			(pin_names
 				(offset 1.016)
 			)
@@ -34,7 +34,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "RFPA5542"
+			(property "Value" "RFPA5542TR13"
 				(at 10.16 -24.13 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -45,7 +45,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "eAmplifier:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
+			(property "Footprint" "eAmplifier:RFPA5542TR13"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -56,7 +56,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://github.com/OpenVTx/OpenVTx/blob/master/docs/RFPA5542-Qorvo.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eAmplifier/datasheet/RFPA5542TR13.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -67,7 +67,7 @@
 					)
 				)
 			)
-			(property "Description" "4.9-5.925GHz 3-stage power amplifier, 33dB gain, P1dB 33dBm, QFN-20 4x4"
+			(property "Description" "5 GHz WLAN power amplifier, 4.9 to 5.9 GHz, QFN-20"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -77,30 +77,8 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "Qorvo"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RFPA5542TR13"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RFPA5542_0_1"
+			)
+			(symbol "RFPA5542TR13_0_1"
 				(rectangle
 					(start -10.16 20.32)
 					(end 10.16 -22.86)
@@ -113,7 +91,7 @@
 					)
 				)
 			)
-			(symbol "RFPA5542_1_1"
+			(symbol "RFPA5542TR13_1_1"
 				(pin no_connect line
 					(at 12.7 10.16 180)
 					(length 2.54)
@@ -627,126 +605,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "eChoke:FB"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FB"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FB"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FB_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.254) (xy -1.016 1.524) (xy 2.032 0.254) (xy 1.016 -1.524) (xy -2.032 -0.254)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FB_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.778)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.778)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "eCoil:L"
 			(pin_numbers
 				(hide yes)
@@ -816,7 +674,7 @@
 			(symbol "L_0_1"
 				(arc
 					(start -2.54 0)
-					(mid -1.905 0.6323)
+					(mid -1.905 0.635)
 					(end -1.27 0)
 					(stroke
 						(width 0.2032)
@@ -828,7 +686,7 @@
 				)
 				(arc
 					(start -1.27 0)
-					(mid -0.635 0.6323)
+					(mid -0.635 0.635)
 					(end 0 0)
 					(stroke
 						(width 0.2032)
@@ -840,7 +698,7 @@
 				)
 				(arc
 					(start 0 0)
-					(mid 0.635 0.6323)
+					(mid 0.635 0.635)
 					(end 1.27 0)
 					(stroke
 						(width 0.2032)
@@ -852,7 +710,7 @@
 				)
 				(arc
 					(start 1.27 0)
-					(mid 1.905 0.6323)
+					(mid 1.905 0.635)
 					(end 2.54 0)
 					(stroke
 						(width 0.2032)
@@ -903,7 +761,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "eConnector:Conn_Coaxial"
+		(symbol "eConnector:U.FL-R-SMT-1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -926,7 +784,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_Coaxial"
+			(property "Value" "U.FL-R-SMT-1"
 				(at 2.54 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -936,7 +794,7 @@
 					)
 				)
 			)
-			(property "Footprint" "eConnector:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+			(property "Footprint" "eConnector:U.FL-R-SMT-1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -947,7 +805,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/U.FL-R-SMT-1.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -958,7 +816,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "U.FL coaxial receptacle, 50 Ohm, 6 GHz, SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -969,7 +827,7 @@
 					)
 				)
 			)
-			(symbol "Conn_Coaxial_0_1"
+			(symbol "U.FL-R-SMT-1_0_1"
 				(circle
 					(center 0 0)
 					(radius 0.508)
@@ -993,7 +851,7 @@
 					)
 				)
 			)
-			(symbol "Conn_Coaxial_1_1"
+			(symbol "U.FL-R-SMT-1_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 4.572)
@@ -1033,7 +891,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "eCrystal:Crystal_GND24"
+		(symbol "eCrystal:X322508MLB4SI"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1056,7 +914,7 @@
 					)
 				)
 			)
-			(property "Value" "Crystal_GND24"
+			(property "Value" "X322508MLB4SI"
 				(at -3.81 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1066,7 +924,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "eCrystal:X322508MLB4SI"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1077,7 +935,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eCrystal/datasheet/X322508MLB4SI.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1088,7 +946,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Crystal, 8 MHz, 12 pF, SMD3225-4P"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1099,7 +957,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND24_0_1"
+			(symbol "X322508MLB4SI_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy 2.54 -2.54)
@@ -1172,7 +1030,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND24_1_1"
+			(symbol "X322508MLB4SI_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.778)
@@ -1248,6 +1106,126 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "eFerrite:BLM18PG121SN1D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BLM18PG121SN1D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "eFerrite:BLM18PG121SN1D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eFerrite/datasheet/BLM18PG121SN1D.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ferrite bead, 120 Ohm @ 100 MHz, 2 A, 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BLM18PG121SN1D_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.254) (xy -1.016 1.524) (xy 2.032 0.254) (xy 1.016 -1.524) (xy -2.032 -0.254)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BLM18PG121SN1D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ePowerSym:+3V3"
 			(power global)
 			(pin_names
@@ -1302,6 +1280,17 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1676,7 +1665,18 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\""
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1726,8 +1726,12 @@
 		)
 		(symbol "ePowerSym:PWR_FLAG"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1788,25 +1792,21 @@
 					)
 				)
 			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "PWR_FLAG_1_1"
+			(symbol "PWR_FLAG_0_0"
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
 					(name "pwr"
 						(effects
 							(font
@@ -1820,6 +1820,20 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -1856,7 +1870,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "eRFModule:QFN-40-1EP_6x6mm_P0.5mm_EP4.6x4.6mm"
+			(property "Footprint" "eRFModule:RTC6705"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1867,7 +1881,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://github.com/OpenVTx/OpenVTx/blob/master/docs/RTC6705-RichWave.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eRFModule/datasheet/RTC6705.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1878,7 +1892,7 @@
 					)
 				)
 			)
-			(property "Description" "5.8GHz FM video transmitter, SPI tuned, QFN-40 6x6"
+			(property "Description" "5.8 GHz FM video transmitter with PLL, QFN-40"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1888,40 +1902,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "RichWave"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RTC6705"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Verify" "Pin table from RichWave RTC6705 datasheet V0.2 (datasheet/RTC6705-RichWave.pdf). The datasheet gives no exposed-pad size: check EP4.6x4.6 against the actual part. Loop-filter values must be tuned."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
+			)
 			(symbol "RTC6705_0_1"
 				(rectangle
 					(start -15.24 35.56)
@@ -5352,7 +5333,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_RF\""
 			(at 140.97 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5428,7 +5409,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5583,7 +5564,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 386.08 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5659,7 +5640,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V_PA\""
 			(at 307.34 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5760,7 +5741,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eConnector:Conn_Coaxial")
+		(lib_id "eConnector:U.FL-R-SMT-1")
 		(at 396.24 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -5780,7 +5761,7 @@
 				)
 			)
 		)
-		(property "Value" "U.FL"
+		(property "Value" "U.FL-R-SMT-1"
 			(at 398.78 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5790,7 +5771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eConnector:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+		(property "Footprint" "eConnector:U.FL-R-SMT-1"
 			(at 396.24 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5801,7 +5782,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/U.FL-R-SMT-1.pdf"
 			(at 396.24 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5812,7 +5793,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "U.FL coaxial receptacle, 50 Ohm, 6 GHz, SMD"
 			(at 396.24 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5821,29 +5802,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "U.FL-R-SMT-1(10)"
-			(at 396.24 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Hirose"
-			(at 396.24 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "b44db9b8-3e96-5176-8eac-299926185360")
 		)
@@ -5913,7 +5872,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_RF\""
 			(at 115.57 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5989,7 +5948,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_RF\""
 			(at 140.97 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6065,7 +6024,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6088,7 +6047,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eChoke:FB")
+		(lib_id "eFerrite:BLM18PG121SN1D")
 		(at 25.4 40.64 0)
 		(unit 1)
 		(body_style 1)
@@ -6108,7 +6067,7 @@
 				)
 			)
 		)
-		(property "Value" "120R@100MHz"
+		(property "Value" "BLM18PG121SN1D"
 			(at 25.4 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6118,7 +6077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eChoke:L_0603_1608Metric"
+		(property "Footprint" "eFerrite:BLM18PG121SN1D"
 			(at 25.4 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6129,7 +6088,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eFerrite/datasheet/BLM18PG121SN1D.pdf"
 			(at 25.4 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6140,7 +6099,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite bead, 120 Ohm @ 100 MHz, 2 A, 0603"
 			(at 25.4 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6149,18 +6108,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "BLM18PG121SN1D"
-			(at 25.4 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "7f9917f0-43aa-52e7-be56-928c27ddc393")
 		)
@@ -6333,7 +6281,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eAmplifier:RFPA5542")
+		(lib_id "eAmplifier:RFPA5542TR13")
 		(at 322.58 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -6353,7 +6301,7 @@
 				)
 			)
 		)
-		(property "Value" "RFPA5542"
+		(property "Value" "RFPA5542TR13"
 			(at 332.74 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6363,7 +6311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eAmplifier:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
+		(property "Footprint" "eAmplifier:RFPA5542TR13"
 			(at 322.58 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6374,7 +6322,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://github.com/OpenVTx/OpenVTx/blob/master/docs/RFPA5542-Qorvo.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eAmplifier/datasheet/RFPA5542TR13.pdf"
 			(at 322.58 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6385,7 +6333,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5 GHz WLAN power amplifier, 4.9 to 5.9 GHz, QFN-20"
 			(at 322.58 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6394,29 +6342,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "Qorvo"
-			(at 322.58 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RFPA5542TR13"
-			(at 322.58 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "a9f457b6-3eae-534c-985e-1e4a8e9db99f")
 		)
@@ -6621,7 +6547,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 396.24 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6697,7 +6623,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 173.99 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6773,7 +6699,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 245.11 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7005,7 +6931,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_RF\""
 			(at 250.19 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7159,7 +7085,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_RF\""
 			(at 115.57 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7235,7 +7161,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 372.11 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7311,7 +7237,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 212.09 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7699,7 +7625,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 184.15 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7775,7 +7701,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_RF\""
 			(at 140.97 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7929,7 +7855,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 245.11 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8161,7 +8087,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 316.23 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8237,7 +8163,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 181.61 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8391,7 +8317,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V_PA\""
 			(at 356.87 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8623,7 +8549,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_RF\""
 			(at 115.57 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8699,7 +8625,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 285.75 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8775,7 +8701,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 153.67 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9007,7 +8933,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 367.03 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9083,7 +9009,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9159,7 +9085,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 250.19 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9391,7 +9317,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9545,7 +9471,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 181.61 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9621,7 +9547,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_RF\""
 			(at 19.05 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9697,7 +9623,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_RF\""
 			(at 31.75 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9773,7 +9699,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_RF\""
 			(at 53.34 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9927,7 +9853,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 369.57 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10159,7 +10085,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V_PA\""
 			(at 307.34 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10313,7 +10239,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 31.75 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10389,7 +10315,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 156.21 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10465,7 +10391,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_RF\""
 			(at 115.57 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10775,7 +10701,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 285.75 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10929,7 +10855,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 307.34 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11083,7 +11009,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 372.11 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11237,7 +11163,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 402.59 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11313,7 +11239,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 153.67 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11467,7 +11393,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 53.34 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11699,7 +11625,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_RF\""
 			(at 140.97 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11775,7 +11701,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 176.53 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12062,7 +11988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eRFModule:QFN-40-1EP_6x6mm_P0.5mm_EP4.6x4.6mm"
+		(property "Footprint" "eRFModule:RTC6705"
 			(at 73.66 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12073,7 +11999,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://github.com/OpenVTx/OpenVTx/blob/master/docs/RTC6705-RichWave.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eRFModule/datasheet/RTC6705.pdf"
 			(at 73.66 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12084,7 +12010,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.8 GHz FM video transmitter with PLL, QFN-40"
 			(at 73.66 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12093,40 +12019,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "RichWave"
-			(at 73.66 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RTC6705"
-			(at 73.66 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Verify" "Pin table from RichWave RTC6705 datasheet V0.2 (datasheet/RTC6705-RichWave.pdf). The datasheet gives no exposed-pad size: check EP4.6x4.6 against the actual part. Loop-filter values must be tuned."
-			(at 73.66 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "8c3d9539-a9ad-5521-b413-607c0b75eaad")
 		)
@@ -12313,7 +12206,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_RF\""
 			(at 53.34 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12389,7 +12282,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 400.05 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12465,7 +12358,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 212.09 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12541,7 +12434,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 153.67 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12695,7 +12588,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_RF\""
 			(at 53.34 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12927,7 +12820,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V_PA\""
 			(at 303.53 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13003,7 +12896,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 19.05 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13157,7 +13050,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 181.61 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13233,7 +13126,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 153.67 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13309,7 +13202,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V_PA\""
 			(at 354.33 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13385,7 +13278,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 214.63 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13408,7 +13301,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eCrystal:Crystal_GND24")
+		(lib_id "eCrystal:X322508MLB4SI")
 		(at 175.26 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -13428,7 +13321,7 @@
 				)
 			)
 		)
-		(property "Value" "8MHz 12pF"
+		(property "Value" "X322508MLB4SI"
 			(at 171.45 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13438,7 +13331,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eCrystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "eCrystal:X322508MLB4SI"
 			(at 175.26 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13449,7 +13342,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eCrystal/datasheet/X322508MLB4SI.pdf"
 			(at 175.26 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13460,7 +13353,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crystal, 8 MHz, 12 pF, SMD3225-4P"
 			(at 175.26 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13469,29 +13362,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "X322508MLB4SI"
-			(at 175.26 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yangxing"
-			(at 175.26 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "5ad142a4-5736-5016-a60a-f4a1176f90a5")
 		)

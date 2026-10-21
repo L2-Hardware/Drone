@@ -586,7 +586,7 @@
 			)
 		)
 	)
-	(footprint "eConverterDCDC:TI_SO-PowerPAD-8_ThermalVias"
+	(footprint "eConverterDCDC:TPS54360BDDAR"
 		(layer "F.Cu")
 		(uuid "0817b3a1-e99d-4cab-8cce-2e3ee5361ba3")
 		(at 147.29 45.39)
@@ -614,7 +614,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/datasheet/TPS54360BDDAR.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -625,7 +625,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Step-down converter, 4.5 V to 60 V input, 3.5 A, HSOIC-8 PowerPAD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -921,8 +921,8 @@
 			(net "GND")
 			(uuid "c459297c-ec1c-423c-8783-c39f02c43bee")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/eConverterDCDC.3dshapes/TI_SO-PowerPAD-8.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/eConverterDCDC.3dshapes/TPS54360BDDAR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2766,7 +2766,7 @@
 			)
 		)
 	)
-	(footprint "eConnector:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
+	(footprint "eConnector:SM06B-SRSS-TB"
 		(layer "F.Cu")
 		(uuid "136fa671-1d80-484c-8159-388fb98f9431")
 		(at 101.425 149.86)
@@ -2783,7 +2783,7 @@
 				)
 			)
 		)
-		(property "Value" "GPS"
+		(property "Value" "SM06B-SRSS-TB"
 			(at 0 3.98 0)
 			(layer "F.Fab")
 			(uuid "28eeef93-48ce-4229-9593-f01bae18cf19")
@@ -2794,7 +2794,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/SM06B-SRSS-TB.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2805,7 +2805,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "JST SH connector header, 6 pin, 1.0 mm pitch, side entry, SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3054,8 +3054,8 @@
 			(net "unconnected-(J6-MountPin-PadMP)")
 			(uuid "51310948-78d3-43dc-87e8-4d1c79591468")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/SM06B-SRSS-TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3453,7 +3453,7 @@
 			)
 		)
 	)
-	(footprint "eCrystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+	(footprint "eCrystal:X322527MOB4SI"
 		(layer "F.Cu")
 		(uuid "14d764ac-ea0d-4eed-8580-9da58c0621cf")
 		(at 129.785 123.419999)
@@ -3470,7 +3470,7 @@
 				)
 			)
 		)
-		(property "Value" "27MHz 12pF"
+		(property "Value" "X322527MOB4SI"
 			(at 0 2.45 0)
 			(layer "F.Fab")
 			(uuid "a00a080a-6ee0-4b23-9620-8aeb21f4f91f")
@@ -3481,7 +3481,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eCrystal/datasheet/X322527MOB4SI.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3492,7 +3492,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crystal, 27 MHz, 12 pF, 10 ppm, SMD3225-4P"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3655,8 +3655,8 @@
 			(net "GND")
 			(uuid "7ac05df9-0ea6-46e7-829b-9639c44acbba")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eCrystal/eCrystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eCrystal/eCrystal.3dshapes/X322527MOB4SI.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5071,7 +5071,7 @@
 			)
 		)
 	)
-	(footprint "eDiodes:D_SOD-123"
+	(footprint "eDiodes:1N4148W"
 		(layer "F.Cu")
 		(uuid "251e0e3a-98c2-46de-8a1f-2e51f58e6aac")
 		(at 146.39 147.73)
@@ -5099,7 +5099,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eDiodes/datasheet/1N4148W.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5110,7 +5110,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switching diode, 100 V, 300 mA, SOD-123"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5331,8 +5331,8 @@
 			(net "/Connectors/BUZZER_N")
 			(uuid "9dbee042-ab59-4711-86e9-e505b0a977fd")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/D_SOD-123.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/1N4148W.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5730,7 +5730,7 @@
 			)
 		)
 	)
-	(footprint "eConverterDCDC:TI_SO-PowerPAD-8_ThermalVias"
+	(footprint "eConverterDCDC:TPS54360BDDAR"
 		(layer "F.Cu")
 		(uuid "26e57dc2-f1b4-4ce8-a5e6-d1f5fc4786de")
 		(at 100.275 59.09)
@@ -5758,7 +5758,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/datasheet/TPS54360BDDAR.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5769,7 +5769,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Step-down converter, 4.5 V to 60 V input, 3.5 A, HSOIC-8 PowerPAD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6065,8 +6065,8 @@
 			(net "GND")
 			(uuid "757a7b5a-8b68-43a4-9d60-fb1f4eeaeee1")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/eConverterDCDC.3dshapes/TI_SO-PowerPAD-8.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/eConverterDCDC.3dshapes/TPS54360BDDAR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6271,7 +6271,7 @@
 			)
 		)
 	)
-	(footprint "eMCU:LQFP-64_10x10mm_P0.5mm"
+	(footprint "eMCU:STM32F405RGT6"
 		(layer "F.Cu")
 		(uuid "2a2be516-57e2-4152-aaf7-b654dcaa1110")
 		(at 103.225 80.585)
@@ -6299,7 +6299,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMCU/datasheet/STM32F405RGT6.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6310,7 +6310,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ARM Cortex-M4F MCU, 1 MB flash, 192 KB RAM, 168 MHz, LQFP-64"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7229,8 +7229,8 @@
 			(net "+3V3")
 			(uuid "c9ce9c02-c96a-4913-aa27-da647be5a932")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/LQFP-64_10x10mm_P0.5mm.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/STM32F405RGT6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7242,7 +7242,7 @@
 			)
 		)
 	)
-	(footprint "eSensor:Bosch_LGA-14_3x2.5mm_P0.5mm"
+	(footprint "eSensor:ICM-42688-P"
 		(layer "F.Cu")
 		(uuid "2b05cce6-54ec-44db-893d-d87405f3e7a3")
 		(at 98.51 110.685)
@@ -7270,7 +7270,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eSensor/datasheet/ICM-42688-P.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7281,7 +7281,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6-axis IMU, 3-axis gyroscope and accelerometer, SPI/I2C, LGA-14"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7576,8 +7576,8 @@
 			(net "SPI1_MOSI")
 			(uuid "9b8ebdf3-69d0-4bef-bdd0-32ffbdf82cd9")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eSensor/eSensor.3dshapes/Bosch_LGA-14_3x2.5mm_P0.5mm.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eSensor/eSensor.3dshapes/ICM-42688-P.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9093,7 +9093,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:SOT-23"
+	(footprint "eTransistor:2N7002"
 		(layer "F.Cu")
 		(uuid "40dabd43-08df-4595-969b-bce5d82eede0")
 		(at 135.204999 148.454999)
@@ -9121,7 +9121,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/2N7002.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9132,7 +9132,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 60 V, 300 mA, SOT-23"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9323,8 +9323,8 @@
 			(net "/Connectors/BUZZER_N")
 			(uuid "e917c4ff-e3c1-4fb9-9317-24a4dd38fba6")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/SOT-23.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/2N7002.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9529,7 +9529,7 @@
 			)
 		)
 	)
-	(footprint "eCrystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+	(footprint "eCrystal:X322508MLB4SI"
 		(layer "F.Cu")
 		(uuid "433f62d2-45ed-41b4-93a0-3de9b7fb02dd")
 		(at 145.825 75.585)
@@ -9546,7 +9546,7 @@
 				)
 			)
 		)
-		(property "Value" "8MHz 12pF"
+		(property "Value" "X322508MLB4SI"
 			(at 0 2.45 0)
 			(layer "F.Fab")
 			(uuid "6624f3ae-d229-48a4-a17c-73ee9e88e952")
@@ -9557,7 +9557,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eCrystal/datasheet/X322508MLB4SI.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9568,7 +9568,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crystal, 8 MHz, 12 pF, SMD3225-4P"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9731,8 +9731,8 @@
 			(net "GND")
 			(uuid "8b203104-feca-48d9-9dbf-a2cea01fd557")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eCrystal/eCrystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eCrystal/eCrystal.3dshapes/X322508MLB4SI.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11288,7 +11288,7 @@
 			)
 		)
 	)
-	(footprint "eDisplay:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm"
+	(footprint "eDisplay:AT7456E"
 		(layer "F.Cu")
 		(uuid "518f84de-97e1-46e6-9145-cc3172da1b70")
 		(at 100.375 126.82)
@@ -11316,7 +11316,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eDisplay/datasheet/AT7456E.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11327,7 +11327,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single channel monochrome OSD generator, MAX7456 compatible, HTSSOP-28"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11774,8 +11774,8 @@
 			(zone_connect 2)
 			(uuid "39db13e5-472f-47b8-a811-9004bf51627e")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eDisplay/eDisplay.3dshapes/HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP3.4x9.5mm.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eDisplay/eDisplay.3dshapes/AT7456E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12559,7 +12559,7 @@
 			)
 		)
 	)
-	(footprint "eSwitch:SW_SPST_B3U-1000P"
+	(footprint "eSwitch:B3U-1000P"
 		(layer "F.Cu")
 		(uuid "5d81e4c0-e506-46ed-9688-c8375dc72793")
 		(at 101.835 89.985)
@@ -12576,7 +12576,7 @@
 				)
 			)
 		)
-		(property "Value" "BOOT"
+		(property "Value" "B3U-1000P"
 			(at 0 2.5 0)
 			(layer "F.Fab")
 			(uuid "9a4ee687-ada8-412e-919b-94e54dac778d")
@@ -12587,7 +12587,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eSwitch/datasheet/B3U-1000P.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12598,7 +12598,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tactile switch, SPST-NO, 3.0x2.5 mm, SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12788,8 +12788,8 @@
 			(net "/MCU/BOOT0")
 			(uuid "573f2894-93de-4f0f-8dc2-b504f7656244")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eSwitch/eSwitch.3dshapes/SW_SPST_B3U-1000P.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eSwitch/eSwitch.3dshapes/B3U-1000P.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13014,7 +13014,7 @@
 			)
 		)
 	)
-	(footprint "eLinearReg:SOT-23-5"
+	(footprint "eLinearReg:AP2112K-3.3TRG1"
 		(layer "F.Cu")
 		(uuid "5f0358c8-8c33-4763-b56c-ee2f8771f561")
 		(at 112.59 65.134999)
@@ -13042,7 +13042,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eLinearReg/datasheet/AP2112K-3.3TRG1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13053,7 +13053,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LDO regulator, 3.3 V, 600 mA, with enable, SOT-23-5"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13260,8 +13260,8 @@
 			(net "+3V3")
 			(uuid "bc2dc10e-4b3f-488f-aab5-d17c8373ddb2")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eLinearReg/eLinearReg.3dshapes/SOT-23-5.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eLinearReg/eLinearReg.3dshapes/AP2112K-3.3TRG1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13273,7 +13273,7 @@
 			)
 		)
 	)
-	(footprint "eConnector:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+	(footprint "eConnector:SM04B-SRSS-TB"
 		(layer "F.Cu")
 		(uuid "6433dc8b-90c7-42f8-a44e-2f78b0711a22")
 		(at 119.055 142.25)
@@ -13290,7 +13290,7 @@
 				)
 			)
 		)
-		(property "Value" "RX"
+		(property "Value" "SM04B-SRSS-TB"
 			(at 0 3.98 0)
 			(layer "F.Fab")
 			(uuid "a15a962f-faf1-4f6f-ae35-727e1c6cfc37")
@@ -13301,7 +13301,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/SM04B-SRSS-TB.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13312,7 +13312,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "JST SH connector header, 4 pin, 1.0 mm pitch, side entry, SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13545,8 +13545,8 @@
 			(net "unconnected-(J3-MountPin-PadMP)")
 			(uuid "7c0158f9-ab10-4b3b-be12-67c01283074b")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/SM04B-SRSS-TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15485,7 +15485,7 @@
 			)
 		)
 	)
-	(footprint "eChoke:L_0402_1005Metric"
+	(footprint "eFerrite:BLM15AG601SN1D"
 		(layer "F.Cu")
 		(uuid "7ca14109-da31-4e24-8b22-37633b1fad66")
 		(at 130.264999 74.354999)
@@ -15502,7 +15502,7 @@
 				)
 			)
 		)
-		(property "Value" "600R@100MHz"
+		(property "Value" "BLM15AG601SN1D"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "390fb98e-682f-4f4d-9d00-d12c8ef210ca")
@@ -15513,7 +15513,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eFerrite/datasheet/BLM15AG601SN1D.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15524,7 +15524,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite bead, 600 Ohm @ 100 MHz, 300 mA, 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15645,8 +15645,8 @@
 			(net "/MCU/VDDA")
 			(uuid "4f2d1333-b949-4065-baea-41ee9dfbfcce")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eChoke/eChoke.3dshapes/L_0402_1005Metric.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eFerrite/eFerrite.3dshapes/BLM15AG601SN1D.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16044,7 +16044,7 @@
 			)
 		)
 	)
-	(footprint "eLED:LED_0603_1608Metric"
+	(footprint "eLED:KT-0603R"
 		(layer "F.Cu")
 		(uuid "836efd6b-c54d-415e-b2e0-177d2bd29303")
 		(at 144.769999 64.03)
@@ -16061,7 +16061,7 @@
 				)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "KT-0603R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a60eafeb-b827-4ec3-aec9-58969155f6f3")
@@ -16072,7 +16072,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eLED/datasheet/KT-0603R.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16083,7 +16083,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED, red, 0603"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16244,8 +16244,8 @@
 			(net "/Power/LED_PWR_A")
 			(uuid "82aed2be-f01a-4cae-9f49-43465bf93033")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eLED/eLED.3dshapes/LED_0603_1608Metric.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eLED/eLED.3dshapes/KT-0603R.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16450,7 +16450,7 @@
 			)
 		)
 	)
-	(footprint "eChoke:L_0603_1608Metric"
+	(footprint "eFerrite:BLM18AG601SN1D"
 		(layer "F.Cu")
 		(uuid "868a04db-ef0e-4692-ac10-030ee7ab409f")
 		(at 106.755 122.449999)
@@ -16467,7 +16467,7 @@
 				)
 			)
 		)
-		(property "Value" "600R@100MHz"
+		(property "Value" "BLM18AG601SN1D"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "8a8dcebd-2994-4bcf-be52-55e0a73a5da8")
@@ -16478,7 +16478,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eFerrite/datasheet/BLM18AG601SN1D.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16489,7 +16489,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite bead, 600 Ohm @ 100 MHz, 500 mA, 0603"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16630,8 +16630,8 @@
 			(net "+3V3_OSD")
 			(uuid "8a3c6723-c97c-47ac-8c50-8146917243c2")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eChoke/eChoke.3dshapes/L_0603_1608Metric.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eFerrite/eFerrite.3dshapes/BLM18AG601SN1D.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16643,7 +16643,7 @@
 			)
 		)
 	)
-	(footprint "eDiodes:D_SMA"
+	(footprint "eDiodes:SMAJ28A"
 		(layer "F.Cu")
 		(uuid "86a0f12d-2758-4f68-9d98-7a20e2259fb2")
 		(at 109.169999 44.275)
@@ -16671,7 +16671,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eDiodes/datasheet/SMAJ28A.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16682,7 +16682,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS diode, unidirectional, 28 V standoff, 400 W, SMA"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16893,8 +16893,8 @@
 			(net "GND")
 			(uuid "13ce2935-2440-4992-8f54-3177763b7cea")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/D_SMA.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/SMAJ28A.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16906,7 +16906,7 @@
 			)
 		)
 	)
-	(footprint "eConnector:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
+	(footprint "eConnector:SM06B-SRSS-TB"
 		(layer "F.Cu")
 		(uuid "8955fd1f-4043-4945-9cc0-ed8015b8a9a3")
 		(at 112.275 149.86)
@@ -16923,7 +16923,7 @@
 				)
 			)
 		)
-		(property "Value" "AUX"
+		(property "Value" "SM06B-SRSS-TB"
 			(at 0 3.98 0)
 			(layer "F.Fab")
 			(uuid "bcd27243-7398-4dbe-92cc-7755311abb1c")
@@ -16934,7 +16934,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/SM06B-SRSS-TB.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16945,7 +16945,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "JST SH connector header, 6 pin, 1.0 mm pitch, side entry, SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17194,8 +17194,8 @@
 			(net "unconnected-(J7-MountPin-PadMP)")
 			(uuid "78adc953-3ebe-4420-8ff8-92849d1a8548")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/SM06B-SRSS-TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17207,7 +17207,7 @@
 			)
 		)
 	)
-	(footprint "eConnector:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+	(footprint "eConnector:USB4105-GF-A"
 		(layer "F.Cu")
 		(uuid "89c3bb4d-5b87-47c3-a99f-db096487e850")
 		(at 145.554999 93.095)
@@ -17225,7 +17225,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_GCT_USB4105-GF-A"
+		(property "Value" "USB4105-GF-A"
 			(at 0 5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17237,7 +17237,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/USB4105-GF-A.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17248,7 +17248,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0 Type-C receptacle, 16 pin, top mount, horizontal, SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17516,8 +17516,8 @@
 			(net "GND")
 			(uuid "89c30d92-fb81-458b-bb7a-5902f5996409")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/USB4105-GF-A.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20479,7 +20479,7 @@
 			)
 		)
 	)
-	(footprint "eConnector:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
+	(footprint "eConnector:SM06B-SRSS-TB"
 		(layer "F.Cu")
 		(uuid "a6d8d984-0071-4cf3-96ad-e31baf7153a1")
 		(at 128.905 142.25)
@@ -20496,7 +20496,7 @@
 				)
 			)
 		)
-		(property "Value" "VTX"
+		(property "Value" "SM06B-SRSS-TB"
 			(at 0 3.98 0)
 			(layer "F.Fab")
 			(uuid "fd9a7bd4-0c9d-4552-bef8-00c768fe6229")
@@ -20507,7 +20507,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/SM06B-SRSS-TB.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20518,7 +20518,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "JST SH connector header, 6 pin, 1.0 mm pitch, side entry, SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20767,8 +20767,8 @@
 			(net "unconnected-(J4-MountPin-PadMP)")
 			(uuid "f0717bdd-7998-4809-9ad7-680f8cd61bfb")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/SM06B-SRSS-TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21068,7 +21068,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "eLinearReg:SOT-23-5"
+	(footprint "eLinearReg:AP2112K-3.3TRG1"
 		(layer "F.Cu")
 		(uuid "ab737bbe-6d0d-4a0a-8bd0-0b3ece4589fc")
 		(at 127.489999 65.134999)
@@ -21096,7 +21096,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eLinearReg/datasheet/AP2112K-3.3TRG1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21107,7 +21107,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LDO regulator, 3.3 V, 600 mA, with enable, SOT-23-5"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21314,8 +21314,8 @@
 			(net "+3V3_GYRO")
 			(uuid "49c8865c-7cf9-4395-a754-e1ebfa978128")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eLinearReg/eLinearReg.3dshapes/SOT-23-5.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eLinearReg/eLinearReg.3dshapes/AP2112K-3.3TRG1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21520,7 +21520,7 @@
 			)
 		)
 	)
-	(footprint "eDiodes:D_SOD-123F"
+	(footprint "eDiodes:PMEG3020EH"
 		(layer "F.Cu")
 		(uuid "ac509b9f-8b78-4552-b19f-ad9ce33caa29")
 		(at 107.289999 64.41)
@@ -21548,7 +21548,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG3020EH_EJ.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21559,7 +21559,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky barrier rectifier, 30 V, 2 A, SOD-123F"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21780,8 +21780,8 @@
 			(net "VBUS")
 			(uuid "44c89ded-25cb-4f90-803b-451fe0bcaeca")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/D_SOD-123F.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/PMEG3020EH.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21793,7 +21793,7 @@
 			)
 		)
 	)
-	(footprint "eDiodes:D_SOD-128"
+	(footprint "eDiodes:PMEG6045ETPX"
 		(layer "F.Cu")
 		(uuid "aca95600-79a9-40b3-946d-7cc9c667bb64")
 		(at 132.299999 57.724999)
@@ -21810,7 +21810,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG6045ETP"
+		(property "Value" "PMEG6045ETPX"
 			(at 0 2.25 0)
 			(layer "F.Fab")
 			(uuid "f7e674cf-199c-4a8d-8335-79abcb82b02d")
@@ -21821,7 +21821,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eDiodes/datasheet/PMEG6045ETPX.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21832,7 +21832,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky barrier rectifier, 60 V, 4.5 A, SOD-128"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22053,8 +22053,8 @@
 			(net "GND")
 			(uuid "9f5ba647-19dd-4cbe-a021-251ab6e8615e")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/D_SOD-128.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/PMEG6045ETPX.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22259,7 +22259,7 @@
 			)
 		)
 	)
-	(footprint "eMemory:SOIC-8_5.23x5.23mm_P1.27mm"
+	(footprint "eMemory:W25Q128JVSIQ"
 		(layer "F.Cu")
 		(uuid "b4ab4640-f5fe-423d-97b0-ea1cf05a0baa")
 		(at 129.864999 111.81)
@@ -22287,7 +22287,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMemory/datasheet/W25Q128JVSIQ.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22298,7 +22298,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Serial NOR flash, 128 Mbit, SPI/Dual/Quad, SOIC-8 208 mil"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22569,8 +22569,8 @@
 			(net "+3V3")
 			(uuid "1d06c0b0-956d-46e9-b46a-897ff8be3b9a")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eMemory/eMemory.3dshapes/SOIC-8_5.3x5.3mm_P1.27mm.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eMemory/eMemory.3dshapes/W25Q128JVSIQ.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23212,7 +23212,7 @@
 			)
 		)
 		(path "/6bccf726-44a3-5d86-819e-e11197d89104/20e5b1b1-16af-5460-87c3-39e399dc3baa")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -2.75)
@@ -23235,7 +23235,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "eCoil:L_Bourns_SRP5030T"
+	(footprint "eCoil:SRP5030T-6R8M"
 		(layer "F.Cu")
 		(uuid "baae9c84-667c-4d13-ac50-e0e62576bbd9")
 		(at 131.459999 52.324999)
@@ -23252,7 +23252,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8uH SRP5030T-6R8M"
+		(property "Value" "SRP5030T-6R8M"
 			(at 0 3.6 0)
 			(layer "F.Fab")
 			(uuid "b5d9c42d-9471-448d-8ff0-603cbc92a1b2")
@@ -23263,7 +23263,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eCoil/datasheet/SRP5030T-6R8M.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23274,7 +23274,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Shielded power inductor, 6.8 uH, 20%, 5.4x5.2x3.0 mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23565,8 +23565,8 @@
 			(net "+5V")
 			(uuid "4bc5fa50-1d7e-4dd1-bb12-d62ab195d441")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eCoil/eCoil.3dshapes/L_Bourns_SRP5030T.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eCoil/eCoil.3dshapes/SRP5030T-6R8M.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24157,7 +24157,7 @@
 			)
 		)
 	)
-	(footprint "eConnector:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
+	(footprint "eConnector:SM08B-SRSS-TB"
 		(layer "F.Cu")
 		(uuid "c8734634-f274-4c1b-8b3a-98ed6c1be45a")
 		(at 102.425 142.25)
@@ -24174,7 +24174,7 @@
 				)
 			)
 		)
-		(property "Value" "ESC"
+		(property "Value" "SM08B-SRSS-TB"
 			(at 0 3.98 0)
 			(layer "F.Fab")
 			(uuid "f364b8df-3257-4dfa-a0b7-6950cd807299")
@@ -24185,7 +24185,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/SM08B-SRSS-TB.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24196,7 +24196,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "JST SH connector header, 8 pin, 1.0 mm pitch, side entry, SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24461,8 +24461,8 @@
 			(net "unconnected-(J2-MountPin-PadMP)")
 			(uuid "36aa6901-f219-4fbe-b8cb-ffc76714003d")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/SM08B-SRSS-TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24762,7 +24762,7 @@
 			)
 		)
 	)
-	(footprint "eConnector:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
+	(footprint "eConnector:SM03B-SRSS-TB"
 		(layer "F.Cu")
 		(uuid "d0d610ee-1019-4eb8-a41b-43a1d86f9c2d")
 		(at 138.255 142.25)
@@ -24779,7 +24779,7 @@
 				)
 			)
 		)
-		(property "Value" "CAM"
+		(property "Value" "SM03B-SRSS-TB"
 			(at 0 3.98 0)
 			(layer "F.Fab")
 			(uuid "1c1c3db5-4148-4d30-938d-37c2d61f03a9")
@@ -24790,7 +24790,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/SM03B-SRSS-TB.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24801,7 +24801,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "JST SH connector header, 3 pin, 1.0 mm pitch, side entry, SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25026,8 +25026,8 @@
 			(net "unconnected-(J5-MountPin-PadMP)")
 			(uuid "91476d45-b93f-43d1-bd78-c264dc3df0db")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/SM03B-SRSS-TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25578,7 +25578,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "eSensor:ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y"
+	(footprint "eSensor:LPS22DFTR"
 		(layer "F.Cu")
 		(uuid "d60a2a57-1a26-4d21-9104-cde99a991146")
 		(at 114.224999 110.294999)
@@ -25595,7 +25595,7 @@
 				)
 			)
 		)
-		(property "Value" "LPS22DF"
+		(property "Value" "LPS22DFTR"
 			(at 0 1.95 0)
 			(layer "F.Fab")
 			(uuid "be77e707-0ef5-41f2-ab2f-40040abd815c")
@@ -25606,7 +25606,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eSensor/datasheet/LPS22DFTR.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25617,7 +25617,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Barometric pressure sensor, 260 to 1260 hPa, I2C/SPI/I3C, HLGA-10"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25894,8 +25894,8 @@
 			(net "+3V3")
 			(uuid "1079a1f5-a7e6-4805-b39d-e703a804ae9e")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eSensor/eSensor.3dshapes/ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eSensor/eSensor.3dshapes/LPS22DFTR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26639,7 +26639,7 @@
 			)
 		)
 	)
-	(footprint "eCoil:L_Bourns_SRP5030T"
+	(footprint "eCoil:SRP5030T-100M"
 		(layer "F.Cu")
 		(uuid "dc6629e4-e485-4547-b992-e67ae326a589")
 		(at 140.01 59.36)
@@ -26656,7 +26656,7 @@
 				)
 			)
 		)
-		(property "Value" "10uH SRP5030T-100M"
+		(property "Value" "SRP5030T-100M"
 			(at 0 3.6 0)
 			(layer "F.Fab")
 			(uuid "fd540c7b-29f6-4b3e-a776-176914ad955d")
@@ -26667,7 +26667,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eCoil/datasheet/SRP5030T-100M.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26678,7 +26678,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Shielded power inductor, 10 uH, 20%, 5.4x5.2x3.0 mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26969,8 +26969,8 @@
 			(net "+10V")
 			(uuid "265c4aec-a51d-4dde-87d9-a08ee8bd0093")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eCoil/eCoil.3dshapes/L_Bourns_SRP5030T.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eCoil/eCoil.3dshapes/SRP5030T-100M.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27172,7 +27172,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "eDiodes:SOT-23-6"
+	(footprint "eDiodes:USBLC6-2SC6"
 		(layer "F.Cu")
 		(uuid "e7d4cd93-5e13-409a-b4e9-5cff1e3db3ee")
 		(at 101.485 100.199999)
@@ -27200,7 +27200,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eDiodes/datasheet/USBLC6-2SC6.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27211,7 +27211,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESD protection for USB 2.0, 2 data lines + VBUS, SOT-23-6"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27426,8 +27426,8 @@
 			(net "/MCU/USB_DP")
 			(uuid "bd8a05c4-ef22-454f-a96b-f38d869138e4")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/SOT-23-6.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/USBLC6-2SC6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27825,7 +27825,7 @@
 			)
 		)
 	)
-	(footprint "eDiodes:D_SOD-128"
+	(footprint "eDiodes:PMEG6045ETPX"
 		(layer "F.Cu")
 		(uuid "ee56e580-bdb5-4d47-8c9c-15c438a180fb")
 		(at 123.75 50.69)
@@ -27842,7 +27842,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG6045ETP"
+		(property "Value" "PMEG6045ETPX"
 			(at 0 2.25 0)
 			(layer "F.Fab")
 			(uuid "4d4a8ab3-19a4-4275-86f0-f1f4d3b5d0f3")
@@ -27853,7 +27853,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eDiodes/datasheet/PMEG6045ETPX.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27864,7 +27864,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky barrier rectifier, 60 V, 4.5 A, SOD-128"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28085,8 +28085,8 @@
 			(net "GND")
 			(uuid "0d97f677-9428-45bf-8c4e-a2f818cce813")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/D_SOD-128.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/PMEG6045ETPX.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28149,7 +28149,7 @@
 			)
 		)
 		(path "/db0794fa-d8eb-5839-8d86-80de7a0cf95b/45c6bd0d-c55a-5dbf-9032-33c4e0726aca")
-		(attr smd exclude_from_bom)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -28921,7 +28921,7 @@
 			)
 		)
 		(path "/6bccf726-44a3-5d86-819e-e11197d89104/b0d3726b-615d-55eb-9732-1a127d16e1c7")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -2.75)

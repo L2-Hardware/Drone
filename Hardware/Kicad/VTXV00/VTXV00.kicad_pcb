@@ -1954,7 +1954,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:SOT-23"
+	(footprint "eTransistor:MMBT3904LT1G"
 		(layer "F.Cu")
 		(uuid "229b031f-b6c8-4324-bd41-33d47846cf40")
 		(at 93.945 60.86)
@@ -1971,7 +1971,7 @@
 				)
 			)
 		)
-		(property "Value" "MMBT3904"
+		(property "Value" "MMBT3904LT1G"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "dca92503-d2eb-4378-b423-1c31ac0ae26f")
@@ -1982,7 +1982,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/MMBT3904LT1G.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1993,7 +1993,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NPN transistor, 40 V, 200 mA, SOT-23"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2184,8 +2184,8 @@
 			(net "+3V3_RF")
 			(uuid "813f7949-407d-4361-8411-d015d802c30d")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/SOT-23.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/MMBT3904LT1G.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2634,7 +2634,7 @@
 			)
 		)
 		(path "/281375f4-05fd-56e3-a373-0a44fd07a976/a2442446-3959-5fe3-80e7-278f5cf115b9")
-		(attr smd exclude_from_bom)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -3887,7 +3887,7 @@
 			)
 		)
 		(path "/281375f4-05fd-56e3-a373-0a44fd07a976/434e1cc3-406b-57aa-bc37-e0b4f04fc54c")
-		(attr smd exclude_from_bom)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -4029,7 +4029,7 @@
 			)
 		)
 	)
-	(footprint "eRFModule:QFN-40-1EP_6x6mm_P0.5mm_EP4.6x4.6mm"
+	(footprint "eRFModule:RTC6705"
 		(layer "F.Cu")
 		(uuid "3f40d444-ea00-4ae2-9d72-b9bd8b7098dd")
 		(at 103.645 73.21)
@@ -4057,7 +4057,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eRFModule/datasheet/RTC6705.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4068,7 +4068,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.8 GHz FM video transmitter with PLL, QFN-40"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4716,8 +4716,8 @@
 			(zone_connect 2)
 			(uuid "ff561722-f38f-4e5b-853e-2b2cd73a6eaf")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eRFModule/eRFModule.3dshapes/QFN-40-1EP_6x6mm_P0.5mm_EP4.6x4.6mm.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eRFModule/eRFModule.3dshapes/RTC6705.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5809,7 +5809,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "eChoke:L_0603_1608Metric"
+	(footprint "eFerrite:BLM18KG121TN1D"
 		(layer "F.Cu")
 		(uuid "4932a96b-2048-4843-8f95-a1f3826dccf0")
 		(at 111.675 47.755)
@@ -5826,7 +5826,7 @@
 				)
 			)
 		)
-		(property "Value" "120R 3A"
+		(property "Value" "BLM18KG121TN1D"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "fa90e07d-7095-4511-b619-ee01537793bb")
@@ -5837,7 +5837,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eFerrite/datasheet/BLM18KG121TN1D.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5848,7 +5848,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite bead, 120 Ohm @ 100 MHz, 3 A, 0603"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5989,8 +5989,8 @@
 			(net "+5V_PA")
 			(uuid "4de23265-8c41-48b4-8475-7d379852b8aa")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eChoke/eChoke.3dshapes/L_0603_1608Metric.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eFerrite/eFerrite.3dshapes/BLM18KG121TN1D.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6002,7 +6002,7 @@
 			)
 		)
 	)
-	(footprint "eCrystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+	(footprint "eCrystal:X322508MLB4SI"
 		(layer "F.Cu")
 		(uuid "4967a29c-f43b-4658-ba7f-b67a7da0e321")
 		(at 139.094999 71.31)
@@ -6019,7 +6019,7 @@
 				)
 			)
 		)
-		(property "Value" "8MHz 12pF"
+		(property "Value" "X322508MLB4SI"
 			(at 0 2.45 0)
 			(layer "F.Fab")
 			(uuid "5fe1a8cd-bdb5-4cb9-b665-73bd38ae8afc")
@@ -6030,7 +6030,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eCrystal/datasheet/X322508MLB4SI.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6041,7 +6041,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Crystal, 8 MHz, 12 pF, SMD3225-4P"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6204,8 +6204,8 @@
 			(net "GND")
 			(uuid "15dfb90d-c4bd-43be-903a-05ed8d087575")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eCrystal/eCrystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eCrystal/eCrystal.3dshapes/X322508MLB4SI.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6410,7 +6410,7 @@
 			)
 		)
 	)
-	(footprint "eConnector:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+	(footprint "eConnector:U.FL-R-SMT-1"
 		(layer "F.Cu")
 		(uuid "53cf84ff-8ac5-4880-990b-765dbb118bf8")
 		(at 129.074999 82.87)
@@ -6427,7 +6427,7 @@
 				)
 			)
 		)
-		(property "Value" "U.FL"
+		(property "Value" "U.FL-R-SMT-1"
 			(at 0.475 3.2 0)
 			(layer "F.Fab")
 			(uuid "e0b26458-9727-4ca4-a61d-5b822c5325d9")
@@ -6438,7 +6438,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/U.FL-R-SMT-1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6449,7 +6449,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "U.FL coaxial receptacle, 50 Ohm, 6 GHz, SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6909,8 +6909,8 @@
 				)
 			)
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/U.FL_Hirose_U.FL-R-SMT-1_Vertical.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/U.FL-R-SMT-1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6973,7 +6973,7 @@
 			)
 		)
 		(path "/281375f4-05fd-56e3-a373-0a44fd07a976/82c1cc64-41e2-5da4-ad68-adf17d2c71bf")
-		(attr smd exclude_from_bom)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -7308,7 +7308,7 @@
 			)
 		)
 	)
-	(footprint "eLinearReg:SOT-23-5"
+	(footprint "eLinearReg:AP2112K-3.3TRG1"
 		(layer "F.Cu")
 		(uuid "58476622-7485-4d4c-adb9-f027c5a7e702")
 		(at 120.705 48.9)
@@ -7336,7 +7336,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eLinearReg/datasheet/AP2112K-3.3TRG1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7347,7 +7347,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LDO regulator, 3.3 V, 600 mA, with enable, SOT-23-5"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7554,8 +7554,8 @@
 			(net "+3V3")
 			(uuid "67bc57f7-f1a5-4831-9137-13c7680e22de")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eLinearReg/eLinearReg.3dshapes/SOT-23-5.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eLinearReg/eLinearReg.3dshapes/AP2112K-3.3TRG1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8678,7 +8678,7 @@
 			)
 		)
 		(path "/281375f4-05fd-56e3-a373-0a44fd07a976/a0500b65-e2bd-5102-a425-c884890bfc34")
-		(attr smd exclude_from_bom)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -9399,7 +9399,7 @@
 			)
 		)
 	)
-	(footprint "eSwitch:SW_SPST_B3U-1000P"
+	(footprint "eSwitch:B3U-1000P"
 		(layer "F.Cu")
 		(uuid "7082b12c-10c9-4148-b215-81e7ba888d78")
 		(at 124.034999 56.285)
@@ -9416,7 +9416,7 @@
 				)
 			)
 		)
-		(property "Value" "BAND/CH"
+		(property "Value" "B3U-1000P"
 			(at 0 2.5 0)
 			(layer "F.Fab")
 			(uuid "dcedd4a0-869e-48d4-b1fa-cb63fa217d64")
@@ -9427,7 +9427,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eSwitch/datasheet/B3U-1000P.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9438,7 +9438,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tactile switch, SPST-NO, 3.0x2.5 mm, SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9628,8 +9628,8 @@
 			(net "GND")
 			(uuid "0089df29-97df-4583-9928-11a3a7df002f")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eSwitch/eSwitch.3dshapes/SW_SPST_B3U-1000P.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eSwitch/eSwitch.3dshapes/B3U-1000P.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11216,7 +11216,7 @@
 			)
 		)
 		(path "/281375f4-05fd-56e3-a373-0a44fd07a976/761434a4-c19e-5388-a4b2-ccf8dc88b88b")
-		(attr smd exclude_from_bom)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.93 -0.47)
@@ -12930,7 +12930,7 @@
 			)
 		)
 		(path "/281375f4-05fd-56e3-a373-0a44fd07a976/298f6916-926f-5b38-a47b-2f6a1b675956")
-		(attr smd exclude_from_bom)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -13072,7 +13072,7 @@
 			)
 		)
 	)
-	(footprint "eAmplifier:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
+	(footprint "eAmplifier:RFPA5542TR13"
 		(layer "F.Cu")
 		(uuid "afdc2d64-f5aa-42b3-84eb-a47ccd05fa04")
 		(at 94.625 82.97)
@@ -13089,7 +13089,7 @@
 				)
 			)
 		)
-		(property "Value" "RFPA5542"
+		(property "Value" "RFPA5542TR13"
 			(at 0 3.3 0)
 			(layer "F.Fab")
 			(uuid "92529216-9c10-4a0b-922d-eb8dac2c8801")
@@ -13100,7 +13100,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eAmplifier/datasheet/RFPA5542TR13.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13111,7 +13111,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5 GHz WLAN power amplifier, 4.9 to 5.9 GHz, QFN-20"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13515,8 +13515,8 @@
 			(zone_connect 2)
 			(uuid "ec752a85-5dad-4a59-9e1a-9f7bc7195947")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eAmplifier/eAmplifier.3dshapes/QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eAmplifier/eAmplifier.3dshapes/RFPA5542TR13.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14415,7 +14415,7 @@
 			)
 		)
 	)
-	(footprint "eMCU:QFN-28_4x4mm_P0.5mm"
+	(footprint "eMCU:STM32F031G6U6"
 		(layer "F.Cu")
 		(uuid "bfab51ea-648e-4cfd-a66f-8e4ae33c718e")
 		(at 133.315 49.655)
@@ -14443,7 +14443,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMCU/datasheet/STM32F031G6U6.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14454,7 +14454,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ARM Cortex-M0 MCU, 32 KB flash, 4 KB RAM, 48 MHz, UFQFPN-28"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14961,8 +14961,8 @@
 			)
 			(uuid "6d8da232-2f4c-499d-8f41-48b07acaa11b")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/QFN-28_4x4mm_P0.5mm.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/STM32F031G6U6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15360,7 +15360,7 @@
 			)
 		)
 	)
-	(footprint "eConnector:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
+	(footprint "eConnector:SM06B-SRSS-TB"
 		(layer "F.Cu")
 		(uuid "c7e24388-ca4c-4961-a5d7-498006cd4609")
 		(at 96.925 50.305)
@@ -15377,7 +15377,7 @@
 				)
 			)
 		)
-		(property "Value" "FC"
+		(property "Value" "SM06B-SRSS-TB"
 			(at 0 3.98 0)
 			(layer "F.Fab")
 			(uuid "d73e87e8-3ff5-44c8-9ba0-d374de48c982")
@@ -15388,7 +15388,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/SM06B-SRSS-TB.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15399,7 +15399,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "JST SH connector header, 6 pin, 1.0 mm pitch, side entry, SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15648,8 +15648,8 @@
 			(net "unconnected-(J1-MountPin-PadMP)")
 			(uuid "84d0843d-b2b2-4b10-b25e-a880953cde15")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/SM06B-SRSS-TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17012,7 +17012,7 @@
 			)
 		)
 	)
-	(footprint "eChoke:L_0603_1608Metric"
+	(footprint "eFerrite:BLM18PG121SN1D"
 		(layer "F.Cu")
 		(uuid "ed1e3d03-12b5-49e3-b433-59fc2877d1e7")
 		(at 93.505 70.34)
@@ -17029,7 +17029,7 @@
 				)
 			)
 		)
-		(property "Value" "120R@100MHz"
+		(property "Value" "BLM18PG121SN1D"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f53f34b7-a9a4-4a4f-935d-f4f8027cff36")
@@ -17040,7 +17040,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eFerrite/datasheet/BLM18PG121SN1D.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17051,7 +17051,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite bead, 120 Ohm @ 100 MHz, 2 A, 0603"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17192,8 +17192,8 @@
 			(net "+3V3_RF")
 			(uuid "cba8460a-c439-474d-a3c2-83b84889ee1c")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eChoke/eChoke.3dshapes/L_0603_1608Metric.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eFerrite/eFerrite.3dshapes/BLM18PG121SN1D.step"
 			(offset
 				(xyz 0 0 0)
 			)

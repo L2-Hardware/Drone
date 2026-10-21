@@ -11,36 +11,28 @@ git push
 If you don't want a local copy of the libraries for each project but you are ok with having a single local copy of it in a different folder and want to link to it from the board project folder, just run the "bring_libs.bat".
 This will create a junction link.
 
-### New parts for the drone: `KiCad_Libs_Drone/`
+### Part convention (same as B0_EE)
 
-All the parts used by the four boards are in `KiCad_Libs_Drone/`, using the same layout as `KiCad_Libs`:
+All the parts used by the four boards are in the shared [Kicad_Libs](https://github.com/L2-Hardware/Kicad_Libs)
+(`${KIPRJMOD}/../KiCad_Libs/<eLib>`). Every real part is named after its manufacturer part number, and the
+symbol, footprint, 3D model and datasheet all carry that name:
 
 ```
-KiCad_Libs_Drone/<eLib>/
-    datasheet/            README.md with datasheet links (+ PDFs where available)
-    <eLib>.3dshapes/      STEP models
-    <eLib>.pretty/        footprints
-    <eLib>.kicad_sym      symbols
-    .gitignore
+<eLib>.kicad_sym             symbol      <eLib>:STM32F405RGT6
+<eLib>.pretty/               footprint   STM32F405RGT6.kicad_mod
+<eLib>.3dshapes/             3D model    STM32F405RGT6.step
+datasheet/                   datasheet   STM32F405RGT6.pdf  (README.md: manufacturer and full ordering code)
 ```
 
-The projects use the usual nicknames (`eMCU:STM32F405RGT6`, `eSensor:ICM-42688-P`, ...) and the existing
-`sym-lib-table` / `fp-lib-table` (`${KIPRJMOD}/../KiCad_Libs/<eLib>`). To install the parts into your library:
-
-1. `bring_libs.bat` (creates the `KiCad_Libs` junction, as before)
-2. `merge_libs.bat` (or `python tools/merge_libs.py [path\to\KiCad_Libs]`)
-   - appends the new symbols to each `<eLib>.kicad_sym` (a `.bak` is kept; symbols with an existing name are skipped)
-   - copies footprints, STEP models and datasheets
-3. Open each touched library once in the Symbol Editor and save (upgrades it to your KiCad version), then commit
-   in the `Kicad_Library` repo.
-
-The schematics and PCBs embed their symbols and footprints, so they open correctly before the merge.
-3D models (`${KIPRJMOD}/../KiCad_Libs/<eLib>/<eLib>.3dshapes/...`) appear once the merge is done.
+Symbols carry the five standard fields only: Reference, Value (= part name), Footprint, Datasheet
+(`${KIPRJMOD}/../KiCad_Libs/<eLib>/datasheet/<part>.pdf`) and Description. Plain passives without a part number
+(R, C, LED, L) keep the generic symbol with the value and a package footprint. Test points, mounting holes and
+solder jumpers are copper only: no 3D model and not in the BOM.
 
 Where the parts come from:
-* **Footprints** and **3D models**: official KiCad libraries (footprints 7.x, STEP from `kicad-packages3D`).
+* **Footprints**: official KiCad libraries, renamed after the part. **3D models**: STEP from KiCad 10.
 * **Symbols**: generated in a single style. Pin tables come from the official KiCad symbol of the same part where
-  KiCad has one. Otherwise they come from the vendor datasheet; those parts carry a `Verify` field (see below).
+  KiCad has one. Otherwise they come from the vendor datasheet (see "Verify before ordering boards").
 
 ## Boards
 
@@ -70,35 +62,44 @@ Bought parts that are not designed here: motors, battery, camera, propellers, an
 * `<NAME>.kicad_pcb` - board outline, mounting holes, layer count, GND plane on In1, every footprint loaded with
   its nets and linked to its symbol (footprints are parked next to the outline, grouped by sheet)
 * `<NAME>.kicad_pro` - net classes (power / gate / RF 50 ohm / USB ...) and JLCPCB-compatible minimum rules
-* `<NAME>_BOM.csv` - grouped BOM with manufacturer part numbers for the active parts
+* `<NAME>_BOM.csv` - grouped BOM exported from the schematic with `kicad-cli` (Value = part number for real parts)
 * `RXV00/RXV00_hardware.json` - ExpressLRS hardware layout for the receiver
 
 ## Validation done
 * Every schematic was exported with `kicad-cli`. KiCad's connectivity matches the intended netlist exactly (no
   merged or split nets).
 * Every symbol pin maps to a footprint pad. Every footprint pad that needs a net has one.
-* All symbol libraries load in KiCad.
-* Files are written in the KiCad 7 format. KiCad 8/9 open them and upgrade them on save. Run ERC in KiCad once
-  after opening: the KiCad 7 command line has no ERC.
+* KiCad 10 `kicad-cli`: no symbol/footprint library mismatch in ERC or DRC, and schematic/PCB parity is clean
+  (fields, footprints, BOM/DNP attributes).
 
 ## Verify before ordering boards
-Parts whose pin table was typed from a datasheet carry a `Verify` field. Check them against the latest datasheet:
+Parts whose pin table was typed from a datasheet. Check them against the latest datasheet:
 
 | Part | What to check |
 |---|---|
 | AT7456E | Uses the MAX7456 pinout. Check the HTSSOP exposed-pad size. |
-| SX1281 | Pin table from Semtech DS rev 3.x. RF matching values are starting points (tune with a VNA). |
-| RTC6705 | Pin table from `datasheet/RTC6705-RichWave.pdf`. The exposed-pad size is not given (QFN-40 6x6, EP 4.6 assumed). Loop filter, output match and the BUFVDD power-control path are starting points. |
+| SX1281IMLTRT | Pin table from Semtech DS rev 3.x. RF matching values are starting points (tune with a VNA). |
+| RTC6705 | Pin table from `eRFModule/datasheet/RTC6705.pdf`. The exposed-pad size is not given (QFN-40 6x6, EP 4.6 assumed). Loop filter, output match and the BUFVDD power-control path are starting points. |
 | DRV8300DRGER | Pin table from the TI datasheet. Check the RGE exposed-pad size. |
 | ICM-42688-P | Pin table from the KiCad IIM-42652 symbol (same LGA-14 package). Check the RESV pins. |
-| BSZ018N04LS6 | NexFET SON3.3 land pattern reused. Compare with Infineon's PG-TSDSON-8 FL footprint. |
-| TPS54360B | The compensation network is a starting point. Run TI WEBENCH for the final values. |
+| BSZ018N04LS6ATMA1 | NexFET SON3.3 land pattern reused. Compare with Infineon's PG-TSDSON-8 FL footprint. |
+| TPS54360BDDAR | The compensation network is a starting point. Run TI WEBENCH for the final values. |
+| X201652MOB4SI | SX1280 reference crystal: 52 MHz, +/-10 ppm. |
+
+Part numbers that could not be found in the manufacturer catalogue: confirm or replace them before ordering.
+
+| Part | Note |
+|---|---|
+| X322508MLB4SI, X201640MLB4SI, X201652MOB4SI | Not listed by YXC/LCSC. The stored datasheet is the YXC SMD3225 / SMD2016 series sheet. |
+| LQM21PN150MC0 | Not in the Murata LQM21PN range (which stops below 15 uH). No datasheet stored. |
+| WSLP2512R0010FEA | 1 mOhm WSLP2512: check availability; the stored datasheet is the Vishay WSLP series sheet. |
+| SWPA3012S100MT, PMEG3020EH | Datasheet not stored (the vendor site blocks downloads): the Datasheet field links to it. |
 
 Passive, crystal and LED part numbers are suggestions: confirm them (stock, load capacitance, voltage rating) at
 your distributor or assembler.
 
 ## Next steps
-1. Merge the libraries (above), open each project, run ERC.
+1. Open each project, run ERC.
 2. PCB: place the parts (connectors on the edges, IMU away from the bucks, short power loops), then route.
    Use 50 ohm coplanar lines on RXV00/VTXV00 and a full GND plane under the RF parts. On ESCV00, use wide
    polygons for VBAT/phases and thermal vias. Run DRC.
@@ -119,4 +120,4 @@ your distributor or assembler.
 `tools/gen/` holds the scripts that produced the libraries, schematics, BOMs and PCB set-up:
 `build.py` (libraries + schematics + BOM), `check.py` (connectivity check) and `pcbgen.py` (PCB set-up).
 **Re-running them overwrites the project files.** They are a starting point: once you start editing in KiCad,
-KiCad is the master.
+KiCad is the master. They still produce the old generic part names, so do not re-run them on these boards.

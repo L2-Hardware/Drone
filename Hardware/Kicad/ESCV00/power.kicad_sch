@@ -45,7 +45,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "eAmplifier:SOT-23-6"
+			(property "Footprint" "eAmplifier:INA181A3IDBVR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -56,7 +56,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina181.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eAmplifier/datasheet/INA181A3IDBVR.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -67,7 +67,7 @@
 					)
 				)
 			)
-			(property "Description" "Current sense amplifier, gain 100V/V, SOT-23-6"
+			(property "Description" "Bidirectional current sense amplifier, gain 100 V/V, SOT-23-6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -77,29 +77,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "Texas Instruments"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "INA181A3IDBVR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
+			)
 			(symbol "INA181A3IDBVR_0_1"
 				(rectangle
 					(start -5.08 7.62)
@@ -357,7 +335,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "eCoil:L"
+		(symbol "eCoil:SWPA3012S100MT"
 			(pin_numbers
 				(hide yes)
 			)
@@ -380,7 +358,7 @@
 					)
 				)
 			)
-			(property "Value" "L"
+			(property "Value" "SWPA3012S100MT"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -390,7 +368,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "eCoil:SWPA3012S100MT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -401,7 +379,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2310251550_Sunlord-SWPA3012S100MT_C48668.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -412,7 +390,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Power inductor, 10 uH, 20%, 0.83 A, 3.0x3.0x1.2 mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -423,10 +401,10 @@
 					)
 				)
 			)
-			(symbol "L_0_1"
+			(symbol "SWPA3012S100MT_0_1"
 				(arc
 					(start -2.54 0)
-					(mid -1.905 0.6323)
+					(mid -1.905 0.635)
 					(end -1.27 0)
 					(stroke
 						(width 0.2032)
@@ -438,7 +416,7 @@
 				)
 				(arc
 					(start -1.27 0)
-					(mid -0.635 0.6323)
+					(mid -0.635 0.635)
 					(end 0 0)
 					(stroke
 						(width 0.2032)
@@ -450,7 +428,7 @@
 				)
 				(arc
 					(start 0 0)
-					(mid 0.635 0.6323)
+					(mid 0.635 0.635)
 					(end 1.27 0)
 					(stroke
 						(width 0.2032)
@@ -462,7 +440,7 @@
 				)
 				(arc
 					(start 1.27 0)
-					(mid 1.905 0.6323)
+					(mid 1.905 0.635)
 					(end 2.54 0)
 					(stroke
 						(width 0.2032)
@@ -473,7 +451,7 @@
 					)
 				)
 			)
-			(symbol "L_1_1"
+			(symbol "SWPA3012S100MT_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -513,7 +491,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "eConnector:JST_SH_SM08B-SRSS-TB"
+		(symbol "eConnector:SM08B-SRSS-TB"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -534,7 +512,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "JST_SH_SM08B-SRSS-TB"
+			(property "Value" "SM08B-SRSS-TB"
 				(at 1.27 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -545,7 +523,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "eConnector:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
+			(property "Footprint" "eConnector:SM08B-SRSS-TB"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -556,7 +534,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/SM08B-SRSS-TB.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -567,7 +545,7 @@
 					)
 				)
 			)
-			(property "Description" "JST-SH 1.0mm 8-pin side-entry SMD header"
+			(property "Description" "JST SH connector header, 8 pin, 1.0 mm pitch, side entry, SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -577,30 +555,8 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "JST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "SM08B-SRSS-TB(LF)(SN)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "JST_SH_SM08B-SRSS-TB_0_1"
+			)
+			(symbol "SM08B-SRSS-TB_0_1"
 				(rectangle
 					(start -1.27 8.89)
 					(end 1.27 -11.43)
@@ -701,7 +657,7 @@
 					)
 				)
 			)
-			(symbol "JST_SH_SM08B-SRSS-TB_1_1"
+			(symbol "SM08B-SRSS-TB_1_1"
 				(pin passive line
 					(at -5.08 7.62 0)
 					(length 3.81)
@@ -898,7 +854,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "eConverterDCDC:SOT-23-6"
+			(property "Footprint" "eConverterDCDC:LMR16006YDDCR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -909,7 +865,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr16006.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/datasheet/LMR16006YDDCR.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -920,7 +876,7 @@
 					)
 				)
 			)
-			(property "Description" "40V 0.6A 2.1MHz buck converter, SOT-23-6 (ESC gate-driver rail)"
+			(property "Description" "Step-down converter, 4 V to 60 V input, 0.6 A, SOT-23-6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -930,29 +886,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "Texas Instruments"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "LMR16006YDDCR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
+			)
 			(symbol "LMR16006YDDCR_0_1"
 				(rectangle
 					(start -7.62 5.08)
@@ -1078,7 +1012,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "eDiodes:D_Schottky"
+		(symbol "eDiodes:PMEG6010CEH"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1101,7 +1035,7 @@
 					)
 				)
 			)
-			(property "Value" "D_Schottky"
+			(property "Value" "PMEG6010CEH"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1111,7 +1045,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "eDiodes:PMEG6010CEH"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1122,7 +1056,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eDiodes/datasheet/PMEG6010CEH.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1133,7 +1067,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Schottky barrier rectifier, 60 V, 1 A, SOD-123F"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1144,7 +1078,7 @@
 					)
 				)
 			)
-			(symbol "D_Schottky_0_1"
+			(symbol "PMEG6010CEH_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
@@ -1170,7 +1104,7 @@
 					)
 				)
 			)
-			(symbol "D_Schottky_1_1"
+			(symbol "PMEG6010CEH_1_1"
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
@@ -1421,7 +1355,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "eLinearReg:SOT-89-3"
+			(property "Footprint" "eLinearReg:MCP1703AT-3302E_MB"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1432,7 +1366,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eLinearReg/datasheet/MCP1703AT-3302E_MB.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1443,7 +1377,7 @@
 					)
 				)
 			)
-			(property "Description" "3.3V 250mA LDO, Vin up to 16V, SOT-89"
+			(property "Description" "LDO regulator, 3.3 V, 250 mA, 16 V input, SOT-89-3"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1453,29 +1387,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "Microchip"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "MCP1703AT-3302E/MB"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
+			)
 			(symbol "MCP1703AT-3302E_MB_0_1"
 				(rectangle
 					(start -7.62 2.54)
@@ -1692,6 +1604,17 @@
 					)
 				)
 			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "+10V_0_1"
 				(polyline
 					(pts
@@ -1817,6 +1740,17 @@
 					)
 				)
 			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "+3V3_0_1"
 				(polyline
 					(pts
@@ -1931,7 +1865,18 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\""
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2223,7 +2168,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "eTestPoint:TestPoint"
+		(symbol "eResistor:WSLP2512R0010FEA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2233,6 +2178,125 @@
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WSLP2512R0010FEA"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "eResistor:WSLP2512R0010FEA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eResistor/datasheet/WSLP2512R0010FEA.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Current sense resistor, 1 mOhm, 1%, 3 W, 2512"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WSLP2512R0010FEA_0_1"
+				(rectangle
+					(start -2.54 0.889)
+					(end 2.54 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "WSLP2512R0010FEA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "eTestPoint:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
@@ -4168,7 +4232,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 59.69 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4244,7 +4308,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
 			(at 204.47 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4297,7 +4361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eConverterDCDC:SOT-23-6"
+		(property "Footprint" "eConverterDCDC:LMR16006YDDCR"
 			(at 33.02 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4308,7 +4372,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr16006.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/datasheet/LMR16006YDDCR.pdf"
 			(at 33.02 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4319,7 +4383,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Step-down converter, 4 V to 60 V input, 0.6 A, SOT-23-6"
 			(at 33.02 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4328,29 +4392,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 33.02 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "LMR16006YDDCR"
-			(at 33.02 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "75e2c01f-9ebc-54a0-a8b4-0fc539349674")
 		)
@@ -4384,7 +4426,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4532,7 +4574,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eResistor:R")
+		(lib_id "eResistor:WSLP2512R0010FEA")
 		(at 58.42 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -4552,7 +4594,7 @@
 				)
 			)
 		)
-		(property "Value" "1mR 3W"
+		(property "Value" "WSLP2512R0010FEA"
 			(at 58.42 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4562,7 +4604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eResistor:R_2512_6332Metric"
+		(property "Footprint" "eResistor:WSLP2512R0010FEA"
 			(at 58.42 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4573,7 +4615,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eResistor/datasheet/WSLP2512R0010FEA.pdf"
 			(at 58.42 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4584,7 +4626,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Current sense resistor, 1 mOhm, 1%, 3 W, 2512"
 			(at 58.42 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4593,29 +4635,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "WSLP2512R0010FEA"
-			(at 58.42 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 58.42 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "9974a996-bc74-575d-8645-bd84f0b559cc")
 		)
@@ -4637,7 +4657,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4712,7 +4732,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4787,7 +4807,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4988,7 +5008,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 259.08 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5011,7 +5031,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eDiodes:D_Schottky")
+		(lib_id "eDiodes:PMEG6010CEH")
 		(at 93.98 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -5041,7 +5061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eDiodes:D_SOD-123F"
+		(property "Footprint" "eDiodes:PMEG6010CEH"
 			(at 93.98 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5052,7 +5072,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eDiodes/datasheet/PMEG6010CEH.pdf"
 			(at 93.98 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5063,7 +5083,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky barrier rectifier, 60 V, 1 A, SOD-123F"
 			(at 93.98 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5072,18 +5092,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "PMEG6010CEH,115"
-			(at 93.98 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "9066fe18-69b6-5542-8e07-2cea0062b681")
 		)
@@ -5231,7 +5240,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 52.07 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5307,7 +5316,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
 			(at 102.87 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5539,7 +5548,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
 			(at 146.05 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5615,7 +5624,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 80.01 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5691,7 +5700,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBAT\""
 			(at 19.05 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5822,7 +5831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eLinearReg:SOT-89-3"
+		(property "Footprint" "eLinearReg:MCP1703AT-3302E_MB"
 			(at 180.34 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5833,7 +5842,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eLinearReg/datasheet/MCP1703AT-3302E_MB.pdf"
 			(at 180.34 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5844,7 +5853,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LDO regulator, 3.3 V, 250 mA, 16 V input, SOT-89-3"
 			(at 180.34 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5853,29 +5862,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "Microchip"
-			(at 180.34 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MCP1703AT-3302E/MB"
-			(at 180.34 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "1abf8ab6-5ebe-5b46-85c9-8b2fb190ad0f")
 		)
@@ -5978,7 +5965,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6101,7 +6088,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 252.73 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6129,7 +6116,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6204,7 +6191,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6327,7 +6314,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 217.17 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6403,7 +6390,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
 			(at 118.11 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6431,7 +6418,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6554,7 +6541,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 204.47 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6582,7 +6569,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6657,7 +6644,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6732,7 +6719,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6807,7 +6794,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7005,7 +6992,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 204.47 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7028,7 +7015,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eResistor:R")
+		(lib_id "eResistor:WSLP2512R0010FEA")
 		(at 33.02 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -7048,7 +7035,7 @@
 				)
 			)
 		)
-		(property "Value" "1mR 3W"
+		(property "Value" "WSLP2512R0010FEA"
 			(at 33.02 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7058,7 +7045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eResistor:R_2512_6332Metric"
+		(property "Footprint" "eResistor:WSLP2512R0010FEA"
 			(at 33.02 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7069,7 +7056,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eResistor/datasheet/WSLP2512R0010FEA.pdf"
 			(at 33.02 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7080,7 +7067,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Current sense resistor, 1 mOhm, 1%, 3 W, 2512"
 			(at 33.02 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7089,29 +7076,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "WSLP2512R0010FEA"
-			(at 33.02 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 33.02 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "892830a7-c21d-5c94-906b-5cc466304d56")
 		)
@@ -7259,7 +7224,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 217.17 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7335,7 +7300,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 163.83 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7567,7 +7532,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 87.63 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7643,7 +7608,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 20.32 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7719,7 +7684,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 232.41 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7795,7 +7760,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 256.54 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7949,7 +7914,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 158.75 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8025,7 +7990,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBAT\""
 			(at 194.31 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8048,7 +8013,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eConnector:JST_SH_SM08B-SRSS-TB")
+		(lib_id "eConnector:SM08B-SRSS-TB")
 		(at 33.02 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -8068,7 +8033,7 @@
 				)
 			)
 		)
-		(property "Value" "FC"
+		(property "Value" "SM08B-SRSS-TB"
 			(at 34.29 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8078,7 +8043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eConnector:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "eConnector:SM08B-SRSS-TB"
 			(at 33.02 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8089,7 +8054,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/SM08B-SRSS-TB.pdf"
 			(at 33.02 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8100,7 +8065,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "JST SH connector header, 8 pin, 1.0 mm pitch, side entry, SMD"
 			(at 33.02 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8109,29 +8074,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "JST"
-			(at 33.02 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SM08B-SRSS-TB(LF)(SN)"
-			(at 33.02 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "e3f1a052-576c-5e90-b2b0-7bf2b91357a0")
 		)
@@ -8169,7 +8112,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eResistor:R")
+		(lib_id "eResistor:WSLP2512R0010FEA")
 		(at 33.02 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -8189,7 +8132,7 @@
 				)
 			)
 		)
-		(property "Value" "1mR 3W"
+		(property "Value" "WSLP2512R0010FEA"
 			(at 33.02 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8199,7 +8142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eResistor:R_2512_6332Metric"
+		(property "Footprint" "eResistor:WSLP2512R0010FEA"
 			(at 33.02 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8210,7 +8153,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eResistor/datasheet/WSLP2512R0010FEA.pdf"
 			(at 33.02 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8221,7 +8164,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Current sense resistor, 1 mOhm, 1%, 3 W, 2512"
 			(at 33.02 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8230,29 +8173,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "WSLP2512R0010FEA"
-			(at 33.02 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 33.02 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "2a53d6ac-f484-585d-bb7a-627895bd6b26")
 		)
@@ -8400,7 +8321,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
 			(at 146.05 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8476,7 +8397,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBAT\""
 			(at 62.23 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8552,7 +8473,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
 			(at 167.64 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8580,7 +8501,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8703,7 +8624,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBAT\""
 			(at 20.32 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8779,7 +8700,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 26.67 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8807,7 +8728,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8985,7 +8906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eAmplifier:SOT-23-6"
+		(property "Footprint" "eAmplifier:INA181A3IDBVR"
 			(at 124.46 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8996,7 +8917,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina181.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eAmplifier/datasheet/INA181A3IDBVR.pdf"
 			(at 124.46 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9007,7 +8928,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bidirectional current sense amplifier, gain 100 V/V, SOT-23-6"
 			(at 124.46 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9016,29 +8937,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 124.46 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "INA181A3IDBVR"
-			(at 124.46 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "2f04b7ee-896a-5eb1-85d2-edf1cdade0e9")
 		)
@@ -9198,7 +9097,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 167.64 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9274,7 +9173,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBAT\""
 			(at 15.24 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9350,7 +9249,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 26.67 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9378,7 +9277,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9450,7 +9349,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9573,7 +9472,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 25.4 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9679,7 +9578,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9799,7 +9698,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 74.93 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9875,7 +9774,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 252.73 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9903,7 +9802,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10023,7 +9922,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBAT\""
 			(at 25.4 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10099,7 +9998,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 114.3 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10253,7 +10152,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 52.07 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10276,7 +10175,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eResistor:R")
+		(lib_id "eResistor:WSLP2512R0010FEA")
 		(at 58.42 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -10296,7 +10195,7 @@
 				)
 			)
 		)
-		(property "Value" "1mR 3W"
+		(property "Value" "WSLP2512R0010FEA"
 			(at 58.42 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10306,7 +10205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eResistor:R_2512_6332Metric"
+		(property "Footprint" "eResistor:WSLP2512R0010FEA"
 			(at 58.42 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10317,7 +10216,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eResistor/datasheet/WSLP2512R0010FEA.pdf"
 			(at 58.42 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10328,7 +10227,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Current sense resistor, 1 mOhm, 1%, 3 W, 2512"
 			(at 58.42 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10337,29 +10236,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "WSLP2512R0010FEA"
-			(at 58.42 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 58.42 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "c6f14eb4-e9f2-5530-b887-fedf512dd666")
 		)
@@ -10381,7 +10258,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10582,7 +10459,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 74.93 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10658,7 +10535,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 151.13 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10764,7 +10641,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10887,7 +10764,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 247.65 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11119,7 +10996,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 193.04 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11147,7 +11024,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11270,7 +11147,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 158.75 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11346,7 +11223,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 114.3 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11369,7 +11246,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eCoil:L")
+		(lib_id "eCoil:SWPA3012S100MT")
 		(at 96.52 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -11389,7 +11266,7 @@
 				)
 			)
 		)
-		(property "Value" "10uH SWPA3012S-100MT"
+		(property "Value" "SWPA3012S100MT"
 			(at 96.52 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11399,7 +11276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eCoil:L_Sunlord_SWPA3012S"
+		(property "Footprint" "eCoil:SWPA3012S100MT"
 			(at 96.52 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11410,7 +11287,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2310251550_Sunlord-SWPA3012S100MT_C48668.pdf"
 			(at 96.52 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11421,7 +11298,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power inductor, 10 uH, 20%, 0.83 A, 3.0x3.0x1.2 mm"
 			(at 96.52 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11430,29 +11307,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "SWPA3012S100MT"
-			(at 96.52 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Sunlord"
-			(at 96.52 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "117fa59a-e7c9-5da0-8543-808242affa0a")
 		)
@@ -11600,7 +11455,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 133.35 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11676,7 +11531,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBAT\""
 			(at 62.23 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11752,7 +11607,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
 			(at 266.7 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)

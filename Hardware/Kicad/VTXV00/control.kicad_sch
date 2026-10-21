@@ -146,127 +146,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "eChoke:FB"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FB"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FB"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FB_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.254) (xy -1.016 1.524) (xy 2.032 0.254) (xy 1.016 -1.524) (xy -2.032 -0.254)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FB_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.778)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.778)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "eConnector:JST_SH_SM06B-SRSS-TB"
+		(symbol "eConnector:SM06B-SRSS-TB"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -287,7 +167,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "JST_SH_SM06B-SRSS-TB"
+			(property "Value" "SM06B-SRSS-TB"
 				(at 1.27 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -298,7 +178,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "eConnector:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
+			(property "Footprint" "eConnector:SM06B-SRSS-TB"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -309,7 +189,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/SM06B-SRSS-TB.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -320,7 +200,7 @@
 					)
 				)
 			)
-			(property "Description" "JST-SH 1.0mm 6-pin side-entry SMD header"
+			(property "Description" "JST SH connector header, 6 pin, 1.0 mm pitch, side entry, SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -330,30 +210,8 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "JST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "SM06B-SRSS-TB(LF)(SN)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "JST_SH_SM06B-SRSS-TB_0_1"
+			)
+			(symbol "SM06B-SRSS-TB_0_1"
 				(rectangle
 					(start -1.27 6.35)
 					(end 1.27 -8.89)
@@ -432,7 +290,7 @@
 					)
 				)
 			)
-			(symbol "JST_SH_SM06B-SRSS-TB_1_1"
+			(symbol "SM06B-SRSS-TB_1_1"
 				(pin passive line
 					(at -5.08 5.08 0)
 					(length 3.81)
@@ -552,6 +410,126 @@
 						)
 					)
 					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "eFerrite:BLM18KG121TN1D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BLM18KG121TN1D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "eFerrite:BLM18KG121TN1D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eFerrite/datasheet/BLM18KG121TN1D.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ferrite bead, 120 Ohm @ 100 MHz, 3 A, 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BLM18KG121TN1D_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.254) (xy -1.016 1.524) (xy 2.032 0.254) (xy 1.016 -1.524) (xy -2.032 -0.254)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BLM18KG121TN1D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -773,7 +751,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "eLinearReg:SOT-23-5"
+			(property "Footprint" "eLinearReg:AP2112K-3.3TRG1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -784,7 +762,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eLinearReg/datasheet/AP2112K-3.3TRG1.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -795,7 +773,7 @@
 					)
 				)
 			)
-			(property "Description" "3.3V 600mA LDO, SOT-23-5"
+			(property "Description" "LDO regulator, 3.3 V, 600 mA, with enable, SOT-23-5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -805,40 +783,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "Diodes Inc"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "AP2112K-3.3TRG1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C51118"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
+			)
 			(symbol "AP2112K-3.3TRG1_0_1"
 				(rectangle
 					(start -7.62 5.08)
@@ -977,7 +922,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "eMCU:QFN-28_4x4mm_P0.5mm"
+			(property "Footprint" "eMCU:STM32F031G6U6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -988,7 +933,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f031g6.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMCU/datasheet/STM32F031G6U6.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -999,7 +944,7 @@
 					)
 				)
 			)
-			(property "Description" "ARM Cortex-M0 MCU 48MHz, 32KB Flash, UFQFPN-28 (VTX controller). Pin-compatible alternative: GigaDevice GD32F130G6U6 (used by OpenVTx Generic_GD32F130 target)"
+			(property "Description" "ARM Cortex-M0 MCU, 32 KB flash, 4 KB RAM, 48 MHz, UFQFPN-28"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1009,29 +954,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "STMicroelectronics"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "STM32F031G6U6"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
+			)
 			(symbol "STM32F031G6U6_0_1"
 				(rectangle
 					(start -7.62 27.94)
@@ -1698,6 +1621,17 @@
 					)
 				)
 			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "+3V3_0_1"
 				(polyline
 					(pts
@@ -1948,6 +1882,17 @@
 					)
 				)
 			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "+5V_0_1"
 				(polyline
 					(pts
@@ -2187,7 +2132,18 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\""
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2237,8 +2193,12 @@
 		)
 		(symbol "ePowerSym:PWR_FLAG"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2299,25 +2259,21 @@
 					)
 				)
 			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "PWR_FLAG_1_1"
+			(symbol "PWR_FLAG_0_0"
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
 					(name "pwr"
 						(effects
 							(font
@@ -2331,6 +2287,20 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2455,7 +2425,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "eSwitch:SW_Push"
+		(symbol "eSwitch:B3U-1000P"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2478,7 +2448,7 @@
 					)
 				)
 			)
-			(property "Value" "SW_Push"
+			(property "Value" "B3U-1000P"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2488,7 +2458,7 @@
 					)
 				)
 			)
-			(property "Footprint" "eSwitch:SW_SPST_B3U-1000P"
+			(property "Footprint" "eSwitch:B3U-1000P"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2499,7 +2469,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eSwitch/datasheet/B3U-1000P.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2510,7 +2480,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Tactile switch, SPST-NO, 3.0x2.5 mm, SMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2521,7 +2491,7 @@
 					)
 				)
 			)
-			(symbol "SW_Push_0_1"
+			(symbol "B3U-1000P_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -2569,7 +2539,7 @@
 					)
 				)
 			)
-			(symbol "SW_Push_1_1"
+			(symbol "B3U-1000P_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2618,7 +2588,7 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
@@ -2710,7 +2680,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "eTransistor:MMBT3904"
+		(symbol "eTransistor:MMBT3904LT1G"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2733,7 +2703,7 @@
 					)
 				)
 			)
-			(property "Value" "MMBT3904"
+			(property "Value" "MMBT3904LT1G"
 				(at 5.08 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2743,7 +2713,7 @@
 					)
 				)
 			)
-			(property "Footprint" "eTransistor:SOT-23"
+			(property "Footprint" "eTransistor:MMBT3904LT1G"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2754,7 +2724,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/MMBT3904LT1G.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2765,7 +2735,7 @@
 					)
 				)
 			)
-			(property "Description" "NPN 40V 200mA SOT-23"
+			(property "Description" "NPN transistor, 40 V, 200 mA, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2775,41 +2745,8 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "onsemi"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "MMBT3904LT1G"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C20526"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MMBT3904_0_1"
+			)
+			(symbol "MMBT3904LT1G_0_1"
 				(polyline
 					(pts
 						(xy 0.635 1.905) (xy 0.635 -1.905)
@@ -2859,7 +2796,7 @@
 					)
 				)
 			)
-			(symbol "MMBT3904_1_1"
+			(symbol "MMBT3904LT1G_1_1"
 				(pin input line
 					(at -2.54 0 0)
 					(length 3.175)
@@ -4523,7 +4460,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 54.61 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4677,7 +4614,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V_PA\""
 			(at 190.5 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4909,7 +4846,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 114.3 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4985,7 +4922,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 25.4 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5013,7 +4950,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5085,7 +5022,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5209,7 +5146,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 193.04 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5285,7 +5222,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 165.1 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5313,7 +5250,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5514,7 +5451,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 270.51 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5590,7 +5527,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 199.39 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5666,7 +5603,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 237.49 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5742,7 +5679,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 156.21 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5873,7 +5810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eLinearReg:SOT-23-5"
+		(property "Footprint" "eLinearReg:AP2112K-3.3TRG1"
 			(at 101.6 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5884,7 +5821,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eLinearReg/datasheet/AP2112K-3.3TRG1.pdf"
 			(at 101.6 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5895,7 +5832,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LDO regulator, 3.3 V, 600 mA, with enable, SOT-23-5"
 			(at 101.6 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5904,40 +5841,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "Diodes Inc"
-			(at 101.6 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AP2112K-3.3TRG1"
-			(at 101.6 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C51118"
-			(at 101.6 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "654b49ae-7b33-5eae-b3d1-9ba7a5924706")
 		)
@@ -6016,7 +5920,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 25.4 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6170,7 +6074,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 138.43 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6246,7 +6150,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V_PA\""
 			(at 64.77 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6322,7 +6226,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 138.43 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6476,7 +6380,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 54.61 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6504,7 +6408,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6702,7 +6606,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 270.51 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6856,7 +6760,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_RF\""
 			(at 203.2 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6879,7 +6783,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eTransistor:MMBT3904")
+		(lib_id "eTransistor:MMBT3904LT1G")
 		(at 121.92 109.22 0)
 		(unit 1)
 		(body_style 1)
@@ -6899,7 +6803,7 @@
 				)
 			)
 		)
-		(property "Value" "MMBT3904"
+		(property "Value" "MMBT3904LT1G"
 			(at 127 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6909,7 +6813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eTransistor:SOT-23"
+		(property "Footprint" "eTransistor:MMBT3904LT1G"
 			(at 121.92 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6920,7 +6824,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/MMBT3904LT1G.pdf"
 			(at 121.92 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6931,7 +6835,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NPN transistor, 40 V, 200 mA, SOT-23"
 			(at 121.92 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6940,40 +6844,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 121.92 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MMBT3904LT1G"
-			(at 121.92 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C20526"
-			(at 121.92 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "f9903b80-622a-53a6-a9f6-95d2a83d1703")
 		)
@@ -7124,7 +6995,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 125.73 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7147,7 +7018,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eChoke:FB")
+		(lib_id "eFerrite:BLM18KG121TN1D")
 		(at 71.12 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -7167,7 +7038,7 @@
 				)
 			)
 		)
-		(property "Value" "120R 3A"
+		(property "Value" "BLM18KG121TN1D"
 			(at 71.12 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7177,7 +7048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eChoke:L_0603_1608Metric"
+		(property "Footprint" "eFerrite:BLM18KG121TN1D"
 			(at 71.12 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7188,7 +7059,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eFerrite/datasheet/BLM18KG121TN1D.pdf"
 			(at 71.12 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7199,7 +7070,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite bead, 120 Ohm @ 100 MHz, 3 A, 0603"
 			(at 71.12 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7208,29 +7079,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "BLM18KG121TN1D"
-			(at 71.12 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 71.12 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "69ec7205-e84c-5a40-a119-86176d2e8fa7")
 		)
@@ -7252,7 +7101,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7451,7 +7300,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 167.64 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7527,7 +7376,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 154.94 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7603,7 +7452,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 154.94 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7709,7 +7558,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7832,7 +7681,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 125.73 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7908,7 +7757,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 212.09 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7984,7 +7833,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 88.9 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8138,7 +7987,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 41.91 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8244,7 +8093,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8367,7 +8216,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V_PA\""
 			(at 77.47 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8443,7 +8292,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 63.5 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8520,7 +8369,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 180.34 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8596,7 +8445,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 41.91 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8673,7 +8522,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 205.74 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8750,7 +8599,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 215.9 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8904,7 +8753,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 177.8 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9058,7 +8907,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 35.56 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9134,7 +8983,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_RF\""
 			(at 124.46 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9210,7 +9059,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 212.09 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9286,7 +9135,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 63.5 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9339,7 +9188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eMCU:QFN-28_4x4mm_P0.5mm"
+		(property "Footprint" "eMCU:STM32F031G6U6"
 			(at 167.64 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9350,7 +9199,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f031g6.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMCU/datasheet/STM32F031G6U6.pdf"
 			(at 167.64 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9361,7 +9210,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ARM Cortex-M0 MCU, 32 KB flash, 4 KB RAM, 48 MHz, UFQFPN-28"
 			(at 167.64 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9370,29 +9219,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 167.64 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "STM32F031G6U6"
-			(at 167.64 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "259d3688-d9dd-5795-92b0-cccd50c622ce")
 		)
@@ -9648,7 +9475,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9768,7 +9595,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 199.39 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9844,7 +9671,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 88.9 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9920,7 +9747,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 64.77 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9943,7 +9770,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eSwitch:SW_Push")
+		(lib_id "eSwitch:B3U-1000P")
 		(at 27.94 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -9963,7 +9790,7 @@
 				)
 			)
 		)
-		(property "Value" "BAND/CH"
+		(property "Value" "B3U-1000P"
 			(at 27.94 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9973,7 +9800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eSwitch:SW_SPST_B3U-1000P"
+		(property "Footprint" "eSwitch:B3U-1000P"
 			(at 27.94 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -9984,7 +9811,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eSwitch/datasheet/B3U-1000P.pdf"
 			(at 27.94 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -9995,7 +9822,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tactile switch, SPST-NO, 3.0x2.5 mm, SMD"
 			(at 27.94 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10004,29 +9831,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "MPN" "B3U-1000P"
-			(at 27.94 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Omron"
-			(at 27.94 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "c2bf767a-8fef-53e0-9828-d6cff3a63586")
 		)
@@ -10126,7 +9931,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10327,7 +10132,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 270.51 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10403,7 +10208,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 212.09 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10479,7 +10284,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 77.47 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10711,7 +10516,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 199.39 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10787,7 +10592,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 34.29 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10863,7 +10668,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10939,7 +10744,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 237.49 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10962,7 +10767,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eConnector:JST_SH_SM06B-SRSS-TB")
+		(lib_id "eConnector:SM06B-SRSS-TB")
 		(at 33.02 38.1 0)
 		(unit 1)
 		(body_style 1)
@@ -10982,7 +10787,7 @@
 				)
 			)
 		)
-		(property "Value" "FC"
+		(property "Value" "SM06B-SRSS-TB"
 			(at 34.29 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10992,7 +10797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eConnector:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "eConnector:SM06B-SRSS-TB"
 			(at 33.02 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11003,7 +10808,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/SM06B-SRSS-TB.pdf"
 			(at 33.02 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11014,7 +10819,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "JST SH connector header, 6 pin, 1.0 mm pitch, side entry, SMD"
 			(at 33.02 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11023,29 +10828,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "JST"
-			(at 33.02 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SM06B-SRSS-TB(LF)(SN)"
-			(at 33.02 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "0461f4d8-a704-5fcf-8638-628974f744d2")
 		)

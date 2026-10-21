@@ -107,7 +107,7 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "00bfaba1-91f5-4368-a4b1-fe2d94e6b5f3")
 		(at 111.62 118.43)
@@ -124,7 +124,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "9547a01c-a82b-413f-ad25-9bfbf92f4403")
@@ -135,7 +135,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -146,7 +146,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -434,8 +434,8 @@
 			(net "VBAT")
 			(uuid "bb48db41-c090-4d99-a3f4-1615f414297e")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -884,7 +884,7 @@
 			)
 		)
 		(path "/c6ed3d94-8929-5b3f-a561-e13df01103d0/08fb5ad6-2de4-53a7-aaad-05c3e942b432")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -2.75 -4.25)
@@ -1293,7 +1293,7 @@
 			)
 		)
 	)
-	(footprint "eInterface:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm"
+	(footprint "eInterface:DRV8300DRGER"
 		(layer "F.Cu")
 		(uuid "05b7ac87-0075-410e-81c2-9ff1095d418e")
 		(at 147.474999 88.555)
@@ -1321,7 +1321,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eInterface/datasheet/DRV8300DRGER.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1332,7 +1332,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 V three-phase BLDC gate driver, bootstrap, VQFN-24"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1803,8 +1803,8 @@
 			(zone_connect 2)
 			(uuid "2d3313b0-c894-4e6e-8f9e-6d72b662b6bc")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eInterface/eInterface.3dshapes/VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eInterface/eInterface.3dshapes/DRV8300DRGER.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2009,7 +2009,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "098f7c0c-42ea-42ac-8e1c-99815027e298")
 		(at 116.935 118.43)
@@ -2026,7 +2026,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "66cd6ac9-8faa-4685-a954-e34d07374cb3")
@@ -2037,7 +2037,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2048,7 +2048,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2336,8 +2336,8 @@
 			(net "M4_A")
 			(uuid "0ae2bf7c-d44e-4fa2-add1-f6f5202e7fe6")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3406,7 +3406,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "eInterface:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm"
+	(footprint "eInterface:DRV8300DRGER"
 		(layer "F.Cu")
 		(uuid "16b3f328-bd12-4151-9136-f503ed8533cd")
 		(at 147.474999 42.155)
@@ -3434,7 +3434,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eInterface/datasheet/DRV8300DRGER.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3445,7 +3445,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 V three-phase BLDC gate driver, bootstrap, VQFN-24"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3916,8 +3916,8 @@
 			(zone_connect 2)
 			(uuid "f6b282fc-2896-4972-b8c6-416feee44e7c")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eInterface/eInterface.3dshapes/VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eInterface/eInterface.3dshapes/DRV8300DRGER.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4024,7 +4024,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "1aa00a4d-8594-4e25-bdc0-b72db99a0825")
 		(at 146.125 118.43)
@@ -4041,7 +4041,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "27567c6e-de03-4e0c-8e77-fbb6640e3c9e")
@@ -4052,7 +4052,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4063,7 +4063,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4351,8 +4351,8 @@
 			(net "M4_B")
 			(uuid "689b37a7-020a-4b80-a652-48deb4a6668b")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6440,7 +6440,7 @@
 			)
 		)
 		(path "/c6ed3d94-8929-5b3f-a561-e13df01103d0/a7e08063-514a-543f-8e3d-600abac0cef2")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -2.75)
@@ -7042,7 +7042,7 @@
 			)
 		)
 	)
-	(footprint "eLinearReg:SOT-89-3"
+	(footprint "eLinearReg:MCP1703AT-3302E_MB"
 		(layer "F.Cu")
 		(uuid "31bfda18-815f-471f-98ff-306eb90fc2c6")
 		(at 111.275 149.09)
@@ -7070,7 +7070,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eLinearReg/datasheet/MCP1703AT-3302E_MB.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7081,7 +7081,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LDO regulator, 3.3 V, 250 mA, 16 V input, SOT-89-3"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7286,8 +7286,8 @@
 			(net "+3V3")
 			(uuid "91f43a9f-29f8-4576-a422-05b99909d4a9")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eLinearReg/eLinearReg.3dshapes/SOT-89-3.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eLinearReg/eLinearReg.3dshapes/MCP1703AT-3302E_MB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8122,7 +8122,7 @@
 			)
 		)
 		(path "/c6ed3d94-8929-5b3f-a561-e13df01103d0/53ac9194-5382-5773-8bc3-6031e03835e6")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -2.75)
@@ -8389,7 +8389,7 @@
 			)
 		)
 		(path "/c6ed3d94-8929-5b3f-a561-e13df01103d0/0263e557-eb93-5c27-857f-cd591a7ef626")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -2.75)
@@ -8798,7 +8798,7 @@
 			)
 		)
 	)
-	(footprint "eMCU:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+	(footprint "eMCU:STM32F051K8U6"
 		(layer "F.Cu")
 		(uuid "430025fd-7db9-48be-8b00-db265ae78bbb")
 		(at 102.655 65.855)
@@ -8826,7 +8826,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMCU/datasheet/STM32F051K8U6.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8837,7 +8837,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ARM Cortex-M0 MCU, 64 KB flash, 8 KB RAM, 48 MHz, UFQFPN-32"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9372,8 +9372,8 @@
 			(zone_connect 2)
 			(uuid "83a97433-d045-462e-b902-53ac8e431925")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/STM32F051K8U6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10157,7 +10157,7 @@
 			)
 		)
 	)
-	(footprint "eChoke:L_0402_1005Metric"
+	(footprint "eFerrite:BLM15PX121SN1D"
 		(layer "F.Cu")
 		(uuid "4824adfa-c70e-4356-b0cc-68a0478b5a04")
 		(at 116.375 109.595)
@@ -10174,7 +10174,7 @@
 				)
 			)
 		)
-		(property "Value" "120R@100MHz"
+		(property "Value" "BLM15PX121SN1D"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "5ff11844-1eb9-44c6-acf3-0cfd3869470c")
@@ -10185,7 +10185,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eFerrite/datasheet/BLM15PX121SN1D.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10196,7 +10196,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite bead, 120 Ohm @ 100 MHz, 2 A, 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10317,8 +10317,8 @@
 			(net "/CH4/VDDA")
 			(uuid "15b73299-6f34-43dd-9094-fbe800090ce6")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eChoke/eChoke.3dshapes/L_0402_1005Metric.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eFerrite/eFerrite.3dshapes/BLM15PX121SN1D.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10523,7 +10523,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "48e7d64e-9483-4e06-9ff2-24f187975cb9")
 		(at 116.935 76.975)
@@ -10540,7 +10540,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "9d4b1f4b-2cc4-4195-b686-fef685304d9b")
@@ -10551,7 +10551,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10562,7 +10562,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10850,8 +10850,8 @@
 			(net "M2_C")
 			(uuid "1222327c-8d53-470a-ba6e-feeae67a8fb2")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11730,7 +11730,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "4ea26590-53b2-4a1f-9443-c5092a97fd48")
 		(at 111.62 123.375)
@@ -11747,7 +11747,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "3ea58ba6-e72e-41ea-84ae-74382a96362e")
@@ -11758,7 +11758,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11769,7 +11769,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12057,8 +12057,8 @@
 			(net "VBAT")
 			(uuid "39c49e85-1f78-4eab-a7ca-b34fcd41cb4c")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12263,7 +12263,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "4fe3e9e2-8045-4997-af47-f6b2f077c33a")
 		(at 111.62 95.23)
@@ -12280,7 +12280,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "107985aa-5922-452a-971c-66d1fd7130c8")
@@ -12291,7 +12291,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12302,7 +12302,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12590,8 +12590,8 @@
 			(net "VBAT")
 			(uuid "b537edd5-67d5-447d-aa4b-95e6d9a713d0")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15837,7 +15837,7 @@
 			)
 		)
 		(path "/c6ed3d94-8929-5b3f-a561-e13df01103d0/d220619e-049b-56f7-a0cc-06038df863b9")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -2.75)
@@ -16053,7 +16053,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "60c8962c-906f-4dd2-8833-e0c86d0d3989")
 		(at 116.935 123.375)
@@ -16070,7 +16070,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "c3cc49b0-fab8-4f7b-bd3b-4dfca7c4b703")
@@ -16081,7 +16081,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16092,7 +16092,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16380,8 +16380,8 @@
 			(net "M4_C")
 			(uuid "7fc2d054-c356-4aed-9a44-f205ce265197")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16586,7 +16586,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "64375c7d-3b0a-40cf-bcb0-39c44ae4bc25")
 		(at 116.935 95.23)
@@ -16603,7 +16603,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "ec442ecb-fd24-4bf3-871a-1f83221c5fdb")
@@ -16614,7 +16614,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16625,7 +16625,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16913,8 +16913,8 @@
 			(net "M3_A")
 			(uuid "24a5ea6e-c489-48fa-9306-121776672162")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17407,7 +17407,7 @@
 			)
 		)
 	)
-	(footprint "eConverterDCDC:SOT-23-6"
+	(footprint "eConverterDCDC:LMR16006YDDCR"
 		(layer "F.Cu")
 		(uuid "65e14c55-6d04-4a14-ba7b-df88a23bf3f4")
 		(at 124.065 143.75)
@@ -17435,7 +17435,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/datasheet/LMR16006YDDCR.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17446,7 +17446,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Step-down converter, 4 V to 60 V input, 0.6 A, SOT-23-6"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17661,8 +17661,8 @@
 			(net "/Power/SW_10V")
 			(uuid "b32eb8bb-e66c-4689-a94a-c5b74e6183b2")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/eConverterDCDC.3dshapes/SOT-23-6.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/eConverterDCDC.3dshapes/LMR16006YDDCR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17725,7 +17725,7 @@
 			)
 		)
 		(path "/c6ed3d94-8929-5b3f-a561-e13df01103d0/a577e72f-31b3-5602-adde-9651a43da2f6")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -2.75)
@@ -18087,7 +18087,7 @@
 			)
 		)
 		(path "/c6ed3d94-8929-5b3f-a561-e13df01103d0/b7484e6e-6ecf-5efa-b2f0-d0dba229fabe")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -2.75)
@@ -18303,7 +18303,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "6c2b20ec-fbd4-41b3-b179-46a461c99e3a")
 		(at 111.62 53.775)
@@ -18320,7 +18320,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "7ca966fd-6c1c-4628-ba7f-eec0aa43c187")
@@ -18331,7 +18331,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18342,7 +18342,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18630,8 +18630,8 @@
 			(net "VBAT")
 			(uuid "a4b57889-e148-46b4-b47f-b1a3a6018378")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18836,7 +18836,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "6dc474f8-283c-43d1-b1c6-705b31a1a355")
 		(at 111.62 48.83)
@@ -18853,7 +18853,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "6003b7cd-38ed-4acc-9afe-ba41425e904c")
@@ -18864,7 +18864,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18875,7 +18875,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19163,8 +19163,8 @@
 			(net "VBAT")
 			(uuid "2f842b09-8a61-4592-b2cc-0911fae8ecee")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19176,7 +19176,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "6e573939-9efb-4dd4-9145-4d9d0bef4b78")
 		(at 140.81 118.43)
@@ -19193,7 +19193,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "358bbf56-7393-46fb-9c87-cc86e3cf8bf4")
@@ -19204,7 +19204,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19215,7 +19215,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19503,8 +19503,8 @@
 			(net "VBAT")
 			(uuid "6eb8ce0b-abdf-4c1c-b32c-21a323dc34f9")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22506,7 +22506,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "7ff44c24-b63a-4b92-a4f9-be8063b4a843")
 		(at 116.935 48.83)
@@ -22523,7 +22523,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "86243a1a-d63c-4bce-9a54-fa263b752760")
@@ -22534,7 +22534,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22545,7 +22545,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22833,8 +22833,8 @@
 			(net "M1_A")
 			(uuid "f642263a-b31d-4c2e-849e-6baf2103b55e")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22897,7 +22897,7 @@
 			)
 		)
 		(path "/c6ed3d94-8929-5b3f-a561-e13df01103d0/daf10ebe-a8b7-5b26-ab06-5b0a5b502c1c")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -2.75)
@@ -22971,7 +22971,7 @@
 			)
 		)
 		(path "/c6ed3d94-8929-5b3f-a561-e13df01103d0/4cea2cb7-c737-57a4-adf3-8b84da462e90")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -2.75)
@@ -23380,7 +23380,7 @@
 			)
 		)
 	)
-	(footprint "eChoke:L_0402_1005Metric"
+	(footprint "eFerrite:BLM15PX121SN1D"
 		(layer "F.Cu")
 		(uuid "83e65ffc-ee64-4f9e-906f-5b963f174b37")
 		(at 116.375 86.395)
@@ -23397,7 +23397,7 @@
 				)
 			)
 		)
-		(property "Value" "120R@100MHz"
+		(property "Value" "BLM15PX121SN1D"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "4c96360c-35f7-41b4-9c44-70909d6fdc80")
@@ -23408,7 +23408,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eFerrite/datasheet/BLM15PX121SN1D.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23419,7 +23419,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite bead, 120 Ohm @ 100 MHz, 2 A, 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23540,8 +23540,8 @@
 			(net "/CH3/VDDA")
 			(uuid "f105d9a0-b39c-4ead-94da-6de02b6b417f")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eChoke/eChoke.3dshapes/L_0402_1005Metric.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eFerrite/eFerrite.3dshapes/BLM15PX121SN1D.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24183,7 +24183,7 @@
 			)
 		)
 		(path "/c6ed3d94-8929-5b3f-a561-e13df01103d0/e9b7e940-7df3-53e6-b333-1358d493b874")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -2.75 -4.25)
@@ -24206,7 +24206,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "eResistor:R_2512_6332Metric"
+	(footprint "eResistor:WSLP2512R0010FEA"
 		(layer "F.Cu")
 		(uuid "88bcd0b7-38c3-459c-9280-e6354c8d980b")
 		(at 125.134999 134.245)
@@ -24223,7 +24223,7 @@
 				)
 			)
 		)
-		(property "Value" "1mR 3W"
+		(property "Value" "WSLP2512R0010FEA"
 			(at 0 2.62 0)
 			(layer "F.Fab")
 			(uuid "f192e22e-15c4-4da9-add1-f72f9aca8454")
@@ -24234,7 +24234,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eResistor/datasheet/WSLP2512R0010FEA.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24245,7 +24245,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Current sense resistor, 1 mOhm, 1%, 3 W, 2512"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24386,8 +24386,8 @@
 			(net "/Power/BAT_N")
 			(uuid "030b73f0-2edd-4b68-ad7e-14f0a85d47a4")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eResistor/eResistor.3dshapes/R_2512_6332Metric.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eResistor/eResistor.3dshapes/WSLP2512R0010FEA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25554,7 +25554,7 @@
 			)
 		)
 	)
-	(footprint "eAmplifier:SOT-23-6"
+	(footprint "eAmplifier:INA181A3IDBVR"
 		(layer "F.Cu")
 		(uuid "92a1ca85-cd0c-4230-be84-504323e0545e")
 		(at 101.575 143.75)
@@ -25582,7 +25582,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eAmplifier/datasheet/INA181A3IDBVR.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25593,7 +25593,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bidirectional current sense amplifier, gain 100 V/V, SOT-23-6"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25808,8 +25808,8 @@
 			(net "+3V3")
 			(uuid "d85ae2e2-9133-43af-9fbd-f30687823f4c")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eAmplifier/eAmplifier.3dshapes/SOT-23-6.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eAmplifier/eAmplifier.3dshapes/INA181A3IDBVR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26207,7 +26207,7 @@
 			)
 		)
 	)
-	(footprint "eCoil:L_Sunlord_SWPA3012S"
+	(footprint "eCoil:SWPA3012S100MT"
 		(layer "F.Cu")
 		(uuid "93e6b590-4513-4b31-8e48-2bda6d14baf2")
 		(at 148.7 143.67)
@@ -26224,7 +26224,7 @@
 				)
 			)
 		)
-		(property "Value" "10uH SWPA3012S-100MT"
+		(property "Value" "SWPA3012S100MT"
 			(at 0 2.5 0)
 			(layer "F.Fab")
 			(uuid "4fbe1178-e8a4-4336-b549-f6ef650c5886")
@@ -26235,7 +26235,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2310251550_Sunlord-SWPA3012S100MT_C48668.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26246,7 +26246,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power inductor, 10 uH, 20%, 0.83 A, 3.0x3.0x1.2 mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26425,8 +26425,8 @@
 			(net "+10V")
 			(uuid "4beced13-99d7-4952-a866-89cd695aaf9b")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eCoil/eCoil.3dshapes/L_Sunlord_SWPA3012S.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eCoil/eCoil.3dshapes/SWPA3012S100MT.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27420,7 +27420,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "9b2e8815-5e48-410f-9a68-24b3b9e0c2e7")
 		(at 140.81 48.83)
@@ -27437,7 +27437,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "c14ba71b-7573-4810-8f50-610d63a6fde3")
@@ -27448,7 +27448,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27459,7 +27459,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27747,8 +27747,8 @@
 			(net "VBAT")
 			(uuid "d68c5d20-5e65-4a63-a9a9-9108d95d451a")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28725,7 +28725,7 @@
 			)
 		)
 	)
-	(footprint "eMCU:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+	(footprint "eMCU:STM32F051K8U6"
 		(layer "F.Cu")
 		(uuid "a1ff3e34-19c2-4405-9469-4b003284a686")
 		(at 102.655 89.055)
@@ -28753,7 +28753,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMCU/datasheet/STM32F051K8U6.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28764,7 +28764,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ARM Cortex-M0 MCU, 64 KB flash, 8 KB RAM, 48 MHz, UFQFPN-32"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29299,8 +29299,8 @@
 			(zone_connect 2)
 			(uuid "e7e74781-c37e-4537-9467-c3ad83ab069f")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/STM32F051K8U6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29505,7 +29505,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "a679b061-b05d-40ae-97e9-5fef97e25f41")
 		(at 116.935 100.175)
@@ -29522,7 +29522,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "59f1e4d8-9001-4a36-a02a-59842fe312ae")
@@ -29533,7 +29533,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29544,7 +29544,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29832,8 +29832,8 @@
 			(net "M3_C")
 			(uuid "610b6e2d-eb24-44e0-84cb-e23f1994b978")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30231,7 +30231,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "aa94d34f-760f-43c7-b332-60363195d581")
 		(at 111.62 100.175)
@@ -30248,7 +30248,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "c323fbf5-0ed5-4f9e-a785-8dd3ffb45bff")
@@ -30259,7 +30259,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30270,7 +30270,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30558,8 +30558,8 @@
 			(net "VBAT")
 			(uuid "8fea8647-42da-4616-bd4a-3dacb06c6d8e")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30622,7 +30622,7 @@
 			)
 		)
 		(path "/c6ed3d94-8929-5b3f-a561-e13df01103d0/5ccb8611-268f-5357-b5c8-2c39910189cf")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -2.75)
@@ -31031,7 +31031,7 @@
 			)
 		)
 	)
-	(footprint "eInterface:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm"
+	(footprint "eInterface:DRV8300DRGER"
 		(layer "F.Cu")
 		(uuid "acd0463b-9908-4d03-bfeb-8e14d1f08339")
 		(at 147.474999 65.355)
@@ -31059,7 +31059,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eInterface/datasheet/DRV8300DRGER.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31070,7 +31070,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 V three-phase BLDC gate driver, bootstrap, VQFN-24"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31541,8 +31541,8 @@
 			(zone_connect 2)
 			(uuid "400660c5-1e62-4101-9396-f0509b42ff76")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eInterface/eInterface.3dshapes/VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eInterface/eInterface.3dshapes/DRV8300DRGER.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31554,7 +31554,7 @@
 			)
 		)
 	)
-	(footprint "eConnector:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
+	(footprint "eConnector:SM08B-SRSS-TB"
 		(layer "F.Cu")
 		(uuid "b02f070b-add8-4ade-980c-dc4e1678d6d3")
 		(at 146.105 149.795)
@@ -31571,7 +31571,7 @@
 				)
 			)
 		)
-		(property "Value" "FC"
+		(property "Value" "SM08B-SRSS-TB"
 			(at 0 3.98 0)
 			(layer "F.Fab")
 			(uuid "f4faab4d-5685-466d-964d-6d2cd5f42e46")
@@ -31582,7 +31582,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/SM08B-SRSS-TB.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31593,7 +31593,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "JST SH connector header, 8 pin, 1.0 mm pitch, side entry, SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31858,8 +31858,8 @@
 			(net "unconnected-(J1-MountPin-PadMP)")
 			(uuid "bac83109-e7ec-4ba3-9001-ad7c4943e55b")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/SM08B-SRSS-TB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32545,7 +32545,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "b3b68e55-c704-4e81-81ff-6c1e4ec0ea7b")
 		(at 111.62 76.975)
@@ -32562,7 +32562,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "d67659c2-d654-4a4d-a9fc-6bc8d3ec5fb4")
@@ -32573,7 +32573,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32584,7 +32584,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32872,8 +32872,8 @@
 			(net "VBAT")
 			(uuid "71e9f670-0ad8-46a6-bd44-feabb9c17831")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33515,7 +33515,7 @@
 			)
 		)
 		(path "/c6ed3d94-8929-5b3f-a561-e13df01103d0/0c9504b3-52f2-5a96-a196-64bf81859c17")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -2.75)
@@ -34791,7 +34791,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "bbf57f81-2801-4fcc-afaf-6d79f5b1a6b1")
 		(at 111.62 72.03)
@@ -34808,7 +34808,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "66ce2be1-a3da-4af2-ae8c-876bbb38fa07")
@@ -34819,7 +34819,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34830,7 +34830,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35118,8 +35118,8 @@
 			(net "VBAT")
 			(uuid "a51d02e8-391e-4f86-abfc-24e5f151115f")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35131,7 +35131,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "bcde1b8d-0038-459d-acaf-9bd72c483bf7")
 		(at 140.81 95.23)
@@ -35148,7 +35148,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "b528b10a-ca56-49ab-a728-09339b1e1b59")
@@ -35159,7 +35159,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35170,7 +35170,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35458,8 +35458,8 @@
 			(net "VBAT")
 			(uuid "3368cea2-fc1c-4c6b-b72b-ba91d6f1968b")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35471,7 +35471,7 @@
 			)
 		)
 	)
-	(footprint "eMCU:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+	(footprint "eMCU:STM32F051K8U6"
 		(layer "F.Cu")
 		(uuid "bd1f7643-d4b4-4f0e-88e9-07a16642afcf")
 		(at 102.655 112.255)
@@ -35499,7 +35499,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMCU/datasheet/STM32F051K8U6.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35510,7 +35510,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ARM Cortex-M0 MCU, 64 KB flash, 8 KB RAM, 48 MHz, UFQFPN-32"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36045,8 +36045,8 @@
 			(zone_connect 2)
 			(uuid "7d839ce6-fe4d-43ed-8f10-96f7b6e46454")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/STM32F051K8U6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36830,7 +36830,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "c0b21afc-f0d1-4497-a404-401021d1a02a")
 		(at 140.81 72.03)
@@ -36847,7 +36847,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "1e047098-84f8-43dd-bba0-9bafbae55ee8")
@@ -36858,7 +36858,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36869,7 +36869,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37157,8 +37157,8 @@
 			(net "VBAT")
 			(uuid "2dcf5f6c-06a6-44aa-9e91-0c66588ab010")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37170,7 +37170,7 @@
 			)
 		)
 	)
-	(footprint "eChoke:L_0402_1005Metric"
+	(footprint "eFerrite:BLM15PX121SN1D"
 		(layer "F.Cu")
 		(uuid "c1388e84-ddc9-4999-ba30-6a19e7aeca77")
 		(at 116.375 63.194999)
@@ -37187,7 +37187,7 @@
 				)
 			)
 		)
-		(property "Value" "120R@100MHz"
+		(property "Value" "BLM15PX121SN1D"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "347d0e10-92cc-49a1-823d-1f61f784296a")
@@ -37198,7 +37198,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eFerrite/datasheet/BLM15PX121SN1D.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37209,7 +37209,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite bead, 120 Ohm @ 100 MHz, 2 A, 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37330,8 +37330,8 @@
 			(net "/CH2/VDDA")
 			(uuid "2eee61c0-f868-4858-90e3-8b24e8be28fd")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eChoke/eChoke.3dshapes/L_0402_1005Metric.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eFerrite/eFerrite.3dshapes/BLM15PX121SN1D.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37536,7 +37536,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "c24398d2-9be5-4899-831e-bae1dbb3e481")
 		(at 146.125 95.23)
@@ -37553,7 +37553,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "ef3c1a5c-5247-4534-890c-193b9842cc52")
@@ -37564,7 +37564,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37575,7 +37575,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37863,8 +37863,8 @@
 			(net "M3_B")
 			(uuid "4c5f561f-9c5e-47e6-a610-578e811bdd2d")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38120,7 +38120,7 @@
 			)
 		)
 		(path "/c6ed3d94-8929-5b3f-a561-e13df01103d0/08ad64f9-1cf8-5551-81ac-ca49d7075a1d")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -2.75)
@@ -38143,7 +38143,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "eResistor:R_2512_6332Metric"
+	(footprint "eResistor:WSLP2512R0010FEA"
 		(layer "F.Cu")
 		(uuid "c6a5a0e0-3eab-4eb3-8da8-51b0483205a8")
 		(at 133.824999 134.245)
@@ -38160,7 +38160,7 @@
 				)
 			)
 		)
-		(property "Value" "1mR 3W"
+		(property "Value" "WSLP2512R0010FEA"
 			(at 0 2.62 0)
 			(layer "F.Fab")
 			(uuid "8db74111-2abb-4929-8d88-5850232a42dd")
@@ -38171,7 +38171,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eResistor/datasheet/WSLP2512R0010FEA.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38182,7 +38182,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Current sense resistor, 1 mOhm, 1%, 3 W, 2512"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -38323,8 +38323,8 @@
 			(net "/Power/BAT_N")
 			(uuid "d7cd0047-05a7-4139-b0bc-61634627bc28")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eResistor/eResistor.3dshapes/R_2512_6332Metric.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eResistor/eResistor.3dshapes/WSLP2512R0010FEA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39396,7 +39396,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "d30604c0-3562-4f87-be12-18e6d4f478ee")
 		(at 116.935 72.03)
@@ -39413,7 +39413,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "e221358b-8eac-46d3-87e8-49a1352e21d7")
@@ -39424,7 +39424,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39435,7 +39435,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39723,8 +39723,8 @@
 			(net "M2_A")
 			(uuid "a1393d42-9d41-44cf-a2a2-e8cc978fc0a6")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40315,7 +40315,7 @@
 			)
 		)
 	)
-	(footprint "eChoke:L_0402_1005Metric"
+	(footprint "eFerrite:BLM15PX121SN1D"
 		(layer "F.Cu")
 		(uuid "d5f861b9-24b7-4482-a940-4f835222f746")
 		(at 116.375 39.995)
@@ -40332,7 +40332,7 @@
 				)
 			)
 		)
-		(property "Value" "120R@100MHz"
+		(property "Value" "BLM15PX121SN1D"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "05f028d7-a8f7-4e45-aee8-814b9b367cf0")
@@ -40343,7 +40343,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eFerrite/datasheet/BLM15PX121SN1D.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40354,7 +40354,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite bead, 120 Ohm @ 100 MHz, 2 A, 0402"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40475,8 +40475,8 @@
 			(net "/CH1/VDDA")
 			(uuid "d3082205-617c-40b6-8fae-b9268916618c")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eChoke/eChoke.3dshapes/L_0402_1005Metric.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eFerrite/eFerrite.3dshapes/BLM15PX121SN1D.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40925,7 +40925,7 @@
 			)
 		)
 		(path "/c6ed3d94-8929-5b3f-a561-e13df01103d0/5c1bbd7a-f946-52b5-af64-286ef6f525b5")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.75 -2.75)
@@ -42008,7 +42008,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "e22d4fd5-52fc-493b-8094-2ecb1718e19a")
 		(at 146.125 48.83)
@@ -42025,7 +42025,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "558ce457-a6ce-4435-8506-8832f86dee14")
@@ -42036,7 +42036,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42047,7 +42047,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42335,8 +42335,8 @@
 			(net "M1_B")
 			(uuid "979e6b4f-ae16-4120-a342-29d00c7c4bae")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -42541,7 +42541,7 @@
 			)
 		)
 	)
-	(footprint "eResistor:R_2512_6332Metric"
+	(footprint "eResistor:WSLP2512R0010FEA"
 		(layer "F.Cu")
 		(uuid "e2e69bcb-ade1-4a67-a1a0-3ca2230421ec")
 		(at 142.515 134.245)
@@ -42558,7 +42558,7 @@
 				)
 			)
 		)
-		(property "Value" "1mR 3W"
+		(property "Value" "WSLP2512R0010FEA"
 			(at 0 2.62 0)
 			(layer "F.Fab")
 			(uuid "e3c29850-0c95-4641-9fe3-d83325809a71")
@@ -42569,7 +42569,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eResistor/datasheet/WSLP2512R0010FEA.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42580,7 +42580,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Current sense resistor, 1 mOhm, 1%, 3 W, 2512"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42721,8 +42721,8 @@
 			(net "/Power/BAT_N")
 			(uuid "de36dba6-1e69-495b-a82e-82bc9a92c3e6")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eResistor/eResistor.3dshapes/R_2512_6332Metric.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eResistor/eResistor.3dshapes/WSLP2512R0010FEA.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -43699,7 +43699,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "eb3f3240-c14e-4c15-816a-785fcf08b88b")
 		(at 116.935 53.775)
@@ -43716,7 +43716,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "d521474c-c06e-43d4-9c4a-5647c8ed915f")
@@ -43727,7 +43727,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43738,7 +43738,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44026,8 +44026,8 @@
 			(net "M1_C")
 			(uuid "8747519c-8cc1-4635-984d-d8bbc80eb590")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -44232,7 +44232,7 @@
 			)
 		)
 	)
-	(footprint "eTransistor:PQFN-8_3.3x3.3mm_P0.65mm_PowerFET"
+	(footprint "eTransistor:BSZ018N04LS6ATMA1"
 		(layer "F.Cu")
 		(uuid "ebc65690-2aef-4dd0-90f4-3023cd952a77")
 		(at 146.125 72.03)
@@ -44249,7 +44249,7 @@
 				)
 			)
 		)
-		(property "Value" "BSZ018N04LS6"
+		(property "Value" "BSZ018N04LS6ATMA1"
 			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "882c756d-534d-4394-b276-57ecb0650b33")
@@ -44260,7 +44260,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eTransistor/datasheet/BSZ018N04LS6ATMA1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44271,7 +44271,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-channel MOSFET, 40 V, 158 A, 1.8 mOhm, OptiMOS 6, PG-TSDSON-8 FL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44559,8 +44559,8 @@
 			(net "M2_B")
 			(uuid "b8ade6a6-1000-4744-b392-e89fc8a35ec9")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/BSZ018N04LS6ATMA1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -44765,7 +44765,7 @@
 			)
 		)
 	)
-	(footprint "eMCU:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+	(footprint "eMCU:STM32F051K8U6"
 		(layer "F.Cu")
 		(uuid "f0842098-8636-4ac0-822c-b62e0186eb0f")
 		(at 102.655 42.655)
@@ -44793,7 +44793,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMCU/datasheet/STM32F051K8U6.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44804,7 +44804,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ARM Cortex-M0 MCU, 64 KB flash, 8 KB RAM, 48 MHz, UFQFPN-32"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -45339,8 +45339,8 @@
 			(zone_connect 2)
 			(uuid "d92c8c75-8c56-4556-b8cc-6dd9bedb839f")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/STM32F051K8U6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -45931,7 +45931,7 @@
 			)
 		)
 	)
-	(footprint "eInterface:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm"
+	(footprint "eInterface:DRV8300DRGER"
 		(layer "F.Cu")
 		(uuid "f54708b9-773d-4783-bd5c-9fb085123b7c")
 		(at 147.474999 111.755)
@@ -45959,7 +45959,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eInterface/datasheet/DRV8300DRGER.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -45970,7 +45970,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 V three-phase BLDC gate driver, bootstrap, VQFN-24"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -46441,8 +46441,8 @@
 			(zone_connect 2)
 			(uuid "68f303fe-86d2-4016-8b75-e232324c7a37")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eInterface/eInterface.3dshapes/VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eInterface/eInterface.3dshapes/DRV8300DRGER.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -47033,7 +47033,7 @@
 			)
 		)
 	)
-	(footprint "eDiodes:D_SOD-123F"
+	(footprint "eDiodes:PMEG6010CEH"
 		(layer "F.Cu")
 		(uuid "f9b7fb95-0a90-4bad-b839-e5b8f396d96d")
 		(at 143.649999 143.025)
@@ -47061,7 +47061,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eDiodes/datasheet/PMEG6010CEH.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47072,7 +47072,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky barrier rectifier, 60 V, 1 A, SOD-123F"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47293,8 +47293,8 @@
 			(net "GND")
 			(uuid "00c8e735-7b3f-484c-b121-adc22904fd67")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/D_SOD-123F.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/PMEG6010CEH.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -47787,7 +47787,7 @@
 			)
 		)
 	)
-	(footprint "eResistor:R_2512_6332Metric"
+	(footprint "eResistor:WSLP2512R0010FEA"
 		(layer "F.Cu")
 		(uuid "fc74a403-51bb-4516-a7d0-bd97127c09c6")
 		(at 116.445 134.245)
@@ -47804,7 +47804,7 @@
 				)
 			)
 		)
-		(property "Value" "1mR 3W"
+		(property "Value" "WSLP2512R0010FEA"
 			(at 0 2.62 0)
 			(layer "F.Fab")
 			(uuid "3dd4b585-f71a-4dda-9cb3-e8e4a63e1604")
@@ -47815,7 +47815,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eResistor/datasheet/WSLP2512R0010FEA.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47826,7 +47826,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Current sense resistor, 1 mOhm, 1%, 3 W, 2512"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47967,8 +47967,8 @@
 			(net "/Power/BAT_N")
 			(uuid "ef5f9e1b-afd0-4b6e-87f2-9acc67eba502")
 		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/../KiCad_Libs/eResistor/eResistor.3dshapes/R_2512_6332Metric.step"
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/../KiCad_Libs/eResistor/eResistor.3dshapes/WSLP2512R0010FEA.step"
 			(offset
 				(xyz 0 0 0)
 			)

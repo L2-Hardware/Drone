@@ -177,7 +177,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "eMemory:SOIC-8_5.23x5.23mm_P1.27mm"
+			(property "Footprint" "eMemory:W25Q128JVSIQ"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -188,7 +188,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.winbond.com/hq/product/code-storage-flash-memory/serial-nor-flash/?__locale=en&partNo=W25Q128JV"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMemory/datasheet/W25Q128JVSIQ.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -199,7 +199,7 @@
 					)
 				)
 			)
-			(property "Description" "128Mbit SPI NOR flash (blackbox logging), SOIC-8 208mil"
+			(property "Description" "Serial NOR flash, 128 Mbit, SPI/Dual/Quad, SOIC-8 208 mil"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -209,40 +209,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "Winbond"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "W25Q128JVSIQ"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C97521"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
+			)
 			(symbol "W25Q128JVSIQ_0_1"
 				(rectangle
 					(start -10.16 7.62)
@@ -458,6 +425,17 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -707,7 +685,18 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\""
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -905,7 +894,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "eSensor:Bosch_LGA-14_3x2.5mm_P0.5mm"
+			(property "Footprint" "eSensor:ICM-42688-P"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -916,7 +905,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/2020/04/ds-000347_icm-42688-p-datasheet.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eSensor/datasheet/ICM-42688-P.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -927,7 +916,7 @@
 					)
 				)
 			)
-			(property "Description" "6-axis IMU (gyro + accel), SPI 24MHz, LGA-14 2.5x3mm"
+			(property "Description" "6-axis IMU, 3-axis gyroscope and accelerometer, SPI/I2C, LGA-14"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -937,40 +926,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "TDK InvenSense"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "ICM-42688-P"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Verify" "Pin table from KiCad IIM-42652 (same LGA-14 package/pinout as ICM-42688-P). Confirm pin 7/RESV handling vs DS-000347."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
+			)
 			(symbol "ICM-42688-P_0_1"
 				(rectangle
 					(start -22.86 12.7)
@@ -1240,7 +1196,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "eSensor:LPS22DF"
+		(symbol "eSensor:LPS22DFTR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1260,7 +1216,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "LPS22DF"
+			(property "Value" "LPS22DFTR"
 				(at 10.16 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1271,7 +1227,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "eSensor:ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y"
+			(property "Footprint" "eSensor:LPS22DFTR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1282,7 +1238,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/lps22df.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eSensor/datasheet/LPS22DFTR.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1293,7 +1249,7 @@
 					)
 				)
 			)
-			(property "Description" "Barometric pressure sensor 260-1260hPa, I2C/SPI, HLGA-10 2x2mm"
+			(property "Description" "Barometric pressure sensor, 260 to 1260 hPa, I2C/SPI/I3C, HLGA-10"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1303,30 +1259,8 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
-			(property "Manufacturer" "STMicroelectronics"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "LPS22DFTR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LPS22DF_0_1"
+			)
+			(symbol "LPS22DFTR_0_1"
 				(rectangle
 					(start -10.16 15.24)
 					(end 10.16 -15.24)
@@ -1339,7 +1273,7 @@
 					)
 				)
 			)
-			(symbol "LPS22DF_1_1"
+			(symbol "LPS22DFTR_1_1"
 				(pin power_in line
 					(at -12.7 10.16 0)
 					(length 2.54)
@@ -2557,7 +2491,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_GYRO\""
 			(at 107.95 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2580,7 +2514,7 @@
 		)
 	)
 	(symbol
-		(lib_id "eSensor:LPS22DF")
+		(lib_id "eSensor:LPS22DFTR")
 		(at 187.96 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -2600,7 +2534,7 @@
 				)
 			)
 		)
-		(property "Value" "LPS22DF"
+		(property "Value" "LPS22DFTR"
 			(at 198.12 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2610,7 +2544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eSensor:ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y"
+		(property "Footprint" "eSensor:LPS22DFTR"
 			(at 187.96 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2621,7 +2555,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lps22df.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eSensor/datasheet/LPS22DFTR.pdf"
 			(at 187.96 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2632,7 +2566,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Barometric pressure sensor, 260 to 1260 hPa, I2C/SPI/I3C, HLGA-10"
 			(at 187.96 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2641,29 +2575,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 187.96 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "LPS22DFTR"
-			(at 187.96 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "0008dcba-522c-5232-91e3-452fe1d8c82c")
 		)
@@ -2757,7 +2669,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 172.72 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2833,7 +2745,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_GYRO\""
 			(at 107.95 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2909,7 +2821,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 172.72 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2985,7 +2897,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 172.72 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3061,7 +2973,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 260.35 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3137,7 +3049,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 69.85 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3213,7 +3125,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 222.25 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3367,7 +3279,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 248.92 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3732,7 +3644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eSensor:Bosch_LGA-14_3x2.5mm_P0.5mm"
+		(property "Footprint" "eSensor:ICM-42688-P"
 			(at 55.88 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3743,7 +3655,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/2020/04/ds-000347_icm-42688-p-datasheet.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eSensor/datasheet/ICM-42688-P.pdf"
 			(at 55.88 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3754,7 +3666,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6-axis IMU, 3-axis gyroscope and accelerometer, SPI/I2C, LGA-14"
 			(at 55.88 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3763,40 +3675,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "TDK InvenSense"
-			(at 55.88 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ICM-42688-P"
-			(at 55.88 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Verify" "Pin table from KiCad IIM-42652 (same LGA-14 package/pinout as ICM-42688-P). Confirm pin 7/RESV handling vs DS-000347."
-			(at 55.88 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "801d542b-caca-5043-927d-17bb3544cb2a")
 		)
@@ -3902,7 +3781,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 120.65 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3978,7 +3857,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 229.87 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4054,7 +3933,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 29.21 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4130,7 +4009,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 120.65 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4183,7 +4062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eMemory:SOIC-8_5.23x5.23mm_P1.27mm"
+		(property "Footprint" "eMemory:W25Q128JVSIQ"
 			(at 264.16 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4194,7 +4073,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.winbond.com/hq/product/code-storage-flash-memory/serial-nor-flash/?__locale=en&partNo=W25Q128JV"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMemory/datasheet/W25Q128JVSIQ.pdf"
 			(at 264.16 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4205,7 +4084,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Serial NOR flash, 128 Mbit, SPI/Dual/Quad, SOIC-8 208 mil"
 			(at 264.16 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4214,40 +4093,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "Winbond"
-			(at 264.16 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "W25Q128JVSIQ"
-			(at 264.16 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C97521"
-			(at 264.16 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(pin "1"
 			(uuid "f0347d79-3e16-5e48-9621-3994422742f0")
 		)
@@ -4413,7 +4259,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_GYRO\""
 			(at 148.59 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4645,7 +4491,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 27.94 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4721,7 +4567,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 248.92 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4797,7 +4643,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 16.51 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4951,7 +4797,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_GYRO\""
 			(at 27.94 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5027,7 +4873,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 146.05 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5103,7 +4949,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3_GYRO\""
 			(at 133.35 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5257,7 +5103,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 36.83 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5333,7 +5179,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 67.31 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5409,7 +5255,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 209.55 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5485,7 +5331,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 172.72 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
