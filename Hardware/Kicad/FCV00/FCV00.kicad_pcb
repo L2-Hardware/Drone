@@ -3055,17 +3055,6 @@
 			(uuid "51310948-78d3-43dc-87e8-4d1c79591468")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
@@ -5343,17 +5332,6 @@
 			(uuid "9dbee042-ab59-4711-86e9-e505b0a977fd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
@@ -7252,17 +7230,6 @@
 			(uuid "c9ce9c02-c96a-4913-aa27-da647be5a932")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-64_10x10mm_P0.5mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/LQFP-64_10x10mm_P0.5mm.step"
 			(offset
 				(xyz 0 0 0)
@@ -9357,17 +9324,6 @@
 			(uuid "e917c4ff-e3c1-4fb9-9317-24a4dd38fba6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
@@ -11819,17 +11775,6 @@
 			(uuid "39db13e5-472f-47b8-a811-9004bf51627e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_SO.3dshapes/HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eDisplay/eDisplay.3dshapes/HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP3.4x9.5mm.step"
 			(offset
 				(xyz 0 0 0)
@@ -13316,17 +13261,6 @@
 			(uuid "bc2dc10e-4b3f-488f-aab5-d17c8373ddb2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eLinearReg/eLinearReg.3dshapes/SOT-23-5.step"
 			(offset
 				(xyz 0 0 0)
@@ -13612,17 +13546,6 @@
 			(uuid "7c0158f9-ab10-4b3b-be12-67c01283074b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
@@ -16971,17 +16894,6 @@
 			(uuid "13ce2935-2440-4992-8f54-3177763b7cea")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/D_SMA.step"
 			(offset
 				(xyz 0 0 0)
@@ -17283,17 +17195,6 @@
 			(uuid "78adc953-3ebe-4420-8ff8-92849d1a8548")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
@@ -20867,17 +20768,6 @@
 			(uuid "f0717bdd-7998-4809-9ad7-680f8cd61bfb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
@@ -21425,17 +21315,6 @@
 			(uuid "49c8865c-7cf9-4395-a754-e1ebfa978128")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eLinearReg/eLinearReg.3dshapes/SOT-23-5.step"
 			(offset
 				(xyz 0 0 0)
@@ -21902,17 +21781,6 @@
 			(uuid "44c89ded-25cb-4f90-803b-451fe0bcaeca")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/D_SOD-123F.step"
 			(offset
 				(xyz 0 0 0)
@@ -22186,17 +22054,6 @@
 			(uuid "9f5ba647-19dd-4cbe-a021-251ab6e8615e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-128.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/D_SOD-128.step"
 			(offset
 				(xyz 0 0 0)
@@ -22205,7 +22062,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -22713,17 +22570,6 @@
 			(uuid "1d06c0b0-956d-46e9-b46a-897ff8be3b9a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.23x5.23mm_P1.27mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eMemory/eMemory.3dshapes/SOIC-8_5.3x5.3mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
@@ -24616,17 +24462,6 @@
 			(uuid "36aa6901-f219-4fbe-b8cb-ffc76714003d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
@@ -25192,17 +25027,6 @@
 			(uuid "91476d45-b93f-43d1-bd78-c264dc3df0db")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
@@ -26071,17 +25895,6 @@
 			(uuid "1079a1f5-a7e6-4805-b39d-e703a804ae9e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_LGA.3dshapes/ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eSensor/eSensor.3dshapes/ST_HLGA-10_2x2mm_P0.5mm_LayoutBorder3x2y.step"
 			(offset
 				(xyz 0 0 0)
@@ -27614,17 +27427,6 @@
 			(uuid "bd8a05c4-ef22-454f-a96b-f38d869138e4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/SOT-23-6.step"
 			(offset
 				(xyz 0 0 0)
@@ -28284,17 +28086,6 @@
 			(uuid "0d97f677-9428-45bf-8c4e-a2f818cce813")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-128.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/D_SOD-128.step"
 			(offset
 				(xyz 0 0 0)
@@ -28303,7 +28094,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)

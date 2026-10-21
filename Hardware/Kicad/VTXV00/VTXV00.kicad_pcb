@@ -2185,17 +2185,6 @@
 			(uuid "813f7949-407d-4361-8411-d015d802c30d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/SOT-23.step"
 			(offset
 				(xyz 0 0 0)
@@ -4728,17 +4717,6 @@
 			(uuid "ff561722-f38f-4e5b-853e-2b2cd73a6eaf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-40-1EP_6x6mm_P0.5mm_EP4.6x4.6mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eRFModule/eRFModule.3dshapes/QFN-40-1EP_6x6mm_P0.5mm_EP4.6x4.6mm.step"
 			(offset
 				(xyz 0 0 0)
@@ -7577,17 +7555,6 @@
 			(uuid "67bc57f7-f1a5-4831-9137-13c7680e22de")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eLinearReg/eLinearReg.3dshapes/SOT-23-5.step"
 			(offset
 				(xyz 0 0 0)
@@ -13549,17 +13516,6 @@
 			(uuid "ec752a85-5dad-4a59-9e1a-9f7bc7195947")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eAmplifier/eAmplifier.3dshapes/QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm.step"
 			(offset
 				(xyz 0 0 0)
@@ -15006,17 +14962,6 @@
 			(uuid "6d8da232-2f4c-499d-8f41-48b07acaa11b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-28_4x4mm_P0.5mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/QFN-28_4x4mm_P0.5mm.step"
 			(offset
 				(xyz 0 0 0)
@@ -15704,17 +15649,6 @@
 			(uuid "84d0843d-b2b2-4b10-b25e-a880953cde15")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)

@@ -1804,17 +1804,6 @@
 			(uuid "2d3313b0-c894-4e6e-8f9e-6d72b662b6bc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eInterface/eInterface.3dshapes/VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm.step"
 			(offset
 				(xyz 0 0 0)
@@ -3928,17 +3917,6 @@
 			(uuid "f6b282fc-2896-4972-b8c6-416feee44e7c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eInterface/eInterface.3dshapes/VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm.step"
 			(offset
 				(xyz 0 0 0)
@@ -9395,17 +9373,6 @@
 			(uuid "83a97433-d045-462e-b902-53ac8e431925")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step"
 			(offset
 				(xyz 0 0 0)
@@ -17695,17 +17662,6 @@
 			(uuid "b32eb8bb-e66c-4689-a94a-c5b74e6183b2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/eConverterDCDC.3dshapes/SOT-23-6.step"
 			(offset
 				(xyz 0 0 0)
@@ -25853,17 +25809,6 @@
 			(uuid "d85ae2e2-9133-43af-9fbd-f30687823f4c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eAmplifier/eAmplifier.3dshapes/SOT-23-6.step"
 			(offset
 				(xyz 0 0 0)
@@ -26481,17 +26426,6 @@
 			(uuid "4beced13-99d7-4952-a866-89cd695aaf9b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Sunlord_SWPA3012S.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eCoil/eCoil.3dshapes/L_Sunlord_SWPA3012S.step"
 			(offset
 				(xyz 0 0 0)
@@ -29366,17 +29300,6 @@
 			(uuid "e7e74781-c37e-4537-9467-c3ad83ab069f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step"
 			(offset
 				(xyz 0 0 0)
@@ -31619,17 +31542,6 @@
 			(uuid "400660c5-1e62-4101-9396-f0509b42ff76")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eInterface/eInterface.3dshapes/VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm.step"
 			(offset
 				(xyz 0 0 0)
@@ -31947,17 +31859,6 @@
 			(uuid "bac83109-e7ec-4ba3-9001-ad7c4943e55b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
@@ -36145,17 +36046,6 @@
 			(uuid "7d839ce6-fe4d-43ed-8f10-96f7b6e46454")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step"
 			(offset
 				(xyz 0 0 0)
@@ -45450,17 +45340,6 @@
 			(uuid "d92c8c75-8c56-4556-b8cc-6dd9bedb839f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step"
 			(offset
 				(xyz 0 0 0)
@@ -46563,17 +46442,6 @@
 			(uuid "68f303fe-86d2-4016-8b75-e232324c7a37")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eInterface/eInterface.3dshapes/VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm.step"
 			(offset
 				(xyz 0 0 0)
@@ -47426,17 +47294,6 @@
 			(uuid "00c8e735-7b3f-484c-b121-adc22904fd67")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/D_SOD-123F.step"
 			(offset
 				(xyz 0 0 0)
