@@ -1,5 +1,6 @@
 !.gitignore
 KiCad_Libs
 **-backups
-**/fab*.lck
+**/fab
+*.lck
 fp-info-cache
