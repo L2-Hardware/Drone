@@ -209,7 +209,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
+			)
 			(symbol "USB4105-GF-A_0_1"
 				(rectangle
 					(start -10.16 17.78)
@@ -811,7 +811,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
+			)
 			(symbol "USBLC6-2SC6_0_1"
 				(rectangle
 					(start -7.62 5.08)
@@ -1300,7 +1300,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
+			)
 			(symbol "STM32F405RGT6_0_1"
 				(rectangle
 					(start -10.16 63.5)
@@ -6499,6 +6499,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 77.47 139.7 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6653,6 +6654,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 120.65 91.44 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6728,6 +6730,7 @@
 		)
 		(property "Description" "Crystal, 8 MHz, 12 pF, SMD3225-4P"
 			(at 114.3 68.58 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6735,7 +6738,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)
 		(pin "1"
 			(uuid "5a719b43-26a5-5ab4-bd5b-9b569c5b67ea")
 		)
@@ -6966,6 +6969,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 118.11 40.64 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7042,6 +7046,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 77.47 86.36 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7196,6 +7201,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 222.25 30.48 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7272,6 +7278,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 48.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7348,6 +7355,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 115.57 76.2 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7499,6 +7507,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 92.71 149.86 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7575,6 +7584,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 179.07 149.86 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7651,6 +7661,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 121.92 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7803,6 +7814,7 @@
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 215.9 60.96 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7954,6 +7966,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 134.62 121.92 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8030,6 +8043,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 134.62 101.6 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8106,6 +8120,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 104.14 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8182,6 +8197,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 151.13 27.94 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8258,6 +8274,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 113.03 76.2 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8334,6 +8351,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 118.11 119.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8410,6 +8428,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 104.14 137.16 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8486,6 +8505,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 170.18 86.36 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8718,6 +8738,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 86.36 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8793,6 +8814,7 @@
 		)
 		(property "Description" "Ferrite bead, 600 Ohm @ 100 MHz, 300 mA, 0402"
 			(at 83.82 139.7 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8800,7 +8822,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)
 		(pin "1"
 			(uuid "bfec2475-1569-5610-a50a-82cf828d984d")
 		)
@@ -8872,6 +8894,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 77.47 121.92 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8947,6 +8970,7 @@
 		)
 		(property "Description" "USB 2.0 Type-C receptacle, 16 pin, top mount, horizontal, SMD"
 			(at 185.42 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8954,7 +8978,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)
 		(pin "A1"
 			(uuid "978e3f8d-2c7e-566e-922c-21f0a5a784d7")
 		)
@@ -9071,6 +9095,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 138.43 137.16 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9147,6 +9172,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 240.03 40.64 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9301,6 +9327,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 166.37 149.86 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9533,6 +9560,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 118.11 147.32 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9609,6 +9637,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 184.15 114.3 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9763,6 +9792,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 170.18 55.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9839,6 +9869,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 168.91 30.48 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9993,6 +10024,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 27.94 30.48 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10069,6 +10101,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 77.47 30.48 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10145,6 +10178,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 170.18 132.08 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10376,6 +10410,7 @@
 		)
 		(property "Description" "ESD protection for USB 2.0, 2 data lines + VBUS, SOT-23-6"
 			(at 182.88 129.54 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10383,7 +10418,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)
 		(pin "1"
 			(uuid "c9344265-a029-5a7f-aa48-40ab864655f6")
 		)
@@ -10545,6 +10580,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 77.47 66.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10621,6 +10657,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 120.65 104.14 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10775,6 +10812,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 27.94 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11085,6 +11123,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 118.11 55.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11161,6 +11200,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 30.48 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11315,6 +11355,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 118.11 27.94 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11391,6 +11432,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 195.58 132.08 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11544,6 +11586,7 @@
 		)
 		(property "Description" "ARM Cortex-M4F MCU, 1 MB flash, 192 KB RAM, 168 MHz, LQFP-64"
 			(at 43.18 91.44 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11551,7 +11594,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)
 		(pin "1"
 			(uuid "9ceaced3-e079-5de7-98b0-fd3c02b950b7")
 		)
@@ -11808,6 +11851,7 @@
 		)
 		(property "Description" "Tactile switch, SPST-NO, 3.0x2.5 mm, SMD"
 			(at 111.76 137.16 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11815,7 +11859,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)
 		(pin "1"
 			(uuid "24801def-2b5e-5779-8c16-0d26b84c9618")
 		)
@@ -12043,6 +12087,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 77.47 104.14 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12197,6 +12242,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 90.17 66.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12273,6 +12319,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 184.15 99.06 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12424,6 +12471,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 77.47 48.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

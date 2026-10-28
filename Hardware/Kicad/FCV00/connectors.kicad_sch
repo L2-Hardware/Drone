@@ -210,7 +210,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
+			)
 			(symbol "SM03B-SRSS-TB_0_1"
 				(rectangle
 					(start -1.27 3.81)
@@ -397,7 +397,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
+			)
 			(symbol "SM04B-SRSS-TB_0_1"
 				(rectangle
 					(start -1.27 3.81)
@@ -613,7 +613,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
+			)
 			(symbol "SM06B-SRSS-TB_0_1"
 				(rectangle
 					(start -1.27 6.35)
@@ -887,7 +887,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
+			)
 			(symbol "SM08B-SRSS-TB_0_1"
 				(rectangle
 					(start -1.27 8.89)
@@ -2299,7 +2299,7 @@
 						(size 1.27 1.27)
 					)
 				)
-			)
+			)
 			(symbol "2N7002_0_1"
 				(polyline
 					(pts
@@ -3885,6 +3885,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 137.16 40.64 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3961,6 +3962,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 111.76 48.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4037,6 +4039,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 111.76 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4113,6 +4116,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 199.39 40.64 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4188,6 +4192,7 @@
 		)
 		(property "Description" "JST SH connector header, 6 pin, 1.0 mm pitch, side entry, SMD"
 			(at 226.06 48.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4195,7 +4200,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)
 		(pin "1"
 			(uuid "99d282ac-d7b7-5c57-b4fd-8f16531fb12a")
 		)
@@ -4363,6 +4368,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 119.38 81.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4742,6 +4748,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 153.67 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4818,6 +4825,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 53.34 81.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5199,6 +5207,7 @@
 		)
 		(property "Description" "Switching diode, 100 V, 300 mA, SOD-123"
 			(at 99.06 106.68 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5206,7 +5215,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)
 		(pin "1"
 			(uuid "8b3435d9-0283-5df5-a3ce-37dbbd0d34a2")
 		)
@@ -5278,6 +5287,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 218.44 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5353,6 +5363,7 @@
 		)
 		(property "Description" "JST SH connector header, 3 pin, 1.0 mm pitch, side entry, SMD"
 			(at 144.78 40.64 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5360,7 +5371,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)
 		(pin "1"
 			(uuid "b44e6b76-6a9c-5c67-98b9-f5fb6bb4907a")
 		)
@@ -5438,6 +5449,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 76.2 101.6 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5514,6 +5526,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 88.9 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5734,6 +5747,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 105.41 106.68 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5810,6 +5824,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 62.23 48.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5886,6 +5901,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBAT\""
 			(at 25.4 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5962,6 +5978,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 105.41 86.36 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6038,6 +6055,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+10V\""
 			(at 171.45 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6113,6 +6131,7 @@
 		)
 		(property "Description" "JST SH connector header, 4 pin, 1.0 mm pitch, side entry, SMD"
 			(at 96.52 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6120,7 +6139,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)
 		(pin "1"
 			(uuid "cb41c057-e18f-549d-95bc-00ffb8fdb581")
 		)
@@ -6201,6 +6220,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+10V\""
 			(at 111.76 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6277,6 +6297,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 243.84 43.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6353,6 +6374,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 88.9 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6506,6 +6528,7 @@
 		)
 		(property "Description" "JST SH connector header, 6 pin, 1.0 mm pitch, side entry, SMD"
 			(at 251.46 48.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6513,7 +6536,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)
 		(pin "1"
 			(uuid "c88df98a-5e3b-5220-8080-79a3d02a9afe")
 		)
@@ -6599,6 +6622,7 @@
 		)
 		(property "Description" "JST SH connector header, 6 pin, 1.0 mm pitch, side entry, SMD"
 			(at 119.38 48.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6606,7 +6630,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)
 		(pin "1"
 			(uuid "7d09ebc1-1d53-56a4-9b48-3d2a50e5cc80")
 		)
@@ -6693,6 +6717,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 218.44 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6768,6 +6793,7 @@
 		)
 		(property "Description" "N-channel MOSFET, 60 V, 300 mA, SOT-23"
 			(at 73.66 93.98 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6775,7 +6801,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)
 		(pin "1"
 			(uuid "f3281901-f68f-5890-ad99-50ea387c499d")
 		)
@@ -6849,6 +6875,7 @@
 		)
 		(property "Description" "JST SH connector header, 8 pin, 1.0 mm pitch, side entry, SMD"
 			(at 33.02 50.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6856,7 +6883,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)
 		(pin "1"
 			(uuid "900fc214-716b-5bc8-88cf-09c0931cf54b")
 		)
@@ -7024,6 +7051,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 53.34 101.6 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7178,6 +7206,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 25.4 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7326,6 +7355,7 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 243.84 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
